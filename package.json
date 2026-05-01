@@ -1,0 +1,13 @@
+{
+  "name": "violin-wall",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A media-first wall of fine violins, antique instruments, maple flame, and source links.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

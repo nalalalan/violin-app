@@ -1,0 +1,15 @@
+{
+  "name": "Violin",
+  "short_name": "Violin",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#16100d",
+  "theme_color": "#16100d",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
