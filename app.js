@@ -178,7 +178,17 @@ const baseItems = [
   commonsFile("\"The Antonius\" Violin MET_DP216543.jpg", "Antonius Stradivari back detail, maple flame in full motion.", "cinema"),
 ];
 
-const items = baseItems;
+function uniqueBySource(list) {
+  const seen = new Set();
+  return list.filter((item) => {
+    const key = item.image || item.url || item.caption;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+const items = uniqueBySource(baseItems);
 
 function createTile(item, index) {
   const link = document.createElement("a");
@@ -208,48 +218,11 @@ function createTile(item, index) {
   return link;
 }
 
-function shuffled(list, seed) {
-  const copy = [...list];
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    const x = Math.sin((seed + 1) * (i + 17)) * 10000;
-    const j = Math.floor((x - Math.floor(x)) * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
-const cropLooks = [
-  { shape: "hero", focus: "center 42%", note: "golden varnish crop" },
-  { shape: "wide", focus: "center 56%", note: "maple flame crop" },
-  { shape: "portrait", focus: "center 47%", note: "full-body museum crop" },
-  { shape: "square", focus: "center 36%", note: "scroll detail crop" },
-  { shape: "cinema", focus: "center 62%", note: "rib and edgework crop" },
-  { shape: "tall", focus: "center 50%", note: "long Cremonese silhouette" },
-];
-
-const variantRounds = 4;
 const batchSize = 64;
-
-function itemVariant(item, itemIndex, round) {
-  if (round % variantRounds === 0) return item;
-  const look = cropLooks[(itemIndex + round) % cropLooks.length];
-  return {
-    ...item,
-    shape: look.shape,
-    focus: look.focus,
-    caption: `${item.caption.replace(/\.$/, "")}, ${look.note}.`,
-  };
-}
 
 function batchItems(batch) {
   const start = batch * batchSize;
-  return Array.from({ length: batchSize }, (_, offset) => {
-    const logicalIndex = start + offset;
-    const round = Math.floor(logicalIndex / items.length);
-    const run = round === 0 ? items : shuffled(items, round);
-    const itemIndex = logicalIndex % items.length;
-    return itemVariant(run[itemIndex], itemIndex, round);
-  });
+  return items.slice(start, start + batchSize);
 }
 
 function columnCount() {
@@ -310,11 +283,21 @@ function render() {
   sentinel.setAttribute("aria-hidden", "true");
 
   let batch = 0;
+  let exhausted = false;
   const renderedItems = [];
   const appendBatch = () => {
-    renderedItems.push(...batchItems(batch));
+    if (exhausted) return;
+    const nextItems = batchItems(batch);
+    if (!nextItems.length) {
+      exhausted = true;
+      sentinel.hidden = true;
+      return;
+    }
+    renderedItems.push(...nextItems);
     layoutWall(wall, renderedItems);
     batch += 1;
+    exhausted = renderedItems.length >= items.length;
+    sentinel.hidden = exhausted;
   };
 
   appendBatch();
@@ -322,7 +305,7 @@ function render() {
 
   if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((entries) => {
-      if (entries.some((entry) => entry.isIntersecting)) {
+      if (!exhausted && entries.some((entry) => entry.isIntersecting)) {
         appendBatch();
       }
     }, { rootMargin: "1800px 0px" });
@@ -330,7 +313,7 @@ function render() {
   } else {
     window.addEventListener("scroll", () => {
       const nearBottom = window.innerHeight + window.scrollY > document.body.offsetHeight - 1800;
-      if (nearBottom) appendBatch();
+      if (!exhausted && nearBottom) appendBatch();
     }, { passive: true });
   }
 
