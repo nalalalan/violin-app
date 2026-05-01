@@ -52,16 +52,16 @@ noscript {
   display: grid;
   grid-template-columns: repeat(var(--columns), minmax(0, 1fr));
   align-items: start;
-  gap: 6px;
+  gap: 9px;
   min-height: 100vh;
-  padding: 6px;
+  padding: 9px;
 }
 
 .masonry-column {
   display: flex;
   min-width: 0;
   flex-direction: column;
-  gap: 6px;
+  gap: 9px;
 }
 
 .tile {
