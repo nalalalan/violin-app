@@ -38,7 +38,72 @@ function commonsFile(file, caption, shape = "portrait", focus) {
   };
 }
 
-const items = [
+function locImage(root, index, pct = "50.0") {
+  const number = String(index).padStart(4, "0");
+  return `https://tile.loc.gov/image-services/iiif/public:music:${root}:${root}.${number}/full/pct:${pct}/0/default.jpg`;
+}
+
+function locPage(id) {
+  return `https://www.loc.gov/item/${id}/`;
+}
+
+const locLooks = [
+  { shape: "tall", detail: "full front view", focus: "center 48%" },
+  { shape: "tall", detail: "full back view", focus: "center 48%" },
+  { shape: "wide", detail: "maple flame side light", focus: "center 55%" },
+  { shape: "square", detail: "scroll and pegbox detail", focus: "center 38%" },
+  { shape: "portrait", detail: "varnish and arching detail", focus: "center 52%" },
+  { shape: "cinema", detail: "edgework and rib glow", focus: "center 60%" },
+];
+
+function locSeries({ id, root, title, count }) {
+  return Array.from({ length: count }, (_, index) => {
+    const look = locLooks[index % locLooks.length];
+    return {
+      image: locImage(root, index + 1, "50.0"),
+      url: locPage(id),
+      caption: `${title}, ${look.detail}.`,
+      shape: look.shape,
+      focus: look.focus,
+    };
+  });
+}
+
+const locInstruments = [
+  { id: "2022560101", root: "musihas-200154811", title: "1704 Betts Stradivari, Library of Congress", count: 19 },
+  { id: "2022560098", root: "musihas-200154809", title: "1699 Castelbarco Stradivari, Library of Congress", count: 20 },
+  { id: "2022560100", root: "musihas-200154810", title: "1700 Ward Stradivari, Library of Congress", count: 18 },
+  { id: "2022560099", root: "musihas-200154814", title: "ca. 1730 Kreisler Guarneri del Gesu, Library of Congress", count: 20 },
+  { id: "2022560097", root: "musihas-200154831", title: "1654 Brookings Nicolo Amati, Library of Congress", count: 15 },
+].flatMap(locSeries);
+
+const tarisioStyleItems = [
+  {
+    image: "https://i0.wp.com/stringsmagazine.com/wp-content/uploads/2023/10/1740-Ysaye-Guarneri-del-Gesu-violin-back-detail-Nippon-Music-Foundation.jpg?fit=1500%2C1000&ssl=1",
+    url: "https://stringsmagazine.com/beauty-of-the-1740-ysaye-guarneri-del-gesu-violin/",
+    caption: "1740 Ysaye Guarneri del Gesu back detail, heavy maple flame and old varnish.",
+    shape: "cinema",
+    focus: "center 52%",
+  },
+  {
+    image: "https://i0.wp.com/stringsmagazine.com/wp-content/uploads/2023/10/l40064top.jpg?resize=900%2C1500&ssl=1",
+    url: "https://stringsmagazine.com/beauty-of-the-1740-ysaye-guarneri-del-gesu-violin/",
+    caption: "1740 Ysaye Guarneri del Gesu front, worn orange varnish and bold f-holes.",
+    shape: "tall",
+    focus: "center 48%",
+  },
+  {
+    image: "https://i0.wp.com/stringsmagazine.com/wp-content/uploads/2023/10/l40064back.jpg?resize=900%2C1500&ssl=1",
+    url: "https://stringsmagazine.com/beauty-of-the-1740-ysaye-guarneri-del-gesu-violin/",
+    caption: "1740 Ysaye Guarneri del Gesu back, one-piece maple and deep amber curl.",
+    shape: "tall",
+    focus: "center 50%",
+  },
+];
+
+const baseItems = [
+  ...locInstruments,
+  ...tarisioStyleItems,
   metFile(503045, "DT669.jpg", "1693 Stradivari Gould, amber varnish and a baroque silhouette.", "hero", "center 45%"),
   metFile(503008, "DP105130.jpg", "1711 Stradivari Antonius, long Cremonese lines and glowing maple.", "tall"),
   metFile(503010, "DP167848.jpg", "1694 Stradivari Francesca, polished orange-brown varnish.", "portrait"),
@@ -113,6 +178,8 @@ const items = [
   commonsFile("\"The Antonius\" Violin MET_DP216543.jpg", "Antonius Stradivari back detail, maple flame in full motion.", "cinema"),
 ];
 
+const items = baseItems;
+
 function createTile(item, index) {
   const link = document.createElement("a");
   link.className = `tile tile--${item.shape || "standard"}`;
@@ -151,11 +218,46 @@ function shuffled(list, seed) {
   return copy;
 }
 
+const cropLooks = [
+  { shape: "hero", focus: "center 42%", note: "golden varnish crop" },
+  { shape: "wide", focus: "center 56%", note: "maple flame crop" },
+  { shape: "portrait", focus: "center 47%", note: "full-body museum crop" },
+  { shape: "square", focus: "center 36%", note: "scroll detail crop" },
+  { shape: "cinema", focus: "center 62%", note: "rib and edgework crop" },
+  { shape: "tall", focus: "center 50%", note: "long Cremonese silhouette" },
+];
+
+const variantRounds = 4;
+const batchSize = 64;
+
+function itemVariant(item, itemIndex, round) {
+  if (round % variantRounds === 0) return item;
+  const look = cropLooks[(itemIndex + round) % cropLooks.length];
+  return {
+    ...item,
+    shape: look.shape,
+    focus: look.focus,
+    caption: `${item.caption.replace(/\.$/, "")}, ${look.note}.`,
+  };
+}
+
+function batchItems(batch) {
+  const start = batch * batchSize;
+  return Array.from({ length: batchSize }, (_, offset) => {
+    const logicalIndex = start + offset;
+    const round = Math.floor(logicalIndex / items.length);
+    const run = round === 0 ? items : shuffled(items, round);
+    const itemIndex = logicalIndex % items.length;
+    return itemVariant(run[itemIndex], itemIndex, round);
+  });
+}
+
 function columnCount() {
   const width = window.innerWidth || document.documentElement.clientWidth || 1200;
   if (width <= 560) return 2;
   if (width <= 820) return 3;
-  return Math.max(4, Math.min(9, Math.floor(width / 218)));
+  if (width <= 1180) return 4;
+  return Math.max(4, Math.min(6, Math.floor(width / 340)));
 }
 
 function shapeScore(item) {
@@ -210,8 +312,7 @@ function render() {
   let batch = 0;
   const renderedItems = [];
   const appendBatch = () => {
-    const batchItems = batch === 0 ? items : shuffled(items, batch);
-    renderedItems.push(...batchItems);
+    renderedItems.push(...batchItems(batch));
     layoutWall(wall, renderedItems);
     batch += 1;
   };
