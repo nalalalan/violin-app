@@ -1,22 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
-  <defs>
-    <linearGradient id="bg" x1="23" y1="17" x2="157" y2="163" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2a1510"/>
-      <stop offset=".5" stop-color="#140d0a"/>
-      <stop offset="1" stop-color="#3a2314"/>
-    </linearGradient>
-    <linearGradient id="varnish" x1="51" y1="23" x2="127" y2="163" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#f0bd73"/>
-      <stop offset=".38" stop-color="#bd6e2f"/>
-      <stop offset=".72" stop-color="#7d3c1d"/>
-      <stop offset="1" stop-color="#d3924a"/>
-    </linearGradient>
-  </defs>
-  <rect width="180" height="180" rx="32" fill="url(#bg)"/>
-  <path d="M96 23c20 0 31 14 23 31-3 8-12 15-20 20l17 17c23-6 39 11 39 34 0 25-23 39-48 28l-17-8-17 8c-25 11-48-3-48-28 0-23 16-40 39-34l17-17c-8-5-17-12-20-20-8-17 3-31 23-31h12Z" fill="url(#varnish)"/>
-  <path d="M90 39v119M76 51v101M104 51v101" stroke="#fff1d8" stroke-width="5" stroke-linecap="round" opacity=".9"/>
-  <path d="M70 95c-14 6-17 25-3 34M110 95c14 6 17 25 3 34" fill="none" stroke="#2b120b" stroke-width="7" stroke-linecap="round"/>
-  <path d="M59 65c14 6 28 6 45-3M53 118c20-11 42-11 73 3M70 40c11 8 25 8 39 0" fill="none" stroke="#ffd189" stroke-width="4" stroke-linecap="round" opacity=".48"/>
-  <path d="M70 96h40" stroke="#f6d9aa" stroke-width="9" stroke-linecap="round"/>
-  <circle cx="90" cy="84" r="7" fill="#2a130d"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Violin icon">
+  <rect width="128" height="128" rx="18" fill="#141419"/>
+
+  <path d="M61 17h11v32" fill="none" stroke="#f7f8f5" stroke-width="8" stroke-linecap="round"/>
+  <path d="M71 18c9-8 21 2 14 12-5 7-14 7-14 7" fill="none" stroke="#f3c969" stroke-width="7" stroke-linecap="round"/>
+  <path d="M66 44c14 0 21 11 14 23 15 1 27 13 24 30-3 20-25 25-38 8-13 17-35 12-38-8-3-17 9-29 24-30-7-12 0-23 14-23Z" fill="#f3c969" stroke="#f7f8f5" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M66 50v58M57 53v52M75 53v52" stroke="#0f1016" stroke-width="4" stroke-linecap="round" opacity=".72"/>
+  <path d="M50 74h32" stroke="#ff907d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M103 22 35 108" stroke="#f7f8f5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M109 18 41 104" stroke="#f3c969" stroke-width="4" stroke-linecap="round"/>
 </svg>
