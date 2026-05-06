@@ -3,8 +3,8 @@
   "short_name": "Violin",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#16100d",
-  "theme_color": "#16100d",
+  "background_color": "#fbf8f2",
+  "theme_color": "#d8ccc0",
   "icons": [
     {
       "src": "/icon.svg",
