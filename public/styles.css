@@ -35,6 +35,28 @@ a {
   text-decoration: none;
 }
 
+.ao-home {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  z-index: 80;
+  width: 42px;
+  height: 42px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid rgba(255, 244, 230, 0.16);
+  border-radius: 8px;
+  background: rgba(18, 13, 11, 0.76);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(14px);
+}
+
+.ao-home img {
+  width: 23px;
+  height: 23px;
+  display: block;
+}
+
 noscript {
   display: block;
   padding: 20px;
