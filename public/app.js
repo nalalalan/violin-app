@@ -4789,7 +4789,23 @@ const excludedBackKeys = new Set([
   "shar-miki-inokuchi-violin-toronto-2000",
 ]);
 
+const leadBackKeys = [
+  "ingles-a-violin-by-w-e-hill-sons",
+  "ingles-a-violin-by-roger-max-millant",
+  "ingles-a-violin-by-gioffredo-cappa-2",
+  "ingles-a-violin-by-giuseppe-pedrazzini-6",
+  "ingles-a-violin-by-enrico-politi",
+  "ingles-a-violin-by-jean-baptiste-vuillaume-10",
+  "ingles-a-violin-by-karel-vavra-2",
+  "ingles-a-violin-by-hilaire-darche-3",
+  "ingles-a-violin-by-charles-francois-gand",
+  "shar-theodore-skreko-lord-wilton-violin-indianapolis-2025",
+  "shar-scrollavezza-zanre-g-b-guadagnini-1744-violin-parma-2013",
+  "reuning-jacob-fendt-london-c-1830-violin",
+];
+
 const preferredBackKeys = Array.from(new Set([
+  ...leadBackKeys,
   ...visualBackKeys,
   ...onePieceTextBackKeys,
   ...historicalMakerBackKeys,
