@@ -147,9 +147,7 @@ noscript {
 
 .image-app {
   min-height: 100vh;
-  background:
-    linear-gradient(180deg, rgba(255, 232, 203, 0.08), transparent 28%),
-    linear-gradient(135deg, #120d0b 0%, #1d1511 46%, #080707 100%);
+  background: #eee9e1;
 }
 
 .wall {
@@ -157,76 +155,42 @@ noscript {
   display: grid;
   grid-template-columns: repeat(var(--columns), minmax(0, 1fr));
   align-items: start;
-  gap: 12px;
+  gap: 0;
   min-height: 100vh;
-  padding: 12px;
+  padding: 0;
 }
 
 .masonry-column {
   display: flex;
   min-width: 0;
   flex-direction: column;
-  gap: 12px;
+  gap: 0;
 }
 
 .tile {
   position: relative;
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5.8;
   min-width: 0;
   overflow: hidden;
-  border: 1px solid rgba(255, 236, 214, 0.09);
-  border-radius: 6px;
-  background: #14100d;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   outline: none;
   isolation: isolate;
-  box-shadow: 0 18px 52px rgba(0, 0, 0, 0.32);
+  box-shadow: none;
   transform: translateZ(0);
 }
 
 .tile::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  pointer-events: none;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
-}
-
-.tile--square {
-  aspect-ratio: 1;
-}
-
-.tile--back {
-  aspect-ratio: 4 / 5.8;
-}
-
-.tile--portrait {
-  aspect-ratio: 4 / 5.8;
-}
-
-.tile--tall {
-  aspect-ratio: 4 / 7;
-}
-
-.tile--wide {
-  aspect-ratio: 16 / 10;
-}
-
-.tile--cinema {
-  aspect-ratio: 16 / 11.5;
-}
-
-.tile--hero {
-  aspect-ratio: 4 / 4.15;
+  content: none;
 }
 
 .tile img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
+  object-fit: fill;
   object-position: var(--focus, center);
   filter: saturate(1.02) contrast(1.02);
   transition: filter 420ms ease;
@@ -310,12 +274,12 @@ noscript {
   }
 
   .wall {
-    gap: 5px;
-    padding: 5px;
+    gap: 0;
+    padding: 0;
   }
 
   .masonry-column {
-    gap: 5px;
+    gap: 0;
   }
 }
 
@@ -340,10 +304,6 @@ noscript {
 
   .paper-copy p {
     display: none;
-  }
-
-  .tile {
-    border-radius: 5px;
   }
 
   .caption span {
