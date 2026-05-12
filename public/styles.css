@@ -153,20 +153,20 @@ noscript {
 }
 
 .wall {
-  --columns: 7;
+  --columns: 4;
   display: grid;
   grid-template-columns: repeat(var(--columns), minmax(0, 1fr));
   align-items: start;
-  gap: 9px;
+  gap: 12px;
   min-height: 100vh;
-  padding: 9px;
+  padding: 12px;
 }
 
 .masonry-column {
   display: flex;
   min-width: 0;
   flex-direction: column;
-  gap: 9px;
+  gap: 12px;
 }
 
 .tile {
@@ -297,7 +297,7 @@ noscript {
 
   .paper-actions {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) auto;
     width: 100%;
   }
 
@@ -306,7 +306,7 @@ noscript {
   }
 
   .ao-home {
-    justify-self: start;
+    justify-self: end;
   }
 
   .wall {
