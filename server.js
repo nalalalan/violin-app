@@ -16,6 +16,7 @@ const mimeTypes = {
   ".webp": "image/webp",
   ".png": "image/png",
   ".ico": "image/x-icon",
+  ".pdf": "application/pdf",
 };
 
 function sendFile(res, filePath) {
