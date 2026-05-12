@@ -27,53 +27,62 @@ function commonsSource(file) {
   return `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(file)}`;
 }
 
-function metBack(key, id, file, title, kind = "full") {
+function metBack(key, id, file, title) {
   return {
     key,
     image: metImage(file),
     url: metPage(id),
     title,
-    kind,
   };
 }
 
-function locBack(key, id, root, index, title, kind = "full", pct = "70.0") {
+function metFileBack(key, file, title) {
+  return {
+    key,
+    image: metImage(file),
+    url: metImage(file),
+    title,
+  };
+}
+
+function locBack(key, id, root, index, title, pct = "70.0") {
   return {
     key,
     image: locImage(root, index, pct),
     url: locPage(id),
     title,
-    kind,
   };
 }
 
-function commonsBack(key, file, title, kind = "full") {
+function commonsBack(key, file, title) {
   return {
     key,
     image: commonsImage(file),
     url: commonsSource(file),
     title,
-    kind,
   };
 }
 
-function directBack(key, image, url, title, kind = "full") {
+function directBack(key, image, url, title) {
   return {
     key,
     image,
     url,
     title,
-    kind,
   };
 }
 
-// Accepted gate: every source below is a back view or back detail of a fine
-// violin from a museum, public archive, or fine-instrument publication.
+// Accepted gate: every source below is a full violin-back view of a fine,
+// antique, historically important, or high-end instrument. No fronts, scrolls,
+// labels, diagrams, crops, corner details, or manufactured zoom variants.
 const backSources = [
+  metBack("met-tielke-back", 503443, "DP163303.jpg", "Joachim Tielke violin"),
   metBack("met-strad-antonius-back", 503008, "DP216543.jpg", "1711 Antonius Stradivari"),
   metBack("met-strad-francesca-back", 503010, "DP167846.jpg", "1694 Francesca Stradivari"),
+  metBack("met-andrea-amati-kurtz-back", 503517, "DP147094.jpg", "ex Kurtz Andrea Amati"),
   metBack("met-nicolo-amati-back", 503057, "DP232340.jpg", "1669 Nicolo Amati"),
   metBack("met-gragnani-back", 500905, "DP230470.jpg", "1783 Antonio Gragnani"),
+  metBack("met-holmes-back", 506169, "DP222974.jpg", "Philip Henry Holmes violin"),
   metBack("met-gemunder-1893-back", 504401, "DP-20993-002.jpg", "1893 August Martin Gemunder"),
   metBack("met-gemunder-second-back", 504402, "DP-20992-002.jpg", "August Martin Gemunder"),
   metBack("met-pique-back", 504515, "DP-21006-002.jpg", "1803 Francois-Louis Pique"),
@@ -81,31 +90,21 @@ const backSources = [
   metBack("met-hyde-back", 505793, "DP-20991-002.jpg", "1889 Andrew Hyde"),
   metBack("met-italian-back", 504254, "DP-21555-002.jpg", "Italian violin back"),
   metBack("met-gedler-back", 505322, "DP-21586-002.jpg", "Johann Anton Gedler"),
+  metFileBack("met-testore-back", "DP-21005-002.jpg", "1737 Carlo Antonio Testore"),
+  metFileBack("met-olsen-back", "DP-21003-002.jpg", "1915 Lars Jorgen Rudolf Olsen"),
+  metFileBack("met-unknown-1625-back", "DP-21004-002.jpg", "after 1625 violin"),
+  metFileBack("met-eighteenth-century-back", "DP-21007-002.jpg", "18th-century violin"),
+  metFileBack("met-plain-maple-back", "DP-21579-002.jpg", "Metropolitan Museum violin"),
+  metFileBack("met-decorated-back", "DP-21580-002.jpg", "decorated violin"),
+  metFileBack("met-light-maple-back", "DP-21581-002.jpg", "Metropolitan Museum violin"),
+  metFileBack("met-older-maple-back", "DP-21582-002.jpg", "Metropolitan Museum violin"),
+  metFileBack("met-broad-maple-back", "DP-21583-002.jpg", "Metropolitan Museum violin"),
 
   locBack("loc-betts-back", "2022560101", "musihas-200154811", 1, "1704 Betts Stradivari"),
-  locBack("loc-betts-corners", "2022560101", "musihas-200154811", 4, "1704 Betts Stradivari", "detail"),
-  locBack("loc-betts-waist", "2022560101", "musihas-200154811", 6, "1704 Betts Stradivari", "detail"),
-  locBack("loc-betts-endpin", "2022560101", "musihas-200154811", 8, "1704 Betts Stradivari", "detail"),
-  locBack("loc-betts-lower", "2022560101", "musihas-200154811", 16, "1704 Betts Stradivari", "detail"),
-
   locBack("loc-castelbarco-back", "2022560098", "musihas-200154809", 1, "1699 Castelbarco Stradivari"),
-  locBack("loc-castelbarco-corners", "2022560098", "musihas-200154809", 4, "1699 Castelbarco Stradivari", "detail"),
-  locBack("loc-castelbarco-waist", "2022560098", "musihas-200154809", 6, "1699 Castelbarco Stradivari", "detail"),
-  locBack("loc-castelbarco-endpin", "2022560098", "musihas-200154809", 9, "1699 Castelbarco Stradivari", "detail"),
-
   locBack("loc-ward-back", "2022560100", "musihas-200154810", 1, "1700 Ward Stradivari"),
-  locBack("loc-ward-corners", "2022560100", "musihas-200154810", 4, "1700 Ward Stradivari", "detail"),
-  locBack("loc-ward-waist", "2022560100", "musihas-200154810", 6, "1700 Ward Stradivari", "detail"),
-
   locBack("loc-kreisler-back", "2022560099", "musihas-200154814", 1, "ca. 1730 Kreisler Guarneri del Gesu"),
-  locBack("loc-kreisler-corners", "2022560099", "musihas-200154814", 4, "ca. 1730 Kreisler Guarneri del Gesu", "detail"),
-  locBack("loc-kreisler-waist", "2022560099", "musihas-200154814", 6, "ca. 1730 Kreisler Guarneri del Gesu", "detail"),
-  locBack("loc-kreisler-endpin", "2022560099", "musihas-200154814", 9, "ca. 1730 Kreisler Guarneri del Gesu", "detail"),
-
   locBack("loc-brookings-back", "2022560097", "musihas-200154831", 1, "1654 Brookings Nicolo Amati"),
-  locBack("loc-brookings-corners", "2022560097", "musihas-200154831", 4, "1654 Brookings Nicolo Amati", "detail"),
-  locBack("loc-brookings-waist", "2022560097", "musihas-200154831", 6, "1654 Brookings Nicolo Amati", "detail"),
-  locBack("loc-brookings-endpin", "2022560097", "musihas-200154831", 9, "1654 Brookings Nicolo Amati", "detail"),
 
   directBack(
     "strings-ysaye-back",
@@ -113,21 +112,20 @@ const backSources = [
     "https://stringsmagazine.com/beauty-of-the-1740-ysaye-guarneri-del-gesu-violin/",
     "1740 Ysaye Guarneri del Gesu"
   ),
-  directBack(
-    "strings-ysaye-detail",
-    "https://i0.wp.com/stringsmagazine.com/wp-content/uploads/2023/10/1740-Ysaye-Guarneri-del-Gesu-violin-back-detail-Nippon-Music-Foundation.jpg?fit=1800%2C1200&ssl=1",
-    "https://stringsmagazine.com/beauty-of-the-1740-ysaye-guarneri-del-gesu-violin/",
-    "1740 Ysaye Guarneri del Gesu",
-    "detail"
-  ),
 
   directBack(
     "commons-prince-doria-back",
     "https://upload.wikimedia.org/wikipedia/commons/5/51/Back_Plate_Prince_Doria_1734.jpg",
     commonsSource("Back Plate Prince Doria 1734.jpg"),
-    "1734 Prince Doria Guarneri del Gesu",
-    "detail"
+    "1734 Prince Doria Guarneri del Gesu"
   ),
+  commonsBack("commons-bisiach-back", "Bisiach Carlo Firenze 1938 2.jpg", "1938 Carlo Bisiach"),
+  commonsBack("commons-collin-mezin-back", "Charles Jean B.Collin-Mezin,Violin 1890.JPG", "1890 Charles Jean Baptiste Collin-Mezin"),
+  commonsBack("commons-guy-rabut-black-back", "The Black Violin (back) at Guy Rabut's workshop.jpg", "Guy Rabut Black Violin"),
+  commonsBack("commons-vuillaume-messie-copy-back", "J.B.Vuillaume 1860 back \"Le Messie\" Stradivarius copy.jpg", "1860 J. B. Vuillaume Le Messie copy"),
+  commonsBack("commons-vuillaume-back", "Vuillaume violin backside.jpg", "J. B. Vuillaume violin"),
+  commonsBack("commons-rautmann-back", "Rautmann Violin Back.jpg", "1893 Hermann Rautmann"),
+  commonsBack("commons-caussin-back", "Caussin-dos.jpg", "Caussin school violin"),
   directBack(
     "commons-strad-back",
     "https://upload.wikimedia.org/wikipedia/commons/e/ec/Stradivarius_violin_back.jpg",
@@ -146,54 +144,20 @@ const backSources = [
     commonsSource("Ferdinando Garimberti Violin, Featured in the Ferdinando Garimberti Book, Back.jpg"),
     "Ferdinando Garimberti"
   ),
+  directBack(
+    "commons-poggi-back",
+    "https://upload.wikimedia.org/wikipedia/commons/5/5a/Italian_Violin_by_Ansaldo_Poggi%2C_Bologna%2C_Stradivari_Model%2C_Back.jpg",
+    commonsSource("Italian Violin by Ansaldo Poggi, Bologna, Stradivari Model, Back.jpg"),
+    "Ansaldo Poggi"
+  ),
 ];
 
-const fullVariants = [
-  { key: "body", detail: "maple back", shape: "cinema", focus: "center 76%" },
-  { key: "upper", detail: "upper back", shape: "portrait", focus: "center 68%" },
-  { key: "center", detail: "maple center", shape: "cinema", focus: "center 68%" },
-  { key: "lower", detail: "lower back", shape: "square", focus: "center 74%" },
-];
-
-const detailVariants = [
-  { key: "detail", detail: "back detail", shape: "cinema", focus: "center 50%" },
-  { key: "grain", detail: "maple flame", shape: "square", focus: "center 55%" },
-  { key: "edge", detail: "edgework", shape: "wide", focus: "center 62%" },
-];
-
-function variantsFor(source) {
-  return source.kind === "detail" ? detailVariants : fullVariants;
-}
-
-function expandSourceVariant(source, variant) {
-  return {
-    key: `${source.key}-${variant.key}`,
-    image: source.image,
-    url: source.url,
-    caption: `${source.title}, ${variant.detail}.`,
-    shape: variant.shape,
-    focus: variant.focus,
-  };
-}
-
-function interleaveSources(sources) {
-  const longestVariantSet = Math.max(...sources.map((source) => variantsFor(source).length));
-  const interleaved = [];
-  for (let variantIndex = 0; variantIndex < longestVariantSet; variantIndex += 1) {
-    sources.forEach((source) => {
-      const variant = variantsFor(source)[variantIndex];
-      if (variant) interleaved.push(expandSourceVariant(source, variant));
-    });
-  }
-  return interleaved;
-}
-
-function expandSource(source) {
-  const variants = source.kind === "detail" ? detailVariants : fullVariants;
-  return variants.map((variant) => expandSourceVariant(source, variant));
-}
-
-const items = interleaveSources(backSources);
+const items = backSources.map((source) => ({
+  ...source,
+  caption: `${source.title}, full back.`,
+  shape: "back",
+  focus: "center",
+}));
 
 function createTile(item, index) {
   const link = document.createElement("a");
@@ -207,7 +171,7 @@ function createTile(item, index) {
   const img = document.createElement("img");
   img.src = item.image;
   img.alt = "";
-  img.loading = index < 24 ? "eager" : "lazy";
+  img.loading = index < 48 ? "eager" : "lazy";
   img.decoding = "async";
   img.addEventListener("error", () => link.remove(), { once: true });
 
@@ -238,6 +202,7 @@ function columnCount() {
 
 function shapeScore(item) {
   return {
+    back: 1.54,
     cinema: 0.72,
     hero: 1.72,
     portrait: 1.4,
