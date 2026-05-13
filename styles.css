@@ -62,7 +62,7 @@ noscript {
   position: relative;
   z-index: 30;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
   gap: 22px;
   padding: 12px clamp(16px, 3vw, 34px);
@@ -249,7 +249,7 @@ noscript {
   }
 
   .ao-home {
-    justify-self: end;
+    justify-self: start;
   }
 
   .wall {
