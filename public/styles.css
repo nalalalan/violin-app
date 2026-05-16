@@ -88,7 +88,7 @@ noscript {
 .paper-copy strong {
   display: block;
   color: #25150d;
-  font-size: clamp(19px, 2vw, 25px);
+  font-size: 28px;
   line-height: 1;
   overflow-wrap: anywhere;
 }
@@ -271,7 +271,7 @@ noscript {
   }
 
   .paper-copy strong {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.06;
     overflow-wrap: anywhere;
   }
