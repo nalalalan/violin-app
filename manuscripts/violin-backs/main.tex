@@ -131,7 +131,7 @@
 \end{center}
 
 \vspace{0.35em}
-\noindent\textbf{Violin practice often begins before sound: with the player's willingness to approach the instrument again. Here we present \texttt{violin.aolabs.io}, a source-gated media wall that isolates full fine-violin backs from fronts, labels, scroll-only views, annotations, detail crops, and generic instrument imagery. The current source file contains 763 broad full-back records, while the deployed wall renders 159 stricter display-gated sources selected for pale studio presentation, visually continuous flame, and historically important makers such as Stradivari and Amati. We argue that the violin back is not a secondary surface but a compact record of craft history, material selection, varnish, wear, ownership, and desire. Drawing on arts-and-health research, self-determination theory, neuroaesthetics, aesthetic-appreciation models, and music-practice research, we frame the wall as an environmental intervention for attention and practice re-entry. No clinical or user-outcome claim is made; the contribution is a source-backed design framework for treating violin backs as serious cultural, motivational, and attentional media.}
+\noindent\textbf{Violin practice often begins before sound: with the player's willingness to approach the instrument again. Here we present \texttt{violin.aolabs.io}, a source-gated media wall restricted to five named instruments: the 1740 ``Ysaye'' Guarneri del Gesu, the 1742 ``Lord Wilton'' Guarneri del Gesu, the 1734 ``Spagnoletti'' Guarneri del Gesu, the 1710 ex-Vieuxtemps Stradivari, and a 1940 Carl G. Becker Sr. violin. The deliberately closed instrument set makes membership explicit, so the viewer no longer has to infer which objects belong. We argue that the violin back is not a secondary surface but a compact record of craft history, material selection, varnish, wear, ownership, and desire. Drawing on arts-and-health research, self-determination theory, neuroaesthetics, aesthetic-appreciation models, and music-practice research, we frame the wall as an environmental intervention for attention and practice re-entry. No clinical or user-outcome claim is made; the contribution is a source-backed design framework for treating selected violin backs as serious cultural, motivational, and attentional media.}
 
 \newpage
 \pagestyle{fancy}
@@ -142,7 +142,7 @@ Violin practice is an unusually demanding form of self-regulation. The player mu
 
 The violin back is a powerful but underused object for this purpose. It is not the face that carries the f-holes and bridge, nor the scroll that signals decorative identity, nor the label that can invite authentication anxiety. It is a large, continuous maple field, shaped by arching, centre joint, flame, varnish, edgework, corner wear, and centuries of handling. The back is where the instrument becomes visibly bodily. It is a surface of curvature, density, shine, abrasion, repair, and memory.
 
-The design question behind \texttt{violin.aolabs.io} is therefore narrow by intention: what happens when the site shows only violin backs, and only backs of fine or historically meaningful instruments? The restriction removes generic violin content and keeps attention on a single family of forms. The result is not a catalogue page, a shop, a maker index, or an educational explainer. It is a visual environment: a dense, source-linked wall of backs from Stradivari, Amati, Guarneri del Gesu, and other antique or high-end instruments.
+The design question behind \texttt{violin.aolabs.io} is therefore narrow by intention: what happens when the site shows only the short, named set of violins specified for this revision? The restriction removes generic violin content and keeps attention on five instruments rather than a fluctuating catalogue. The result is not a shop, a maker index, or an educational explainer. It is a visual environment: a source-linked wall of the ``Ysaye'', ``Lord Wilton'', ``Spagnoletti'', ex-Vieuxtemps, and Becker instruments.
 
 This paper develops the intellectual basis for that surface. We combine four bodies of evidence. First, arts-and-health research supports the broad relevance of arts engagement to well-being, while also requiring caution about causal and clinical claims~\cite{fancourt_arts_2019}. Second, self-determination theory suggests that sustained motivation depends on experiences of autonomy, competence, and relatedness rather than only external pressure~\cite{ryan_self_2000}. Third, models of aesthetic appreciation and neuroaesthetics show that visual experience integrates sensory features, emotion, valuation, knowledge, and meaning~\cite{leder_model_2004,chatterjee_neuroaesthetics_2014}. Fourth, music-practice research shows that expertise depends on repeated, effortful practice and on self-regulatory behaviour over time~\cite{ericsson_deliberate_1993,mcpherson_self_2001}. Together, these literatures suggest that a beautiful, source-backed visual environment may make practice more approachable without pretending to replace instruction, discipline, or clinical care.
 
@@ -150,12 +150,12 @@ This paper develops the intellectual basis for that surface. We combine four bod
 
 \subsection{A back-only wall changes the unit of attention}
 
-The present implementation of \texttt{violin.aolabs.io} uses two gates. The broad source gate admits only full back views of fine, antique, historically important, or high-end violins from museum, public-archive, notable-sale, fine-instrument dealer, fine-instrument shop, and open public-media sources. The display gate is stricter: the rendered wall favours pale studio images, one-piece or visually continuous maple flame, and named historical importance, while excluding mismatched side views, dark-background photographs, weak thumbnails, detail crops, fronts, labels, and scroll-only media. The inspected source file contains 763 broad full-back records: 23 Metropolitan Museum of Art backs, 5 Library of Congress full-back views, 13 fine-instrument or open public-media full-back sources, 567 Ingles \& Hayday notable-sale full-back views, 135 Corilon fine/dealer full-back views, 13 SHAR fine-instrument full-back views, and 7 Reuning \& Son high-value full-back views. The deployed wall currently renders 159 display-gated tiles.
+The present implementation of \texttt{violin.aolabs.io} uses one closed gate. A record is admitted only if it belongs to one of the five named instruments specified for the public wall and the served media can be traced to the matching source page. The inspected source file contains five records in a closed \texttt{selectedViolins} array. The ex-Vieuxtemps and Becker records render direct public back images; the ``Ysaye'', ``Lord Wilton'', and ``Spagnoletti'' records render the public instrument images exposed by the supplied source pages because the corresponding isolated Tarisio photo routes are not stable hotlink targets.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{figures/fig01_violin_back_wall.png}
-    \caption{Source-gated violin-back media wall. The deployed wall isolates full violin backs rather than mixing backs with fronts, scroll-only views, labels, diagrams, detail crops, or generic violin images. The current display gate favours pale studio images, one-piece or continuous flame, and historically important makers while preserving source links for provenance inspection.}
+    \caption{Five-instrument source-gated wall. The deployed page is restricted to the ``Ysaye'', ``Lord Wilton'', ``Spagnoletti'', ex-Vieuxtemps, and Becker records, with source links preserved for provenance inspection.}
     \label{fig:wall}
 \end{figure}
 
@@ -163,29 +163,26 @@ This restriction matters because it changes the visual object. A general violin 
 
 \begin{table}[H]
     \centering
-    \caption{Current source gate for \texttt{violin.aolabs.io}. The table reports the source categories inspected in the application code on 12 May 2026.}
+    \caption{Current source gate for \texttt{violin.aolabs.io}. The table reports the five records inspected in the application code on 24 May 2026.}
     \label{tab:source_gate}
-    \begin{tabular}{p{0.22\textwidth}p{0.18\textwidth}p{0.48\textwidth}}
+    \begin{tabular}{p{0.30\textwidth}p{0.16\textwidth}p{0.42\textwidth}}
         \toprule
-        Source class & Accepted sources & Gate enforced \\
+        Instrument & Accepted sources & Gate enforced \\
         \midrule
-        Museum collection & 23 & Full back images from The Metropolitan Museum of Art, including Stradivari, Amati, Tielke, Pique, Carcassi, and other collection instruments~\cite{met_gould_1693}. \\
-        Public archive & 5 & Library of Congress full-back views from Stradivari, Guarneri del Gesu, and Amati instruments, including the 1704 ``Betts'' Stradivari~\cite{loc_betts_1704}. \\
-        Fine/public media & 13 & Selected full-back images from fine-instrument publication pages and open public media, including dedicated violin-back files~\cite{commons_violin_backs}. \\
-        Notable-sale archive & 567 & Ingles \& Hayday full-back instrument images from notable-sale and Four Centuries pages, including Stradivari, Amati, Guarneri, Vuillaume, Guadagnini, Gagliano, and other fine historical makers~\cite{ingles_four_centuries}. \\
-        Fine dealer corpus & 135 & Corilon full-back images from fine, master, Italian, Cremona, and certificate-backed instrument pages; candidate pages with fronts, certificates, labels, fractional violins, or detail plates were excluded~\cite{corilon_violins}. \\
-        Fine shop corpus & 13 & SHAR fine-instrument product pages whose served media were visually checked as full backs; one mislabeled SHAR file that served a front was excluded~\cite{shar_fine_violins}. \\
-        High-value dealer corpus & 7 & Reuning \& Son instrument pages in high-value price bands; only full back views were added to the broad source corpus~\cite{reuning_violins}. \\
-        Rendered wall & 159 tiles & A stricter display gate selects full pale-background backs with one-piece or visually continuous flame, plus explicit Stradivari, Amati, Guarneri, and other historically important full-back views. \\
+        1740 ``Ysaye'' Guarneri del Gesu & 1 tile & The Sasakawa Music Foundation page provides public instrument imagery, history, and descriptive context; Tarisio Cozio Archive record 40064 was checked for measurements and provenance~\cite{smf_ysaye_1740,tarisio_ysaye_1740}. \\
+        1742 ``Lord Wilton'' Guarneri del Gesu & 1 tile & The Strad calendar page provides the public instrument image; Tarisio Cozio Archive record 40256 was checked for measurements and provenance~\cite{strad_lord_wilton_2024,tarisio_lord_wilton_1742}. \\
+        1734 ``Spagnoletti'' Guarneri del Gesu & 1 tile & The Strad archive article is the supplied public source for the instrument and image record~\cite{strad_spagnoletti_1734}. \\
+        1710 ex-Vieuxtemps Stradivari & 1 tile & Darnton \& Hersh provides the article record and public back image~\cite{darnton_vieuxtemps_1710}. \\
+        Carl G. Becker Sr., Chicago, 1940 & 1 tile & SHAR Music provides the product record and public back image~\cite{shar_becker_1940}. \\
         \bottomrule
     \end{tabular}
 \end{table}
 
-The design therefore converts curation into an interface rule. An image is not accepted because it is violin-related; it is accepted because it preserves the exact surface under study. This is important for mental load. The viewer does not have to filter out wrong views or decide whether a picture belongs. The page does that work before display.
+The design therefore converts curation into an interface rule. An image is not accepted because it is violin-related; it is accepted because it belongs to the explicit five-instrument set. This is important for mental load. The viewer does not have to filter a large wall or decide whether a picture belongs. The page does that work before display.
 
 \subsection{The violin back is a record of material choice}
 
-The classical violin is a joined system of materials and geometries. The top is usually spruce; the back, ribs, and neck are usually maple. Museum object records make this material pairing visible in concise form: the Met's 1693 ``Gould'' Stradivari lists maple, spruce, and ebony, and describes a two-piece maple back with tight flame~\cite{met_gould_1693}; the Ashmolean's 1716 ``Messiah'' Stradivari identifies maple and spruce and emphasises the violin's exceptional condition~\cite{ashmolean_messiah_1716}. The back is therefore not merely decorative wood. It is part of the acoustic body, a structural plate, and a visible record of selection.
+The classical violin is a joined system of materials and geometries. The top is usually spruce; the back, ribs, and neck are usually maple. The selected source records keep that material fact attached to named objects rather than to generic violin imagery: the ``Ysaye'', ``Lord Wilton'', ``Spagnoletti'', ex-Vieuxtemps, and Becker pages each locate visual attention inside a specific instrument history~\cite{smf_ysaye_1740,tarisio_ysaye_1740,strad_lord_wilton_2024,tarisio_lord_wilton_1742,strad_spagnoletti_1734,darnton_vieuxtemps_1710,shar_becker_1940}. The back is therefore not merely decorative wood. It is part of the acoustic body, a structural plate, and a visible record of selection.
 
 Luthiers select back wood for more than colour. They examine cut, stiffness, density, figure, seasoning, dimensional stability, and how the billet can be carved into a plate. A one-piece back displays uninterrupted figure across the body. A two-piece back joins mirrored halves along the centre seam, often producing symmetry in the flame. Neither format is automatically superior; each is a way of resolving available material, desired appearance, plate behaviour, and maker preference.
 
@@ -195,7 +192,7 @@ Once selected, the back is carved into an arch, thinned and graduated, fitted to
 
 The violin emerged from sixteenth-century northern Italian making and reached a durable classical form through Cremonese workshops associated with the Amati family, Antonio Stradivari, and Giuseppe Guarneri del Gesu. These names are often invoked through sound or market value, but the backs show another continuity: the persistence of arched maple as an object of visual judgment.
 
-The back is also where visual and economic histories meet. Famous instruments are photographed, authenticated, insured, copied, exhibited, and traded partly through details visible from the back: flame, outline, edgework, varnish, wear, repairs, and provenance marks. The Library of Congress catalogue entry for the 1704 ``Betts'' Stradivari, for example, records dimensions including length of back and gives the instrument's ownership path before donation~\cite{loc_betts_1704}. Such records show that backs are not passive reverse sides. They are measurement surfaces and provenance surfaces.
+The back is also where visual and economic histories meet. Famous instruments are photographed, authenticated, insured, copied, exhibited, and traded partly through details visible from the back: flame, outline, edgework, varnish, wear, repairs, and provenance marks. The supplied archive, publication, dealer, and shop records preserve identity, period, provenance, dimensions, condition, or sale context in different degrees, but the public wall does not flatten them into anonymous texture. Such records show that backs are not passive reverse sides. They are measurement surfaces and provenance surfaces.
 
 The modern fascination with old Italian instruments should still be handled carefully. Blind player-preference work has challenged simple assumptions that age or name alone determines playing preference~\cite{fritz_preferences_2012}. That caution strengthens the back-wall concept rather than weakening it. The wall is not claiming that every famous old back guarantees superior sound. It claims that fine backs are visually and historically concentrated objects that can support attention, desire, and craft literacy.
 
@@ -217,23 +214,23 @@ In this sense the design is closer to a practice threshold than to a clinical pr
 
 \subsection{A media wall can teach craft without becoming a lesson}
 
-A conventional educational page would explain violin construction with labels and diagrams. That can be useful, but it also changes the affective mode from looking to studying. The wall uses another route: repeated exposure. By seeing many backs at once, the viewer learns to notice figure, symmetry, arching, outline, corner shape, varnish colour, and wear. The knowledge is comparative before it is verbal.
+A conventional educational page would explain violin construction with labels and diagrams. That can be useful, but it also changes the affective mode from looking to studying. The wall uses another route: repeated exposure to a small number of exact instruments. By seeing the selected backs together, the viewer learns to notice figure, symmetry, arching, outline, corner shape, varnish colour, and wear. The knowledge is comparative before it is verbal.
 
 Aesthetic-appreciation models suggest that understanding an object changes how it is perceived and valued~\cite{leder_model_2004}. Neuroaesthetic work similarly emphasises interaction among sensory, emotional, and meaning systems~\cite{chatterjee_neuroaesthetics_2014}. The violin-back wall exploits this interaction. Source links preserve the museum or archive context, while the primary page keeps the image field uninterrupted. The viewer can remain in visual attention or choose to inspect source provenance.
 
-This is why the wall should show many backs, not a few. A sparse gallery asks each image to be a hero. A dense wall lets pattern emerge. It makes differences visible: the warm orange-brown varnish of one instrument, the broader figure of another, the worn central field of a heavily played back, the cleaner surface of a collector-preserved object, the particular tension between outline and maple flame. The quantity is part of the argument.
+This is why the wall uses a few named instruments rather than an open-ended gallery. A larger set can make pattern emerge, but it also asks the viewer to trust the curator's hidden gate. The five-record version makes the gate inspectable. Each tile has a known identity, source route, and reason for belonging, so comparison happens inside a closed set rather than across an open-ended scrape.
 
 \section{Discussion}
 
-\texttt{violin.aolabs.io} treats the violin back as a legitimate subject of design, not an afterthought. The back-only constraint does four things simultaneously. It protects visual quality by excluding irrelevant views. It protects attention by reducing decision load. It protects source integrity by linking images to object pages or publication pages. It protects practice motivation by opening with beauty and craft rather than correction.
+\texttt{violin.aolabs.io} treats the violin back as a legitimate subject of design, not an afterthought. The five-instrument constraint does four things simultaneously. It protects visual quality by excluding irrelevant views. It protects attention by reducing decision load. It protects source integrity by linking images to object pages or publication pages. It protects practice motivation by opening with beauty and craft rather than correction.
 
 The importance of the back is partly historical. Cremonese violins are not only acoustic devices; they are preserved, copied, photographed, studied, and desired as material artefacts. The back concentrates many of the features through which that artefact status becomes visible. A player who looks carefully at backs is not merely looking at decoration. They are studying wood choice, carving, varnish, time, repair, and cultural value.
 
 The importance of the media wall is partly psychological. Practice requires repeated re-entry into an activity that can produce frustration. A beautiful, narrow, high-quality visual field can act as a preparatory cue. It can remind the player why the instrument is worth approaching before the first imperfect note. This is where the connection to mental health and motivation becomes plausible: not by promising treatment, but by shaping the environment around repeated effort.
 
-The wall also resists a common failure of instrument media: collapsing all violin imagery into generic romance. A violin front, scroll, label, player portrait, auction badge, and annotated diagram all ask for different kinds of attention. Mixing them produces noise. A back-only wall has an editorial stance. It says that one surface is enough; the depth comes from looking harder.
+The wall also resists a common failure of instrument media: collapsing all violin imagery into generic romance. A violin front, scroll, label, player portrait, auction badge, and annotated diagram all ask for different kinds of attention. Mixing them produces noise. A closed named wall has an editorial stance. It says that a small number of exact objects is enough; the depth comes from looking harder.
 
-Several limitations remain. The present corpus is curated rather than exhaustive. It privileges sources with usable high-quality back imagery and therefore reflects the availability of museum, archive, notable-sale, dealer, shop, and open-media photographs. Some living makers and fine modern instruments remain underrepresented because public back images are less consistently available or less clearly licensed. The site also has not measured user outcomes. The strongest next study would compare practice initiation, session duration, affect before practice, and voluntary return rates across a back-only wall, a general violin gallery, and a non-visual practice dashboard.
+Several limitations remain. The present corpus is intentionally narrow rather than exhaustive. It reflects the five named instruments selected for the public wall and the public image routes available from those sources. One supplied source link pointed to a different Guarneri del Gesu instrument and was therefore not admitted as a separate tile. The site also has not measured user outcomes. The strongest next study would compare practice initiation, session duration, affect before practice, and voluntary return rates across a five-instrument wall, a broader violin-back wall, a general violin gallery, and a non-visual practice dashboard.
 
 The practical implication is immediate. A digital surface for a musician does not need to begin with instruction, analytics, or productivity pressure. It can begin with an object that makes practice feel worth entering. For violinists, the back is one of the richest objects available.
 
@@ -242,19 +239,19 @@ The practical implication is immediate. A digital surface for a musician does no
 
 \subsection*{Application source inspection}
 
-The paper and site update were based on the current \texttt{violin.aolabs.io} source in \texttt{public/app.js}, inspected on 12 May 2026. The source defines a broad \texttt{backSources} corpus, curated display-key arrays, and an exclusion set. Source entries are admitted to the broad corpus only when the image is a full violin back and the instrument is fine, antique, historically important, or otherwise high-end. The current implementation contains 763 broad full-back records and 159 rendered display-gated tiles.
+The paper and site update were based on the current \texttt{violin.aolabs.io} source in \texttt{public/app.js}, inspected on 24 May 2026. The source defines a closed \texttt{selectedViolins} array with exactly five records and five rendered tiles. Source entries are admitted only when they match one of the five named instruments requested for the public wall.
 
 \subsection*{Inclusion and exclusion rules}
 
-Accepted media include only full violin backs when the source context identifies the instrument as fine or historically meaningful. Excluded media include fronts, scroll-only images, labels, bridges, f-holes, generic diagrams, annotated plates, low-quality auction thumbnails, partial crops, corner details, waist details, lower-back-only details, back-plate construction diagrams, uncertain identity images, non-pale or visually noisy backgrounds, and images whose source context does not support inclusion. The display gate further removes otherwise valid backs that do not match the current aesthetic target: large readable full-back views with pale studio presentation, one-piece or visually continuous flame, or explicit historical-maker importance. The exclusion rule is intentionally strict because the scientific object of the page is the complete back surface, not violin imagery in general.
+Accepted media must match one of the five named instruments. The preferred media unit remains the back view, because the back is the surface under study. When an isolated back image is not publicly usable as a stable hotlink, the public source image from the supplied page is used instead of substituting a different violin. Excluded media include any violin not in the five-record set, even if it is visually stronger, historically important, or already present in an older version of the app.
 
 \subsection*{Source categories}
 
-Museum sources were drawn from public collection records, including The Metropolitan Museum of Art. Public-archive sources were drawn from Library of Congress object records, including Stradivari, Guarneri del Gesu, and Amati instruments. Additional sources came from Ingles \& Hayday notable-sale pages, Corilon fine-instrument pages, SHAR fine-instrument product pages, Reuning \& Son high-value instrument pages, fine-instrument publication pages, and open public-media pages when the image itself was a full back. Source links are preserved in the rendered wall so that visual attention can move into provenance inspection when desired.
+Sources were drawn from the supplied object, publication, dealer, and shop pages: Tarisio Cozio Archive records for the ``Ysaye'' and ``Lord Wilton'', Sasakawa Music Foundation history for the ``Ysaye'', The Strad pages for the ``Lord Wilton'' and ``Spagnoletti'', Darnton \& Hersh for the ex-Vieuxtemps Stradivari, and SHAR Music for the 1940 Becker. Source links are preserved in the rendered wall so that visual attention can move into provenance inspection when desired.
 
 \subsection*{Design rationale}
 
-The wall uses dense masonry-style rendering rather than a small slideshow or educational lesson. This choice supports rapid comparison among backs, keeps the page visually rich, and reduces the number of explicit choices required before looking. The deployed wall uses three large columns at desktop and wide desktop widths and one column on mobile, so full backs remain legible rather than collapsing into small thumbnails. Captions are not overlaid on the image wall; the first perceptual object is the instrument surface rather than explanatory text. The paper link is placed in a compact top strip to make the manuscript accessible without interrupting the image wall.
+The wall uses masonry-style rendering rather than a slideshow or educational lesson. This choice supports direct comparison among the five selected instruments, keeps the page visually rich, and reduces the number of explicit choices required before looking. The deployed wall uses three large columns at desktop and wide desktop widths and one column on mobile, so backs remain legible rather than collapsing into small thumbnails. Captions are not overlaid on the image wall; the first perceptual object is the instrument surface rather than explanatory text. The paper link is placed in a compact top strip to make the manuscript accessible without interrupting the image wall.
 
 \subsection*{Mental-health and motivation framing}
 
@@ -273,7 +270,7 @@ A.N.P. conceived the application, curated the visual corpus, designed the public
 The author declares no competing interests.
 
 \section*{Data availability}
-The public wall is available at \href{https://violin.aolabs.io/}{violin.aolabs.io}. Source image records remain available from their respective museum, archive, publication, and public-media pages. No user-outcome dataset was generated.
+The public wall is available at \href{https://violin.aolabs.io/}{violin.aolabs.io}. Source image records remain available from their respective object, publication, dealer, and shop pages. No user-outcome dataset was generated.
 
 \section*{Code availability}
 The deployed application code is maintained in the \texttt{violin-app} project. The public site is served through GitHub Pages.
