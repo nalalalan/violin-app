@@ -12,6 +12,8 @@ The 1734 Spagnoletti and 1742 Lord Wilton Guarneri del Gesu sources remain exclu
 
 Tiles are intentionally image-only. Hovering reveals a short caption; clicking opens the source page for the instrument or image.
 
+The displayed wall does not depend on the external pages' original framing. Accepted source photos are converted into local normalized display assets under `public/assets/normalized/`: same portrait canvas, tighter body crop, controlled margin, off-white background, and light exposure/contrast normalization. Original source URLs remain preserved in `public/app.js` and in the generated manifest.
+
 ## Run Locally
 
 ```bash

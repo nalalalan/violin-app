@@ -4467,7 +4467,7 @@ const backSources = [
 
   directBack(
     "strings-ysaye-back",
-    "https://i0.wp.com/stringsmagazine.com/wp-content/uploads/2023/10/l40064back.jpg?resize=1200%2C2000&ssl=1",
+    "https://stringsmagazine.com/wp-content/uploads/2023/10/l40064back.jpg",
     "https://stringsmagazine.com/beauty-of-the-1740-ysaye-guarneri-del-gesu-violin/",
     "1740 Ysaye Guarneri del Gesu"
   ),
@@ -4829,8 +4829,14 @@ const preferredBackKeys = Array.from(new Set([
 const sourceByKey = new Map(backSources.map((source) => [source.key, source]));
 const displaySources = preferredBackKeys.map((key) => sourceByKey.get(key)).filter(Boolean);
 
+function normalizedAsset(key) {
+  return `/assets/normalized/${key}.jpg`;
+}
+
 const items = displaySources.map((source) => ({
   ...source,
+  sourceImage: source.image,
+  image: normalizedAsset(source.key),
   caption: `${source.title}, full back.`,
   shape: "back",
   focus: "center",
