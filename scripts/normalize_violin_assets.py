@@ -222,6 +222,12 @@ def normalize(source: dict[str, str]) -> dict[str, object]:
 
 def main() -> int:
     sources = display_sources()
+    source_keys = {source["key"] for source in sources}
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    for stale in OUT_DIR.glob("*.jpg"):
+        if stale.stem not in source_keys:
+            stale.unlink()
+
     manifest: list[dict[str, object]] = []
     failures: list[str] = []
     for index, source in enumerate(sources, start=1):
