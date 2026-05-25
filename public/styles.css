@@ -197,7 +197,8 @@ noscript {
 }
 
 .tile--display-scaled img {
-  width: calc(100% * var(--tile-scale, 1));
+  width: var(--tile-width, 100%);
+  margin-left: var(--tile-offset, 0);
 }
 
 .tile:hover img,

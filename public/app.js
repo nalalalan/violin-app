@@ -4834,20 +4834,28 @@ const bodyOnlyDisplayScale = new Map([
   ["met-strad-francesca-back", 0.56],
   ["featured-vieuxtemps-stradivari-1710", 0.66],
   ["loc-castelbarco-back", 0.66],
-  ["strings-ysaye-back", 0.70],
+  ["strings-ysaye-back", 0.71],
   ["loc-ward-back", 0.72],
+  ["reuning-jacob-fendt-london-c-1830-violin", 0.73],
+  ["reuning-pierre-silvestre-lyon-1854-violin", 0.73],
   ["reuning-carl-g-becker-chicago-1972-violin", 0.74],
-  ["reuning-gasparo-lorenzini-piacenza-c-1780-violin", 0.74],
-  ["reuning-jacob-fendt-london-c-1830-violin", 0.74],
   ["reuning-nicolo-gagliano-naples-c-1765-violin", 0.74],
-  ["reuning-paolo-antonio-testore-milan-c-1750-later-head-violin", 0.74],
-  ["reuning-pierre-silvestre-lyon-1854-violin", 0.74],
-  ["loc-betts-back", 0.78],
+  ["reuning-gasparo-lorenzini-piacenza-c-1780-violin", 0.75],
+  ["reuning-paolo-antonio-testore-milan-c-1750-later-head-violin", 0.75],
+  ["loc-betts-back", 0.77],
   ["ingles-a-violin-by-antonio-stradivari-18", 0.80],
+  ["corilon-mauro-lucini-master-violin", 1.02],
+  ["corilon-leo-aschauer-mittenwald-soloist-violin", 1.07],
+  ["shar-theodore-skreko-lord-wilton-violin-indianapolis-2025", 1.08],
+  ["corilon-19th-century-viennese-master-violin", 1.09],
+  ["ingles-a-violin-by-franz-kinberg", 1.09],
+  ["corilon-johann-georg-schonfelder-markneukirchen-violin", 1.10],
 ]);
 
+const DEFAULT_DISPLAY_SCALE = 1.16;
+
 function normalizedAsset(key) {
-  return `/assets/normalized/${key}.jpg`;
+  return `/assets/wall/${key}.jpg?v=20260525-uniform-wall`;
 }
 
 const items = displaySources.map((source) => ({
@@ -4855,7 +4863,7 @@ const items = displaySources.map((source) => ({
   sourceImage: source.image,
   image: normalizedAsset(source.key),
   caption: `${source.title}, full back.`,
-  displayScale: bodyOnlyDisplayScale.get(source.key) || 1,
+  displayScale: bodyOnlyDisplayScale.get(source.key) || DEFAULT_DISPLAY_SCALE,
   shape: "back",
   focus: "center",
 }));
@@ -4868,9 +4876,11 @@ function createTile(item, index) {
   link.rel = "noopener noreferrer";
   link.setAttribute("aria-label", item.caption);
   link.style.setProperty("--focus", item.focus || "center");
-  if (item.displayScale && item.displayScale < 1) {
+  if (item.displayScale && item.displayScale !== 1) {
+    const offset = (1 - item.displayScale) / 2;
     link.classList.add("tile--display-scaled");
-    link.style.setProperty("--tile-scale", item.displayScale);
+    link.style.setProperty("--tile-width", `${item.displayScale * 100}%`);
+    link.style.setProperty("--tile-offset", `${offset * 100}%`);
   }
 
   const img = document.createElement("img");
