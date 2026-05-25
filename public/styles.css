@@ -288,10 +288,6 @@ noscript {
     overflow-wrap: anywhere;
   }
 
-  .paper-copy p {
-    display: none;
-  }
-
   .caption span {
     font-size: 12px;
   }
