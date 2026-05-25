@@ -2,14 +2,13 @@
 
 A bookmarkable image wall for `violin.aolabs.io`.
 
-The public wall uses the broader curated violin-back corpus, with selected user-found instruments pinned at the top when a usable full-back image is available:
+The public wall uses the broader curated violin-back corpus, with selected user-found instruments pinned at the top only when the public full-back image is clean enough for the wall:
 
 - 1740 Ysaye Guarneri del Gesu
-- 1734 Spagnoletti Guarneri del Gesu
 - 1710 ex-Vieuxtemps Stradivari
 - Carl G. Becker Sr. violin, Chicago, 1940
 
-The 1742 Lord Wilton Guarneri del Gesu source remains excluded until a public image route is good enough for the wall.
+The 1734 Spagnoletti and 1742 Lord Wilton Guarneri del Gesu sources remain excluded until a public image route is good enough for the wall. The inspected Spagnoletti image has display-case glare and a vertical bar; the inspected Lord Wilton images were low-resolution, composite, or watermarked.
 
 Tiles are intentionally image-only. Hovering reveals a short caption; clicking opens the source page for the instrument or image.
 

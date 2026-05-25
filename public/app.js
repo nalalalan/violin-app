@@ -4424,18 +4424,6 @@ const reuningFineBacks = [
 // labels, diagrams, crops, corner details, or manufactured zoom variants.
 const backSources = [
   directBack(
-    "featured-ysaye-guarneri-1740",
-    "https://stringsmagazine.com/wp-content/uploads/2023/10/l40064back.jpg",
-    "https://stringsmagazine.com/beauty-of-the-1740-ysaye-guarneri-del-gesu-violin/",
-    "1740 Ysaye Guarneri del Gesu"
-  ),
-  directBack(
-    "featured-spagnoletti-guarneri-1734",
-    "https://ncviolins.com/wp-content/uploads/2018/10/img_9232.jpg",
-    "https://ncviolins.com/the-spagnoletti-guarneri-del-gesu/",
-    "1734 Spagnoletti Guarneri del Gesu"
-  ),
-  directBack(
     "featured-vieuxtemps-stradivari-1710",
     "https://darntonhersh.com/wp-content/uploads/Vieuxtemps-Stradivari-back-628x1024.jpg",
     "https://darntonhersh.com/a-violin-by-antonio-stradivari/",
@@ -4814,8 +4802,7 @@ const excludedBackKeys = new Set([
 ]);
 
 const leadBackKeys = [
-  "featured-ysaye-guarneri-1740",
-  "featured-spagnoletti-guarneri-1734",
+  "strings-ysaye-back",
   "featured-vieuxtemps-stradivari-1710",
   "featured-becker-sr-1940",
   "ingles-a-violin-by-w-e-hill-sons",
