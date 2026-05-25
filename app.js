@@ -4829,6 +4829,23 @@ const preferredBackKeys = Array.from(new Set([
 const sourceByKey = new Map(backSources.map((source) => [source.key, source]));
 const displaySources = preferredBackKeys.map((key) => sourceByKey.get(key)).filter(Boolean);
 
+const bodyOnlyDisplayScale = new Map([
+  ["met-strad-antonius-back", 0.56],
+  ["met-strad-francesca-back", 0.56],
+  ["featured-vieuxtemps-stradivari-1710", 0.66],
+  ["loc-castelbarco-back", 0.66],
+  ["strings-ysaye-back", 0.70],
+  ["loc-ward-back", 0.72],
+  ["reuning-carl-g-becker-chicago-1972-violin", 0.74],
+  ["reuning-gasparo-lorenzini-piacenza-c-1780-violin", 0.74],
+  ["reuning-jacob-fendt-london-c-1830-violin", 0.74],
+  ["reuning-nicolo-gagliano-naples-c-1765-violin", 0.74],
+  ["reuning-paolo-antonio-testore-milan-c-1750-later-head-violin", 0.74],
+  ["reuning-pierre-silvestre-lyon-1854-violin", 0.74],
+  ["loc-betts-back", 0.78],
+  ["ingles-a-violin-by-antonio-stradivari-18", 0.80],
+]);
+
 function normalizedAsset(key) {
   return `/assets/normalized/${key}.jpg`;
 }
@@ -4838,6 +4855,7 @@ const items = displaySources.map((source) => ({
   sourceImage: source.image,
   image: normalizedAsset(source.key),
   caption: `${source.title}, full back.`,
+  displayScale: bodyOnlyDisplayScale.get(source.key) || 1,
   shape: "back",
   focus: "center",
 }));
@@ -4850,6 +4868,10 @@ function createTile(item, index) {
   link.rel = "noopener noreferrer";
   link.setAttribute("aria-label", item.caption);
   link.style.setProperty("--focus", item.focus || "center");
+  if (item.displayScale && item.displayScale < 1) {
+    link.classList.add("tile--display-scaled");
+    link.style.setProperty("--tile-scale", item.displayScale);
+  }
 
   const img = document.createElement("img");
   img.src = item.image;
@@ -4883,7 +4905,7 @@ function columnCount() {
 }
 
 function shapeScore(item) {
-  return {
+  const baseScore = {
     back: 1.54,
     cinema: 0.72,
     hero: 1.72,
@@ -4892,6 +4914,7 @@ function shapeScore(item) {
     tall: 1.75,
     wide: 0.62,
   }[item.shape || "standard"] || 1.25;
+  return baseScore * (item.displayScale || 1);
 }
 
 function layoutWall(wall, renderedItems) {

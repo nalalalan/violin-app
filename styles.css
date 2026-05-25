@@ -189,10 +189,15 @@ noscript {
   display: block;
   width: 100%;
   height: auto;
+  margin-inline: auto;
   object-fit: fill;
   object-position: var(--focus, center);
   filter: none;
   transition: filter 420ms ease;
+}
+
+.tile--display-scaled img {
+  width: calc(100% * var(--tile-scale, 1));
 }
 
 .tile:hover img,
