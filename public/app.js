@@ -4830,7 +4830,7 @@ const sourceByKey = new Map(backSources.map((source) => [source.key, source]));
 const displaySources = preferredBackKeys.map((key) => sourceByKey.get(key)).filter(Boolean);
 
 function normalizedAsset(key) {
-  return `/assets/normalized/${key}.jpg?v=20260525-size-polish`;
+  return `/assets/normalized/${key}.jpg`;
 }
 
 const items = displaySources.map((source) => ({

@@ -24,8 +24,6 @@ CANVAS_W = 1200
 CANVAS_H = 1700
 CANVAS = np.array([255, 252, 246], dtype=np.float32)
 TARGET_FILL = 0.90
-WIDE_BODY_FILL = 0.68
-WIDE_BODY_ASPECT = 0.54
 
 
 def display_sources() -> list[dict[str, str]]:
@@ -196,12 +194,7 @@ def normalize(source: dict[str, str]) -> dict[str, object]:
     image = ImageEnhance.Contrast(image).enhance(1.015)
     image = ImageEnhance.Color(image).enhance(1.005)
 
-    # Some source pages provide body-only back photos while most provide the
-    # full violin back including neck and scroll. Keep the photo intact, but
-    # cap wide body-only sources so they do not visually overpower the wall.
-    source_aspect = image.width / max(1, image.height)
-    width_fill = WIDE_BODY_FILL if source_aspect >= WIDE_BODY_ASPECT else TARGET_FILL
-    target_w = int(CANVAS_W * width_fill)
+    target_w = int(CANVAS_W * TARGET_FILL)
     target_h = int(CANVAS_H * TARGET_FILL)
     scale = min(target_w / image.width, target_h / image.height)
     new_size = (max(1, int(image.width * scale)), max(1, int(image.height * scale)))
