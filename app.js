@@ -4515,7 +4515,9 @@ const backSources = [
   ...reuningFineBacks,
 ];
 
-// Display gate: full pale-background backs with one-piece or visually continuous flame.
+// Candidate pools kept for source-audit history. The rendered wall below uses
+// only the strict one-piece gate; visual appeal or historical importance does
+// not override a visible center join.
 const visualBackKeys = [
   "corilon-italian-violin-schio",
   "ingles-a-violin-by-w-e-hill-sons",
@@ -4819,11 +4821,30 @@ const leadBackKeys = [
   "reuning-jacob-fendt-london-c-1830-violin",
 ];
 
+const strictOnePieceBackKeys = [
+  "ingles-a-violin-by-jean-baptiste-vuillaume-2",
+  "corilon-fine-french-violin-daniel-moinel-paris",
+  "corilon-selectio-opus17-masterviolin",
+  "corilon-italian-violin-schio",
+  "corilon-leo-aschauer-mittenwald-soloist-violin",
+  "corilon-markneukirchen-master-violin-by-theodor-berger",
+  "corilon-premsyl-otakar-spidlen-violin-prague",
+  "corilon-italian-violin-bruno-piastri-1993",
+  "corilon-officina-mauro-lucini-cremona-guarnerius",
+  "corilon-johann-georg-schonfelder-markneukirchen-violin",
+  "corilon-modern-italian-violin-cremonese",
+  "corilon-giuseppe-gagliano-violin-1760",
+  "corilon-mauro-lucini-master-violin",
+  "corilon-french-violin-by-jean-baptiste-grand-gerard",
+  "corilon-cremona-violin-luigi-aquilino",
+  "corilon-1970",
+  "corilon-luigi-galimberti-fine-italian-violin-milano",
+  "corilon-philippe-mahu-violin-paris",
+  "corilon-ferarri-cremona-violin",
+];
+
 const preferredBackKeys = Array.from(new Set([
-  ...leadBackKeys,
-  ...visualBackKeys,
-  ...onePieceTextBackKeys,
-  ...historicalMakerBackKeys,
+  ...strictOnePieceBackKeys,
 ])).filter((key) => !excludedBackKeys.has(key));
 
 const sourceByKey = new Map(backSources.map((source) => [source.key, source]));
@@ -4855,7 +4876,7 @@ const bodyOnlyDisplayScale = new Map([
 const DEFAULT_DISPLAY_SCALE = 1.16;
 
 function normalizedAsset(key) {
-  return `/assets/wall/${key}.jpg?v=20260525-uniform-wall`;
+  return `/assets/wall/${key}.jpg?v=20260525-one-piece-only`;
 }
 
 const items = displaySources.map((source) => ({
