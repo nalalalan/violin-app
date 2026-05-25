@@ -9,11 +9,11 @@
       "sourceImage": "https://stringsmagazine.com/wp-content/uploads/2023/10/l40064back.jpg",
       "cropBox": [
         0,
-        28,
+        0,
         750,
         1250
       ],
-      "scale": 1.252,
+      "scale": 1.224,
       "size": [
         1200,
         1700
@@ -26,9 +26,9 @@
       "sourcePage": "https://darntonhersh.com/a-violin-by-antonio-stradivari/",
       "sourceImage": "https://darntonhersh.com/wp-content/uploads/Vieuxtemps-Stradivari-back-628x1024.jpg",
       "cropBox": [
+        7,
         0,
-        0,
-        623,
+        612,
         1024
       ],
       "scale": 1.4941,
@@ -44,12 +44,12 @@
       "sourcePage": "https://www.sharmusic.com/products/carl-g-becker-violin-chicago-1940",
       "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5491_Back_1000x.jpg?v=1774449692",
       "cropBox": [
-        311,
-        368,
-        687,
+        318,
+        0,
+        680,
         1000
       ],
-      "scale": 2.4209,
+      "scale": 1.53,
       "size": [
         1200,
         1700
@@ -62,12 +62,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-w-e-hill-sons",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/hill-w-e-and-sons-violin-1914-london-b-800x1900.jpg",
       "cropBox": [
-        67,
-        718,
-        735,
-        1847
+        79,
+        42,
+        723,
+        1859
       ],
-      "scale": 1.3552,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -80,12 +80,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-roger-max-millant",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/Roger-Max-millant-violin-1942-paris-b-800x1900.jpg",
       "cropBox": [
-        72,
-        715,
-        728,
-        1841
+        84,
+        42,
+        716,
+        1858
       ],
-      "scale": 1.3588,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -98,12 +98,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-gioffredo-cappa-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Gioffredo-Cappa-Saluzzo-c1715-violin-b-800x1900.jpg",
       "cropBox": [
-        72,
-        708,
-        728,
-        1835
+        84,
+        41,
+        716,
+        1859
       ],
-      "scale": 1.3576,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -116,12 +116,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-pedrazzini-6",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/giuseppe-pedrazzini-violin-1928-milan-b-800x1900.jpg",
       "cropBox": [
-        65,
-        709,
-        735,
-        1843
+        77,
+        42,
+        723,
+        1858
       ],
-      "scale": 1.3492,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -134,12 +134,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-enrico-politi",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/enrico-politi-violin-rome-c1920-b-800x1900.jpg",
       "cropBox": [
-        73,
-        716,
-        727,
-        1843
+        85,
+        41,
+        715,
+        1858
       ],
-      "scale": 1.3576,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -152,12 +152,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-10",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/jean-baptiste-vuillaume-paris-violin-1849-b-800x1900.jpg",
       "cropBox": [
-        67,
-        715,
-        733,
-        1841
+        79,
+        42,
+        721,
+        1858
       ],
-      "scale": 1.3588,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -170,12 +170,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-karel-vavra-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/karel-vavra-violin-Prague-1942-b-800x1900.jpg",
       "cropBox": [
-        68,
-        714,
-        732,
-        1844
+        80,
+        42,
+        720,
+        1858
       ],
-      "scale": 1.354,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -188,12 +188,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-hilaire-darche-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/hilaire-darche-violin-brussels-1908-b-800x1900.jpg",
       "cropBox": [
-        65,
-        703,
-        735,
-        1846
+        77,
+        42,
+        723,
+        1858
       ],
-      "scale": 1.3386,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -206,12 +206,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-charles-francois-gand",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/charles-francois-gand-violin-paris-1836-b-800x1900.jpg",
       "cropBox": [
-        63,
-        706,
-        736,
-        1848
+        75,
+        41,
+        724,
+        1858
       ],
-      "scale": 1.3398,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -224,12 +224,12 @@
       "sourcePage": "https://www.sharmusic.com/products/theodore-skreko-lord-wilton-violin-indianapolis-2025",
       "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5566_Violin_Back.jpg?v=1745510159",
       "cropBox": [
-        299,
-        359,
-        697,
+        306,
+        0,
+        690,
         1000
       ],
-      "scale": 2.3869,
+      "scale": 1.53,
       "size": [
         1200,
         1700
@@ -242,12 +242,12 @@
       "sourcePage": "https://www.sharmusic.com/products/scrollavezza-zanre-g-b-guadagnini-1744-violin-parma-2013",
       "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F2S5103_Violin_Back.jpg?v=1736191979",
       "cropBox": [
-        308,
-        372,
-        690,
+        315,
+        0,
+        683,
         1000
       ],
-      "scale": 2.4363,
+      "scale": 1.53,
       "size": [
         1200,
         1700
@@ -260,12 +260,12 @@
       "sourcePage": "https://www.reuning.com/violins-priced-35k-to-75k/jacob-fendt-london-c-1830-violin",
       "sourceImage": "https://www.reuning.com/wp-content/uploads/2026/04/R25966_3.jpg",
       "cropBox": [
-        113,
-        2,
-        609,
-        850
+        122,
+        0,
+        600,
+        847
       ],
-      "scale": 1.8042,
+      "scale": 1.8064,
       "size": [
         1200,
         1700
@@ -278,12 +278,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/italian-violin-schio",
       "sourceImage": "https://www.corilon.com/media/image/72/88/3a/edo-sartori-schio-7681-2_1890x1890.jpg",
       "cropBox": [
-        238,
-        711,
-        935,
+        250,
+        0,
+        923,
         1890
       ],
-      "scale": 1.2977,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -296,12 +296,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-george-craske-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/george-craske-violin-c1870-stockport-b-800x1900.jpg",
       "cropBox": [
-        68,
-        709,
-        731,
-        1849
+        80,
+        42,
+        719,
+        1859
       ],
-      "scale": 1.3421,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -314,12 +314,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-vincenzo-cavani",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/vincenzo-cavani-violin-modena-c1940-b-800x1900.jpg",
       "cropBox": [
-        70,
-        714,
-        729,
-        1842
+        82,
+        42,
+        717,
+        1858
       ],
-      "scale": 1.3564,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -332,12 +332,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-rocca-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/giuseppe-rocca-genoa-c1840-violin-b-800x1900.jpg",
       "cropBox": [
-        68,
-        721,
-        731,
-        1846
+        80,
+        41,
+        719,
+        1860
       ],
-      "scale": 1.36,
+      "scale": 0.8411,
       "size": [
         1200,
         1700
@@ -350,12 +350,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-13",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/jean-baptiste-vuillaume-violin-paris-1867-8-b-800x1900.jpg",
       "cropBox": [
-        67,
-        716,
-        733,
-        1844
+        79,
+        37,
+        721,
+        1859
       ],
-      "scale": 1.3564,
+      "scale": 0.8397,
       "size": [
         1200,
         1700
@@ -368,12 +368,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-neuner-hornsteiner",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/neuner-and-hornsteiner-violin-c1900-mittenwald-b-800x1900.jpg",
       "cropBox": [
-        73,
-        717,
-        727,
-        1841
+        85,
+        42,
+        715,
+        1858
       ],
-      "scale": 1.3612,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -386,12 +386,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-domenico-montagnana-in-venice-on-1731",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Domenico-Montagnana-Venice-1731-violin-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        68,
-        727,
-        732,
-        1848
+        80,
+        42,
+        720,
+        1858
       ],
-      "scale": 1.3649,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -404,12 +404,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giovanni-pistucci-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/giovanni-pistucci-violin-naples-c1930-b-800x1900.jpg",
       "cropBox": [
-        71,
-        721,
-        729,
-        1840
+        83,
+        42,
+        717,
+        1858
       ],
-      "scale": 1.3673,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -422,12 +422,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-armando-piccagliani",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/armando-piccagliani-violin-1939-modena-b-800x1900.jpg",
       "cropBox": [
-        72,
-        712,
-        727,
-        1835
+        84,
+        42,
+        715,
+        1858
       ],
-      "scale": 1.3624,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -440,12 +440,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-bernardo-calcagni",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/bernardo-calcagni-violin-c1740-genoa-b-800x1900.jpg",
       "cropBox": [
-        67,
-        711,
-        733,
-        1840
+        79,
+        42,
+        721,
+        1859
       ],
-      "scale": 1.3552,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -458,12 +458,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-gabriel-lembock-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/gabriel-lembock-violin-1862-vienna-b-800x1900.jpg",
       "cropBox": [
-        65,
-        717,
-        735,
-        1841
+        77,
+        42,
+        723,
+        1859
       ],
-      "scale": 1.3612,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -476,9 +476,9 @@
       "sourcePage": "https://www.reuning.com/violins-250k-to-500k/nicolo-gagliano-naples-c-1765-violin",
       "sourceImage": "https://www.reuning.com/wp-content/uploads/2023/09/R25678_3.jpg",
       "cropBox": [
-        116,
+        125,
         0,
-        609,
+        600,
         847
       ],
       "scale": 1.8064,
@@ -494,12 +494,12 @@
       "sourcePage": "https://www.reuning.com/violins-250k-to-500k/gasparo-lorenzini-piacenza-c-1780-violin",
       "sourceImage": "https://www.reuning.com/wp-content/uploads/2024/02/R25692_3.jpg",
       "cropBox": [
-        120,
-        3,
-        611,
-        841
+        129,
+        0,
+        602,
+        852
       ],
-      "scale": 1.8258,
+      "scale": 1.7958,
       "size": [
         1200,
         1700
@@ -512,12 +512,12 @@
       "sourcePage": "https://www.reuning.com/violins-priced-75k-to-150k/paolo-antonio-testore-milan-c-1750-later-head-violin",
       "sourceImage": "https://www.reuning.com/wp-content/uploads/2026/04/R25783_3.jpg",
       "cropBox": [
-        122,
-        3,
-        607,
-        851
+        131,
+        0,
+        598,
+        847
       ],
-      "scale": 1.8042,
+      "scale": 1.8064,
       "size": [
         1200,
         1700
@@ -530,12 +530,12 @@
       "sourcePage": "https://www.reuning.com/violins-priced-75k-to-150k/carl-g-becker-chicago-1972-violin",
       "sourceImage": "https://www.reuning.com/wp-content/uploads/2026/04/R26097_3.jpg",
       "cropBox": [
-        118,
-        3,
-        611,
-        845
+        127,
+        0,
+        602,
+        847
       ],
-      "scale": 1.8171,
+      "scale": 1.8064,
       "size": [
         1200,
         1700
@@ -548,12 +548,12 @@
       "sourcePage": "https://www.reuning.com/violins-priced-75k-to-150k/pierre-silvestre-lyon-1854-violin",
       "sourceImage": "https://www.reuning.com/wp-content/uploads/2026/04/R26084_3.jpg",
       "cropBox": [
-        114,
-        3,
-        610,
-        846
+        123,
+        0,
+        601,
+        847
       ],
-      "scale": 1.8149,
+      "scale": 1.8064,
       "size": [
         1200,
         1700
@@ -566,12 +566,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/markneukirchen-master-violin-by-theodor-berger",
       "sourceImage": "https://www.corilon.com/media/image/c1/88/fa/theodor-berger-markneukirchen_2_1890x1890.jpg",
       "cropBox": [
-        241,
-        706,
-        936,
-        1884
+        254,
+        4,
+        923,
+        1890
       ],
-      "scale": 1.2988,
+      "scale": 0.8112,
       "size": [
         1200,
         1700
@@ -584,12 +584,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/fine-french-violin-daniel-moinel-paris",
       "sourceImage": "https://www.corilon.com/media/image/c6/11/b7/daniel-moinel-paris-7899-2_1890x1890.jpg",
       "cropBox": [
-        238,
-        716,
-        936,
+        250,
+        0,
+        924,
         1890
       ],
-      "scale": 1.3032,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -602,12 +602,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/fine-french-violin-louis-moitessier",
       "sourceImage": "https://www.corilon.com/media/image/53/44/29/louis-moitessier_2_1890x1890.jpg",
       "cropBox": [
-        238,
-        724,
-        933,
+        251,
+        0,
+        920,
         1890
       ],
-      "scale": 1.3122,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -620,12 +620,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/william-ebsworth-hill",
       "sourceImage": "https://www.corilon.com/media/image/7a/11/ec/english-hill-6999-2_1890x1890.jpg",
       "cropBox": [
-        227,
-        667,
-        942,
+        240,
+        0,
+        929,
         1890
       ],
-      "scale": 1.251,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -638,12 +638,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/didier-nicolas-aine-french-violin-approx-1935",
       "sourceImage": "https://www.corilon.com/media/image/f4/a6/66/didier-nicolas-7788-2_1890x1890.jpg",
       "cropBox": [
-        230,
-        717,
-        938,
+        222,
+        0,
+        925,
         1890
       ],
-      "scale": 1.3043,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -656,12 +656,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/claude-chevrier-violin-mirecourt",
       "sourceImage": "https://www.corilon.com/media/image/db/fa/3d/claude-chevirier-7586-2_1890x1890.jpg",
       "cropBox": [
-        235,
-        684,
-        940,
+        248,
+        0,
+        927,
         1890
       ],
-      "scale": 1.2687,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -674,12 +674,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/johann-georg-schonfelder-markneukirchen-violin",
       "sourceImage": "https://www.corilon.com/media/image/6b/25/67/johann-georg-schonfelder-markneukirchen-a189-2_1890x1890.jpg",
       "cropBox": [
-        266,
-        720,
-        972,
+        279,
+        0,
+        959,
         1890
       ],
-      "scale": 1.3077,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -692,12 +692,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-willi-lindorfer",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/willi-lindorfer-violin-berlin-1939-b-800x1900.jpg",
       "cropBox": [
-        66,
-        711,
-        733,
-        1846
+        78,
+        42,
+        721,
+        1858
       ],
-      "scale": 1.348,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -710,12 +710,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-auguste-sebastien-philippe-bernardel-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/august-sebastien-bernardel-paris-violin-1865-b-800x1900.jpg",
       "cropBox": [
-        65,
-        709,
-        735,
-        1845
+        77,
+        42,
+        723,
+        1858
       ],
-      "scale": 1.3468,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -728,12 +728,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-sesto-rocchi-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/sesto-rocchi-san-polo-denza-violin-1973-b-800x1900.jpg",
       "cropBox": [
-        62,
-        719,
-        737,
-        1842
+        74,
+        40,
+        725,
+        1859
       ],
-      "scale": 1.3624,
+      "scale": 0.8411,
       "size": [
         1200,
         1700
@@ -746,12 +746,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-12",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/jean-baptiste-vuillaume-Violin-paris-c1840-b-800x1900.jpg",
       "cropBox": [
-        68,
+        80,
+        37,
         720,
-        732,
-        1844
+        1859
       ],
-      "scale": 1.3612,
+      "scale": 0.8397,
       "size": [
         1200,
         1700
@@ -764,12 +764,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giovanni-schwarz",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/04/giovanni-schwarz-Violin-venice-1927-b-800x1900.jpg",
       "cropBox": [
-        71,
-        722,
-        728,
-        1843
+        83,
+        42,
+        716,
+        1858
       ],
-      "scale": 1.3649,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -782,12 +782,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-antonio-gagliano-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/giuseppe-and-antonio-gagliano-naples-violin-1805-b-800x1900.jpg",
       "cropBox": [
-        69,
-        729,
-        731,
-        1840
+        81,
+        42,
+        719,
+        1859
       ],
-      "scale": 1.3771,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -800,12 +800,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-alessandro-gagliano-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/alessandro-gagliano-violin-c1725-naples-b-800x1900.jpg",
       "cropBox": [
-        78,
-        704,
-        722,
-        1840
+        90,
+        41,
+        710,
+        1859
       ],
-      "scale": 1.3468,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -818,12 +818,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-franz-kinberg",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/franz-kinberg-violin-1951-chicago-b-800x1900.jpg",
       "cropBox": [
-        60,
-        720,
-        740,
-        1840
+        73,
+        42,
+        727,
+        1858
       ],
-      "scale": 1.3661,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -836,12 +836,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-arthur-richardson",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/arthur-richardson-violin-1936-crediton-1007-b-800x1900.jpg",
       "cropBox": [
-        63,
-        707,
-        736,
-        1842
+        75,
+        42,
+        724,
+        1858
       ],
-      "scale": 1.348,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -854,12 +854,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-sesto-rocchi-6",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2022/07/sesto-rocchi-violin-san-polo-denza-1973-b-800x1900.jpg",
       "cropBox": [
-        59,
-        711,
-        740,
-        1841
+        72,
+        42,
+        727,
+        1859
       ],
-      "scale": 1.354,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -872,12 +872,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-sesto-rocchi-4",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/sesto-rocchi-violin-1979-san-polo-denza-b-800x1900.jpg",
       "cropBox": [
-        63,
-        708,
-        737,
-        1835
+        75,
+        41,
+        725,
+        1860
       ],
-      "scale": 1.3576,
+      "scale": 0.8411,
       "size": [
         1200,
         1700
@@ -890,12 +890,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-sesto-rocchi-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/06/Sesto-Rocchi-San-Polo-dEnza-1972-violin-b-800x1900.jpg",
       "cropBox": [
-        66,
-        720,
-        734,
-        1831
+        78,
+        41,
+        722,
+        1860
       ],
-      "scale": 1.3771,
+      "scale": 0.8411,
       "size": [
         1200,
         1700
@@ -908,12 +908,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-george-pyne-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/george-pyne-violin-london-c1920-b-800x1900.jpg",
       "cropBox": [
-        69,
-        716,
-        731,
-        1845
+        81,
+        42,
+        719,
+        1859
       ],
-      "scale": 1.3552,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -926,12 +926,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-sesto-rocchi",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/06/sesto-rocchi-violin-1977-b-800x1900.jpg",
       "cropBox": [
-        62,
-        710,
-        736,
-        1837
+        74,
+        42,
+        724,
+        1860
       ],
-      "scale": 1.3576,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -944,12 +944,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-4",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/06/jean-baptiste-vuillaume-st-jean-violin-evangelist-quartet-1863-b-800x1900.jpg",
       "cropBox": [
-        67,
-        717,
-        732,
-        1844
+        79,
+        42,
+        720,
+        1858
       ],
-      "scale": 1.3576,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -962,12 +962,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-hilaire-darche-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/hilaire-darche-violin-brussels-1910-b-800x1900.jpg",
       "cropBox": [
-        70,
-        714,
-        730,
-        1842
+        82,
+        42,
+        718,
+        1858
       ],
-      "scale": 1.3564,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -980,12 +980,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-domingos-antonio-capela",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/domingos-and-antonio-capela-violin-anta-espinho-1975-b-800x1900.jpg",
       "cropBox": [
-        69,
-        715,
-        730,
-        1842
+        81,
+        41,
+        718,
+        1858
       ],
-      "scale": 1.3576,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -998,12 +998,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-francois-fent",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/francois-fent-violin-paris-late-18th-century-b-800x1900.jpg",
       "cropBox": [
-        69,
-        703,
-        731,
-        1842
+        81,
+        42,
+        719,
+        1858
       ],
-      "scale": 1.3433,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1016,12 +1016,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-arthur-richardson-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/arthur-richardson-violin-1936-1010-crediton-b-800x1900.jpg",
       "cropBox": [
-        65,
-        714,
-        735,
-        1842
+        77,
+        42,
+        723,
+        1858
       ],
-      "scale": 1.3564,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1034,12 +1034,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-charles-boullangier",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/charles-boullangier-violin-london-1878-b-800x1900.jpg",
       "cropBox": [
-        67,
-        709,
-        732,
-        1842
+        79,
+        42,
+        720,
+        1859
       ],
-      "scale": 1.3504,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1052,12 +1052,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-paul-serdet",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2022/07/paul-serdet-violin-paris-1906-b-800x1900.jpg",
       "cropBox": [
-        67,
-        708,
-        733,
-        1842
+        79,
+        42,
+        721,
+        1858
       ],
-      "scale": 1.3492,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1070,12 +1070,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-aldo-zani-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/aldo-zani-violin-1970-b-800x1900.jpg",
       "cropBox": [
-        65,
-        717,
-        734,
-        1847
+        77,
+        42,
+        722,
+        1859
       ],
-      "scale": 1.354,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1088,12 +1088,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-jean-baptiste-vuiilaume-in-paris-on-1862",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Jean-Baptiste-Vuillaume-Paris-1862-violin-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        60,
-        708,
-        739,
-        1849
+        73,
+        42,
+        726,
+        1860
       ],
-      "scale": 1.3409,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -1106,12 +1106,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-7",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Jean-Baptiste-Vuillaume-Paris-1855-violin-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        63,
-        714,
-        732,
-        1845
+        75,
+        41,
+        720,
+        1858
       ],
-      "scale": 1.3528,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1124,12 +1124,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-matthew-hardie-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/matthew-hardie-violin-edinburgh-1928-b-800x1900.jpg",
       "cropBox": [
-        69,
-        717,
-        730,
-        1844
+        81,
+        42,
+        718,
+        1859
       ],
-      "scale": 1.3576,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1142,12 +1142,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giovanni-francesco-pressenda-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/giovanni-francesco-pressenda-violin-turin-1843-b-800x1900.jpg",
       "cropBox": [
-        71,
-        727,
-        729,
-        1839
+        83,
+        42,
+        717,
+        1859
       ],
-      "scale": 1.3759,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1160,12 +1160,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-antonio-rocca",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Giuseppe-Rocca-Turin-1854-violin-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        63,
-        719,
-        736,
-        1848
+        75,
+        42,
+        724,
+        1858
       ],
-      "scale": 1.3552,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1178,12 +1178,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-albert-blanchi",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/05/Albert-Blanchi-Nice-1931-violin-b-800x1900.jpg",
       "cropBox": [
-        68,
-        716,
-        732,
-        1839
+        80,
+        41,
+        720,
+        1860
       ],
-      "scale": 1.3624,
+      "scale": 0.8411,
       "size": [
         1200,
         1700
@@ -1196,12 +1196,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-hippolyte-chretien-silvestre-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/hippolyte-chretien-silvestre-lyon-c1890-violin-b-800x1900.jpg",
       "cropBox": [
-        71,
-        715,
-        729,
-        1845
+        83,
+        42,
+        717,
+        1858
       ],
-      "scale": 1.354,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1214,12 +1214,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-guarneri-del-gesu",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2019/12/Giuseppe-Guarneri-del-Gesu-Cremona-1739-violin-Il-Museo-Grumiaux-b-800x1900.jpg",
       "cropBox": [
-        73,
-        720,
-        727,
-        1842
+        85,
+        41,
+        715,
+        1858
       ],
-      "scale": 1.3636,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1232,12 +1232,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-jean-baptiste-vuiilaume-in-paris-on-1848",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Jean-Baptiste-Vuillaume-Paris-1848-violin-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        68,
-        713,
-        739,
-        1846
+        80,
+        41,
+        727,
+        1859
       ],
-      "scale": 1.3504,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -1250,12 +1250,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-11",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/jean-baptiste-vuillaume-violin-paris-1844-b-800x1900.jpg",
       "cropBox": [
-        67,
-        709,
-        733,
-        1843
+        79,
+        42,
+        721,
+        1858
       ],
-      "scale": 1.3492,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1268,12 +1268,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-romeo-antoniazzi-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/romeo-antoniazzi-milan-violin-c1910-b-800x1900.jpg",
       "cropBox": [
-        64,
-        711,
-        736,
-        1844
+        76,
+        42,
+        724,
+        1859
       ],
-      "scale": 1.3504,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1286,12 +1286,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-deshayes-salomon",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/jean-baptiste-deshayes-salomon-violin-18th-century-b-800x1900.jpg",
       "cropBox": [
-        68,
-        719,
-        732,
-        1848
+        80,
+        42,
+        720,
+        1858
       ],
-      "scale": 1.3552,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1304,12 +1304,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-george-craske-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/george-craske-violin-c1880-b-800x1900.jpg",
       "cropBox": [
-        66,
-        706,
-        734,
-        1848
+        78,
+        42,
+        722,
+        1859
       ],
-      "scale": 1.3398,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1322,12 +1322,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-pauli-merling-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/Pauli-merling-violin-1937-copenhagen-b-800x1900.jpg",
       "cropBox": [
-        63,
-        709,
-        737,
-        1844
+        75,
+        42,
+        725,
+        1858
       ],
-      "scale": 1.348,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1340,12 +1340,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-paul-bailly-5",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/paul-bailly-violin-paris-c1885-b-800x1900.jpg",
       "cropBox": [
-        65,
-        708,
-        734,
-        1850
+        77,
+        42,
+        722,
+        1859
       ],
-      "scale": 1.3398,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1358,12 +1358,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-pierre-joseph-hel-6",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/pierre-joseph-hel-Violin-lille-1901-b-800x1900.jpg",
       "cropBox": [
-        60,
-        704,
-        739,
-        1843
+        73,
+        41,
+        726,
+        1858
       ],
-      "scale": 1.3433,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1376,12 +1376,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-dollenz-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2022/05/giuseppe-dollenz-violin-trieste-1887-b-800x1900.jpg",
       "cropBox": [
-        70,
-        721,
-        729,
-        1850
+        82,
+        39,
+        717,
+        1859
       ],
-      "scale": 1.3552,
+      "scale": 0.8407,
       "size": [
         1200,
         1700
@@ -1394,12 +1394,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-francesco-rugeri-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/francesco-rugeri-violin-c1670-1009-b-800x1900.jpg",
       "cropBox": [
-        73,
+        85,
+        42,
         715,
-        727,
-        1847
+        1858
       ],
-      "scale": 1.3516,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1412,12 +1412,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-arturo-fracassi",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/arturo-fracassi-violin-cesena-1940-b-800x1900.jpg",
       "cropBox": [
-        69,
-        711,
-        731,
-        1836
+        81,
+        42,
+        719,
+        1858
       ],
-      "scale": 1.36,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1430,12 +1430,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-benigno-saccani",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2022/05/benigno-saccani-violin-milan-1909-b-800x1900.jpg",
       "cropBox": [
-        66,
-        713,
-        734,
-        1832
+        78,
+        37,
+        722,
+        1860
       ],
-      "scale": 1.3673,
+      "scale": 0.8393,
       "size": [
         1200,
         1700
@@ -1448,12 +1448,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-johannes-theodorus-cuypers-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/johannes-theodorus-cuypers-the-hague-violin-c1780-1009-b-800x1900.jpg",
       "cropBox": [
-        72,
-        735,
-        727,
-        1845
+        84,
+        42,
+        715,
+        1858
       ],
-      "scale": 1.3784,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -1466,12 +1466,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-giuseppe-guarneri-filius-andreae-in-cremona-on-circa-1705",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Giuseppe-filius-Guarneri-Cremona-c1705-violin-Cremona-b-800x1900.jpg",
       "cropBox": [
-        77,
-        724,
-        722,
-        1836
+        89,
+        41,
+        710,
+        1858
       ],
-      "scale": 1.3759,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1484,12 +1484,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-piero-parravicini",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/piero-parravicini-violin-1928-milan-b-800x1900.jpg",
       "cropBox": [
-        70,
-        721,
-        730,
-        1842
+        82,
+        42,
+        718,
+        1859
       ],
-      "scale": 1.3649,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1502,12 +1502,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-emil-hjorth-sonner-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/emil-hjorth-and-sonner-violin-1917-copenhagen-b-800x1900.jpg",
       "cropBox": [
-        67,
-        713,
-        734,
-        1848
+        79,
+        42,
+        722,
+        1859
       ],
-      "scale": 1.348,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1520,12 +1520,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-william-luff",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/william-luff-violin-1991-london-b-800x1900.jpg",
       "cropBox": [
-        69,
-        707,
-        731,
-        1831
+        81,
+        42,
+        719,
+        1859
       ],
-      "scale": 1.3612,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1538,12 +1538,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/05/Jean-Baptiste-Vuillaume-Paris-1854-violin-p.8-9-b-800x1900.jpg",
       "cropBox": [
-        71,
-        719,
-        730,
-        1839
+        83,
+        42,
+        718,
+        1860
       ],
-      "scale": 1.3661,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -1556,12 +1556,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/selectio-opus17-masterviolin",
       "sourceImage": "https://www.corilon.com/media/image/19/ae/73/opus17-7022-2_1890x1890.jpg",
       "cropBox": [
-        235,
-        693,
-        941,
+        248,
+        0,
+        928,
         1890
       ],
-      "scale": 1.2782,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1574,12 +1574,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/18th-century-vogtland-violin",
       "sourceImage": "https://www.corilon.com/media/image/a9/d3/0d/vogtland-7810-2_1890x1890.jpg",
       "cropBox": [
-        232,
-        718,
-        942,
+        245,
+        0,
+        929,
         1890
       ],
-      "scale": 1.3055,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1592,12 +1592,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/leo-aschauer-mittenwald-soloist-violin",
       "sourceImage": "https://www.corilon.com/media/image/6d/a6/81/ludwig-aschauer-mittenwald-7010-2_1890x1890.jpg",
       "cropBox": [
-        229,
-        692,
-        947,
+        242,
+        0,
+        934,
         1890
       ],
-      "scale": 1.2771,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1610,12 +1610,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/premsyl-otakar-spidlen-violin-prague",
       "sourceImage": "https://www.corilon.com/media/image/d1/ea/58/premsyl-otakar-spidlen-a176-2_1890x1890.jpg",
       "cropBox": [
-        238,
-        715,
-        931,
+        251,
+        0,
+        918,
         1890
       ],
-      "scale": 1.3021,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1628,12 +1628,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violin-bruno-piastri-1993",
       "sourceImage": "https://www.corilon.com/media/image/cd/48/c0/bruno-piastri_2_1890x1890.jpg",
       "cropBox": [
-        244,
-        712,
-        931,
+        257,
+        0,
+        918,
         1890
       ],
-      "scale": 1.2988,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1646,12 +1646,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/officina-mauro-lucini-cremona-guarnerius",
       "sourceImage": "https://www.corilon.com/media/image/29/08/e9/mauro-lucini-n88-7791-2_1890x1890.jpg",
       "cropBox": [
-        242,
-        710,
-        934,
+        255,
+        0,
+        921,
         1890
       ],
-      "scale": 1.2966,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1664,12 +1664,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/officina-claudio-monteverde-cremona-1923-italian-violin",
       "sourceImage": "https://www.corilon.com/media/image/81/f4/32/italian-7670-2_1890x1890.jpg",
       "cropBox": [
-        239,
-        708,
-        950,
+        252,
+        0,
+        937,
         1890
       ],
-      "scale": 1.2944,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1682,12 +1682,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-amati-in-cremona-on-circa-1621",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Girolamo-Antonio-Amati-Cremona-c1620-violin-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        78,
-        718,
-        722,
-        1839
+        90,
+        42,
+        710,
+        1859
       ],
-      "scale": 1.3649,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1700,12 +1700,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-amati-in-cremona-on-circa-1625",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Girolamo-Antonio-Amati-Cremona-c1625-violin-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        87,
-        744,
-        714,
-        1843
+        98,
+        41,
+        703,
+        1859
       ],
-      "scale": 1.3922,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -1718,12 +1718,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-amati-in-cremona-on-1596",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Girolamo-Antonio-Amati-Cremona-1596-violin-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        77,
-        728,
-        723,
-        1840
+        89,
+        42,
+        711,
+        1859
       ],
-      "scale": 1.3759,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -1736,12 +1736,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/fine-violin-mittenwald-sebastian-klotz-circle",
       "sourceImage": "https://www.corilon.com/media/image/54/32/59/klotz-mittenwald-7779-2_1890x1890.jpg",
       "cropBox": [
-        239,
-        708,
-        928,
+        252,
+        0,
+        915,
         1890
       ],
-      "scale": 1.2944,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1754,12 +1754,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/modern-italian-violin-cremonese",
       "sourceImage": "https://www.corilon.com/media/image/18/2f/73/massimo-ardoli-cremona-a279-2_1890x1890.jpg",
       "cropBox": [
-        232,
-        724,
-        979,
+        212,
+        0,
+        968,
         1890
       ],
-      "scale": 1.3122,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1772,12 +1772,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/fine-french-violin-after-guarnerius",
       "sourceImage": "https://www.corilon.com/media/image/b6/1c/cc/french-c1800-7877-2_1890x1890.jpg",
       "cropBox": [
-        257,
-        759,
-        921,
+        269,
+        0,
+        909,
         1890
       ],
-      "scale": 1.3528,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1790,12 +1790,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/french-violin-georges-apparut",
       "sourceImage": "https://www.corilon.com/media/image/57/8f/83/georges-apparut-7433-2_1890x1890.jpg",
       "cropBox": [
-        249,
-        733,
-        919,
+        261,
+        0,
+        907,
         1890
       ],
-      "scale": 1.3224,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1808,12 +1808,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/monzino-figli-milano-italian-violin",
       "sourceImage": "https://www.corilon.com/media/image/65/34/f7/monzino-antoniazzi-milano-a242-2_1890x1890.jpg",
       "cropBox": [
-        245,
-        713,
-        933,
+        258,
+        0,
+        920,
         1890
       ],
-      "scale": 1.2999,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1826,12 +1826,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/giuseppe-gagliano-violin-1760",
       "sourceImage": "https://www.corilon.com/media/image/e1/91/fd/giuseppe-gagliano_2_1890x1890.jpg",
       "cropBox": [
-        229,
-        720,
-        919,
+        242,
+        4,
+        906,
         1890
       ],
-      "scale": 1.3077,
+      "scale": 0.8112,
       "size": [
         1200,
         1700
@@ -1844,12 +1844,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/mauro-lucini-master-violin",
       "sourceImage": "https://www.corilon.com/media/image/b9/6e/34/mauro-lucini-no32-2_1890x1890.jpg",
       "cropBox": [
-        213,
-        709,
-        974,
+        227,
+        0,
+        960,
         1890
       ],
-      "scale": 1.2955,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1862,12 +1862,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/cremona-violins/alceste-bulfari-cremona",
       "sourceImage": "https://www.corilon.com/media/image/de/f5/08/alceste-bulfair-cremona-a268-2_1890x1890.jpg",
       "cropBox": [
-        246,
-        701,
-        939,
+        259,
+        0,
+        926,
         1890
       ],
-      "scale": 1.2868,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1880,12 +1880,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/antique-markneukirchen-master-violin-c1800",
       "sourceImage": "https://www.corilon.com/media/image/bb/0d/5f/saxon-masterpiece-1850-7224-2_1890x1890.jpg",
       "cropBox": [
-        220,
-        696,
-        930,
+        233,
+        0,
+        917,
         1890
       ],
-      "scale": 1.2814,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1898,12 +1898,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/fine-violin-louis-collenot",
       "sourceImage": "https://www.corilon.com/media/image/60/1a/2b/louis-collenot-7745-2_1890x1890.jpg",
       "cropBox": [
-        234,
-        694,
-        973,
+        247,
+        0,
+        972,
         1890
       ],
-      "scale": 1.2793,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1916,12 +1916,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/french-violin-by-jean-baptiste-grand-gerard",
       "sourceImage": "https://www.corilon.com/media/image/f3/29/d3/jean-baptiste-grand-gerard-7782-2a_1890x1890.jpg",
       "cropBox": [
-        251,
-        729,
-        924,
+        263,
+        0,
+        912,
         1890
       ],
-      "scale": 1.3178,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1934,12 +1934,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/interesting-master-violin-1850",
       "sourceImage": "https://www.corilon.com/media/image/77/23/59/markneukirchen-7644-2_1890x1890.jpg",
       "cropBox": [
-        243,
-        685,
-        934,
+        256,
+        0,
+        921,
         1890
       ],
-      "scale": 1.2697,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1952,12 +1952,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/contemporary-italian-cremona-violin",
       "sourceImage": "https://www.corilon.com/media/image/9b/1a/0d/luca-branchetti-pistoia-2_1890x1890.jpg",
       "cropBox": [
-        234,
-        685,
-        951,
+        247,
+        0,
+        938,
         1890
       ],
-      "scale": 1.2697,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1970,12 +1970,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/fine-italian-violin-mario-gadda",
       "sourceImage": "https://www.corilon.com/media/image/3d/12/14/mario-gadda-1972-7680-2_1890x1890.jpg",
       "cropBox": [
-        226,
-        694,
-        945,
+        239,
+        0,
+        932,
         1890
       ],
-      "scale": 1.2793,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -1988,12 +1988,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/cremona-violin-luigi-aquilino",
       "sourceImage": "https://www.corilon.com/media/image/31/6a/ce/luigi-aquilino-cremona-2_1890x1890.jpg",
       "cropBox": [
-        229,
-        702,
-        938,
+        242,
+        0,
+        925,
         1890
       ],
-      "scale": 1.2879,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2006,12 +2006,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/nicolo-gagliano-violin-1762",
       "sourceImage": "https://www.corilon.com/media/image/b4/13/cf/nicolo-gagliano_2_1890x1890.jpg",
       "cropBox": [
-        243,
-        734,
-        934,
+        256,
+        0,
+        921,
         1890
       ],
-      "scale": 1.3235,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2024,12 +2024,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/1970",
       "sourceImage": "https://www.corilon.com/media/image/c7/d1/8c/pietro-campanale-7672-2_1890x1890.jpg",
       "cropBox": [
-        235,
-        728,
-        934,
+        237,
+        0,
+        922,
         1890
       ],
-      "scale": 1.3167,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2042,12 +2042,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/ernst-heinrich-roth-master-violin-guarnerius",
       "sourceImage": "https://www.corilon.com/media/image/65/91/e8/ernst-heinrich-roth-7226-2_1890x1890.jpg",
       "cropBox": [
-        232,
-        706,
-        944,
+        245,
+        0,
+        931,
         1890
       ],
-      "scale": 1.2922,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2060,12 +2060,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/luigi-galimberti-fine-italian-violin-milano",
       "sourceImage": "https://www.corilon.com/media/image/6e/98/b7/luigi-galimberti-2_1890x1890.jpg",
       "cropBox": [
-        233,
-        703,
-        946,
+        246,
+        0,
+        933,
         1890
       ],
-      "scale": 1.289,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2078,12 +2078,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/philippe-mahu-violin-paris",
       "sourceImage": "https://www.corilon.com/media/image/6f/bb/5d/philipe-mahu-2_1890x1890.jpg",
       "cropBox": [
-        233,
-        692,
-        947,
+        246,
+        0,
+        934,
         1890
       ],
-      "scale": 1.2771,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2096,12 +2096,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/modern-italian-violin-santino-masculo",
       "sourceImage": "https://www.corilon.com/media/image/02/8b/a0/santino-masculo-7079-2a_1890x1890.jpg",
       "cropBox": [
-        229,
-        699,
-        910,
+        209,
+        0,
+        898,
         1890
       ],
-      "scale": 1.2846,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2114,12 +2114,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/markneukirchen-soloist-violin-1940",
       "sourceImage": "https://www.corilon.com/media/image/d2/c2/ee/rudolf-schuster-graz-6695-2_1890x1890.jpg",
       "cropBox": [
-        229,
-        691,
-        941,
+        242,
+        0,
+        928,
         1890
       ],
-      "scale": 1.2761,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2132,12 +2132,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/19th-century-viennese-master-violin",
       "sourceImage": "https://www.corilon.com/media/image/3d/10/02/ferdinand-jaura-a191-2_1890x1890.jpg",
       "cropBox": [
-        245,
-        715,
-        936,
+        257,
+        0,
+        939,
         1890
       ],
-      "scale": 1.3021,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2150,12 +2150,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/italian-violin-milan-1900",
       "sourceImage": "https://www.corilon.com/media/image/5d/fc/f9/italiano-milano-6791-2_1890x1890.jpg",
       "cropBox": [
-        232,
-        711,
-        931,
+        244,
+        0,
+        919,
         1890
       ],
-      "scale": 1.2977,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2168,12 +2168,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/old-italian-violin-early-20th-century",
       "sourceImage": "https://www.corilon.com/media/image/44/4e/2d/antonio-iornini-italian_2_1890x1890.jpg",
       "cropBox": [
-        234,
-        713,
-        940,
+        247,
+        0,
+        927,
         1890
       ],
-      "scale": 1.2999,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2186,12 +2186,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/fine-italian-violin",
       "sourceImage": "https://www.corilon.com/media/image/dd/d4/42/fine-italian-carlson-neumann_2_1890x1890.jpg",
       "cropBox": [
-        228,
-        729,
-        917,
+        241,
+        0,
+        904,
         1890
       ],
-      "scale": 1.3178,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2204,12 +2204,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violin-luigi-lanaro",
       "sourceImage": "https://www.corilon.com/media/image/c9/be/02/1404_2_luigi_lanaro_2_1890x1890.jpg",
       "cropBox": [
-        230,
-        705,
-        925,
-        1884
+        243,
+        0,
+        912,
+        1890
       ],
-      "scale": 1.2977,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2222,12 +2222,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violin-from-cremona-renato-superti",
       "sourceImage": "https://www.corilon.com/media/image/11/4e/5f/renato-superti-cremona-6745-2_1890x1890.jpg",
       "cropBox": [
-        239,
-        729,
-        932,
+        252,
+        0,
+        919,
         1890
       ],
-      "scale": 1.3178,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2240,12 +2240,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violin-giorgio-grisales-cremona",
       "sourceImage": "https://www.corilon.com/media/image/40/34/0b/giorgio-grisales_2_1890x1890.jpg",
       "cropBox": [
-        261,
-        716,
-        932,
-        1869
+        134,
+        20,
+        1003,
+        1890
       ],
-      "scale": 1.327,
+      "scale": 0.8182,
       "size": [
         1200,
         1700
@@ -2258,12 +2258,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/german-violins/oskar-guetter-markneukirchen-violin",
       "sourceImage": "https://www.corilon.com/media/image/2f/2a/c0/oskar-guetter-markneukirchen-a237-2_1890x1890.jpg",
       "cropBox": [
-        243,
-        727,
-        935,
+        239,
+        0,
+        957,
         1890
       ],
-      "scale": 1.3156,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2276,12 +2276,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violin-puglisi-catania",
       "sourceImage": "https://www.corilon.com/media/image/99/4b/42/michelangelo-puglisi-7865-2_1890x1890.jpg",
       "cropBox": [
-        240,
-        694,
-        922,
-        1882
+        253,
+        0,
+        909,
+        1890
       ],
-      "scale": 1.2879,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2294,12 +2294,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/german-violins/kurt-guetter-markneukirchen-violin",
       "sourceImage": "https://www.corilon.com/media/image/93/e4/49/kurt-guetter-markneukirchen-7695-2_1890x1890.jpg",
       "cropBox": [
-        227,
-        686,
-        946,
+        240,
+        0,
+        933,
         1890
       ],
-      "scale": 1.2708,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2312,12 +2312,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/ferarri-cremona-violin",
       "sourceImage": "https://www.corilon.com/media/image/ba/4b/bd/simona-ferrari-cremona-7624-2_1890x1890.jpg",
       "cropBox": [
-        221,
-        706,
-        942,
+        234,
+        0,
+        929,
         1890
       ],
-      "scale": 1.2922,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2330,12 +2330,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/giuseppe-nupieri-roma",
       "sourceImage": "https://www.corilon.com/media/image/bc/77/54/giuseppe-nupieri-roma-7557-2_1890x1890.jpg",
       "cropBox": [
-        239,
-        705,
-        942,
+        252,
+        0,
+        929,
         1890
       ],
-      "scale": 1.2911,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2348,12 +2348,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/umberto-lanaro-violin",
       "sourceImage": "https://www.corilon.com/media/image/9d/db/f2/umberto-lanaro-7084-2_1890x1890.jpg",
       "cropBox": [
-        228,
-        693,
-        944,
+        241,
+        0,
+        931,
         1890
       ],
-      "scale": 1.2782,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2366,12 +2366,12 @@
       "sourcePage": "https://www.corilon.com/us/violins/italian-violins/cesare-castelli-asculi-piceno",
       "sourceImage": "https://www.corilon.com/media/image/05/fd/2c/cesare-castelli-6640-2_1890x1890.jpg",
       "cropBox": [
-        232,
-        687,
-        942,
+        245,
+        0,
+        929,
         1890
       ],
-      "scale": 1.2718,
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -2402,12 +2402,12 @@
       "sourcePage": "https://www.metmuseum.org/art/collection/search/503010",
       "sourceImage": "https://images.metmuseum.org/CRDImages/mi/web-large/DP167846.jpg",
       "cropBox": [
-        137,
-        253,
-        332,
-        598
+        0,
+        0,
+        468,
+        603
       ],
-      "scale": 4.4348,
+      "scale": 2.3077,
       "size": [
         1200,
         1700
@@ -2420,12 +2420,12 @@
       "sourcePage": "https://www.loc.gov/item/2022560101/",
       "sourceImage": "https://tile.loc.gov/image-services/iiif/public:music:musihas-200154811:musihas-200154811.0001/full/pct:70.0/0/default.jpg",
       "cropBox": [
-        148,
-        156,
-        1482,
-        2428
+        173,
+        0,
+        1457,
+        2399
       ],
-      "scale": 0.6734,
+      "scale": 0.6378,
       "size": [
         1200,
         1700
@@ -2440,7 +2440,7 @@
       "cropBox": [
         0,
         0,
-        1247,
+        1285,
         2077
       ],
       "scale": 0.7366,
@@ -2457,11 +2457,11 @@
       "sourceImage": "https://tile.loc.gov/image-services/iiif/public:music:musihas-200154810:musihas-200154810.0001/full/pct:70.0/0/default.jpg",
       "cropBox": [
         0,
-        27,
+        0,
         1134,
         2058
       ],
-      "scale": 0.7533,
+      "scale": 0.7434,
       "size": [
         1200,
         1700
@@ -2474,12 +2474,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-11",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-1695-violin-goetz-b-800x1900.jpg",
       "cropBox": [
-        82,
-        715,
-        718,
-        1845
+        94,
+        41,
+        706,
+        1859
       ],
-      "scale": 1.354,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -2492,12 +2492,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-12",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-1713-violin-pingrille-b-800x1900.jpg",
       "cropBox": [
-        69,
-        707,
-        732,
-        1834
+        81,
+        41,
+        720,
+        1859
       ],
-      "scale": 1.3576,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -2510,12 +2510,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-13",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-c1698-violin-guyot-b-800x1900.jpg",
       "cropBox": [
-        72,
-        727,
-        728,
-        1843
+        84,
+        42,
+        716,
+        1859
       ],
-      "scale": 1.371,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -2528,12 +2528,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-14",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/04/antonio-stradivari-cremona-violin-1708-havemeyer-b-800x1900.jpg",
       "cropBox": [
-        69,
-        721,
-        731,
-        1846
+        81,
+        40,
+        719,
+        1860
       ],
-      "scale": 1.36,
+      "scale": 0.8407,
       "size": [
         1200,
         1700
@@ -2546,12 +2546,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-16",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/04/antonio-stradivari-cremona-violin-1712-le-brun-b-800x1900.jpg",
       "cropBox": [
-        43,
-        743,
-        736,
-        1834
+        55,
+        74,
+        747,
+        1849
       ],
-      "scale": 1.4024,
+      "scale": 0.862,
       "size": [
         1200,
         1700
@@ -2564,12 +2564,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-17",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2024/05/Antonio-Stradivari-Cremona-1734-vn-b-800x1900.jpg",
       "cropBox": [
-        68,
-        711,
-        732,
-        1842
+        80,
+        37,
+        720,
+        1858
       ],
-      "scale": 1.3528,
+      "scale": 0.8402,
       "size": [
         1200,
         1700
@@ -2582,12 +2582,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-18",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2026/01/Koeber-back-resized-e1768221266487-800x1679.jpg",
       "cropBox": [
-        74,
-        590,
-        714,
-        1677
+        86,
+        496,
+        702,
+        1679
       ],
-      "scale": 1.4075,
+      "scale": 1.2933,
       "size": [
         1200,
         1700
@@ -2600,12 +2600,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-2",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2019/11/Antonio-Stradivari-Cremona-1697-violin-Molitor-b-800x1900.jpg",
       "cropBox": [
-        78,
-        721,
-        723,
-        1842
+        90,
+        42,
+        711,
+        1859
       ],
-      "scale": 1.3649,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -2618,12 +2618,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-3",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Antonio-Stradivari-Cremona-1717-violin-Sothebys-Ex-Piatti-b-800x1900.jpg",
       "cropBox": [
-        72,
-        729,
-        729,
-        1846
+        84,
+        41,
+        717,
+        1859
       ],
-      "scale": 1.3697,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -2636,12 +2636,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-4",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Antonio-Stradivari-Cremona-1709-violin-Sothebys-Ex-Marie-Hall-b-800x1900.jpg",
       "cropBox": [
-        71,
-        722,
-        728,
-        1839
+        83,
+        41,
+        716,
+        1860
       ],
-      "scale": 1.3697,
+      "scale": 0.8411,
       "size": [
         1200,
         1700
@@ -2654,12 +2654,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-5",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Antonio-Stradivari-Cremona-1725-violin-Wilhelmj-b-800x1900.jpg",
       "cropBox": [
-        82,
+        94,
+        41,
         721,
-        733,
-        1841
+        1858
       ],
-      "scale": 1.3661,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -2672,12 +2672,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-6",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-violin-1667-sachs-b-800x1900.jpg",
       "cropBox": [
-        85,
-        723,
-        715,
-        1842
+        97,
+        42,
+        703,
+        1859
       ],
-      "scale": 1.3673,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -2690,12 +2690,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-8",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-1701-violin-ferraresi-b-800x1900.jpg",
       "cropBox": [
-        69,
-        723,
-        729,
-        1843
+        81,
+        40,
+        717,
+        1859
       ],
-      "scale": 1.3661,
+      "scale": 0.8411,
       "size": [
         1200,
         1700
@@ -2708,12 +2708,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-9",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-violin-1716-nachez-b-800x1900.jpg",
       "cropBox": [
-        65,
-        707,
-        734,
-        1843
+        77,
+        41,
+        722,
+        1859
       ],
-      "scale": 1.3468,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -2726,12 +2726,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-ex-hamma-hagner",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-violin-c1717-hamma-b-800x1900.jpg",
       "cropBox": [
-        69,
-        713,
-        731,
-        1843
+        81,
+        38,
+        719,
+        1858
       ],
-      "scale": 1.354,
+      "scale": 0.8407,
       "size": [
         1200,
         1700
@@ -2744,12 +2744,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1667",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1667-violin-Sothebys-Ex-Jenkins-b-800x1900.jpg",
       "cropBox": [
-        77,
-        709,
-        723,
-        1841
+        89,
+        42,
+        711,
+        1858
       ],
-      "scale": 1.3516,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -2762,12 +2762,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1690",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1690-violin-Sothebys-Ex-Stephens-Verdehr-b-800x1900.jpg",
       "cropBox": [
-        81,
-        705,
-        718,
-        1839
+        93,
+        42,
+        706,
+        1859
       ],
-      "scale": 1.3492,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -2780,12 +2780,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1699",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1699-violin-Sothebys-Lady-Tennant-b-800x1900.jpg",
       "cropBox": [
-        68,
-        714,
-        732,
-        1837
+        80,
+        42,
+        720,
+        1860
       ],
-      "scale": 1.3624,
+      "scale": 0.8416,
       "size": [
         1200,
         1700
@@ -2798,12 +2798,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1709",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1709-violin-Sothebys-Greffuhle-b-800x1900.jpg",
       "cropBox": [
-        62,
-        716,
-        738,
+        74,
+        38,
+        726,
         1858
       ],
-      "scale": 1.3398,
+      "scale": 0.8407,
       "size": [
         1200,
         1700
@@ -2816,12 +2816,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1713",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1713-violin-ex-kux-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        69,
-        720,
-        731,
-        1841
+        81,
+        42,
+        719,
+        1858
       ],
-      "scale": 1.3649,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -2834,12 +2834,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1721",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/antonio-stradivari-cremona-1721-lady-blunt-b-800x1900.jpg",
       "cropBox": [
-        67,
-        719,
-        732,
-        1846
+        79,
+        41,
+        720,
+        1858
       ],
-      "scale": 1.3576,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -2852,12 +2852,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1727",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1727-violin-Sothebys-Ex-Reynier-b-800x1900.jpg",
       "cropBox": [
-        68,
-        725,
-        732,
-        1841
+        80,
+        38,
+        720,
+        1858
       ],
-      "scale": 1.371,
+      "scale": 0.8407,
       "size": [
         1200,
         1700
@@ -2870,12 +2870,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1729",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1729-violin-Sothebys-innes-loder-b-800x1900.jpg",
       "cropBox": [
-        73,
-        730,
-        727,
-        1845
+        85,
+        38,
+        715,
+        1860
       ],
-      "scale": 1.3722,
+      "scale": 0.8397,
       "size": [
         1200,
         1700
@@ -2888,12 +2888,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1732",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1732-violin-Red-Diamond-b-800x1900.jpg",
       "cropBox": [
-        67,
-        721,
-        730,
-        1842
+        79,
+        42,
+        718,
+        1859
       ],
-      "scale": 1.3649,
+      "scale": 0.842,
       "size": [
         1200,
         1700
@@ -2906,12 +2906,12 @@
       "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-omobono-stradivari-in-cremona-on-1732",
       "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Omobono-Stradivari-Cremona-1732-violin-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        71,
-        705,
-        730,
-        1837
+        83,
+        42,
+        718,
+        1858
       ],
-      "scale": 1.3516,
+      "scale": 0.8425,
       "size": [
         1200,
         1700
