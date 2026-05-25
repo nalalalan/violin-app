@@ -23,6 +23,7 @@ MANIFEST = PUBLIC / "assets" / "normalized-manifest.json"
 CANVAS_W = 1200
 CANVAS_H = 1700
 CANVAS = np.array([255, 252, 246], dtype=np.float32)
+TARGET_FILL = 0.90
 
 
 def display_sources() -> list[dict[str, str]]:
@@ -180,29 +181,21 @@ def normalize(source: dict[str, str]) -> dict[str, object]:
     image.thumbnail((1900, 2600), Image.Resampling.LANCZOS)
     arr = np.asarray(image).astype(np.float32)
     mask = foreground_mask(arr.astype(np.uint8))
-    box = body_box(mask, image.width, image.height)
+    box = bounding_box(mask, image.width, image.height)
     image = image.crop(box)
-    mask_image = Image.fromarray((mask.astype(np.uint8) * 255), "L").crop(box)
 
-    arr = np.asarray(image).astype(np.float32)
-    alpha = np.asarray(mask_image.filter(ImageFilter.GaussianBlur(2))).astype(np.float32) / 255.0
-    alpha = np.clip((alpha - 0.10) / 0.82, 0, 1)
-    arr = (arr * alpha[..., None]) + (CANVAS * (1.0 - alpha[..., None]))
-    image = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8), "RGB")
-
-    image = ImageOps.autocontrast(image, cutoff=0.35)
-    object_alpha = np.asarray(mask_image.resize(image.size).filter(ImageFilter.GaussianBlur(1))).astype(np.float32) / 255.0
+    local_mask = Image.fromarray((mask.astype(np.uint8) * 255), "L").crop(box)
+    object_alpha = np.asarray(local_mask.filter(ImageFilter.GaussianBlur(1))).astype(np.float32) / 255.0
     luminance = np.asarray(image.convert("L")).astype(np.float32)
     object_pixels = luminance[object_alpha > 0.28]
     if object_pixels.size:
         median_luma = max(1.0, float(np.median(object_pixels)))
-        image = ImageEnhance.Brightness(image).enhance(float(np.clip(138.0 / median_luma, 0.88, 1.26)))
-    image = ImageEnhance.Brightness(image).enhance(1.04)
-    image = ImageEnhance.Contrast(image).enhance(1.035)
-    image = ImageEnhance.Color(image).enhance(1.02)
+        image = ImageEnhance.Brightness(image).enhance(float(np.clip(132.0 / median_luma, 0.96, 1.12)))
+    image = ImageEnhance.Contrast(image).enhance(1.015)
+    image = ImageEnhance.Color(image).enhance(1.005)
 
-    target_w = int(CANVAS_W * 0.90)
-    target_h = int(CANVAS_H * 0.90)
+    target_w = int(CANVAS_W * TARGET_FILL)
+    target_h = int(CANVAS_H * TARGET_FILL)
     scale = min(target_w / image.width, target_h / image.height)
     new_size = (max(1, int(image.width * scale)), max(1, int(image.height * scale)))
     image = image.resize(new_size, Image.Resampling.LANCZOS)
