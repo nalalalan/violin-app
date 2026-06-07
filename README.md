@@ -10,9 +10,9 @@ The public wall uses the broader curated violin-back corpus, with selected user-
 
 The 1734 Spagnoletti and 1742 Lord Wilton Guarneri del Gesu sources remain excluded until a public image route is good enough for the wall. The inspected Spagnoletti image has display-case glare and a vertical bar; the inspected Lord Wilton images were low-resolution, composite, or watermarked.
 
-Tiles are intentionally image-only. Hovering reveals a short caption; clicking opens the source page for the instrument or image. The rendered wall is one-piece-only: source-backed backs with a visible center join are removed even when the instrument is historically important or otherwise attractive.
+Tiles are intentionally image-only. Hovering reveals a short caption; clicking opens the source page for the instrument or image. The rendered wall targets 192 high-quality full-back images from the source-gated corpus so the page reads as a real wall of violins, not a sparse proof set.
 
-The displayed wall does not depend on the external pages' original framing. Accepted one-piece source photos are converted into local normalized display assets under `public/assets/normalized/`: same portrait canvas, light outer-margin cleanup, off-white page padding, and mild brightness/contrast normalization. The live wall uses separate `public/assets/wall/` display copies whose border-connected pale background is filled to the page color so the image field does not appear as white blocks. Body-only backs that would read oversized are scaled down in the page layout. Original source URLs remain preserved in `public/app.js` and in the generated manifest.
+The displayed wall does not depend on the external pages' original framing. Accepted source photos are converted into local normalized display assets under `public/assets/normalized/`: same portrait canvas, light outer-margin cleanup, off-white page padding, and mild brightness/contrast normalization. The live wall uses separate `public/assets/wall/` display copies whose border-connected pale background is filled to the page color so the image field does not appear as white blocks. Body-only backs that would read oversized are scaled down in the page layout. Original source URLs remain preserved in `public/app.js` and in the generated manifest.
 
 ## Run Locally
 

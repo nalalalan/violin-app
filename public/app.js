@@ -4515,9 +4515,9 @@ const backSources = [
   ...reuningFineBacks,
 ];
 
-// Candidate pools kept for source-audit history. The rendered wall below uses
-// only the strict one-piece gate; visual appeal or historical importance does
-// not override a visible center join.
+// Candidate pools kept for source-audit history. The rendered wall now uses a
+// larger high-quality full-back selection so the page reads as a real visual
+// wall instead of a sparse proof gate.
 const visualBackKeys = [
   "corilon-italian-violin-schio",
   "ingles-a-violin-by-w-e-hill-sons",
@@ -4843,11 +4843,21 @@ const strictOnePieceBackKeys = [
   "corilon-ferarri-cremona-violin",
 ];
 
-const preferredBackKeys = Array.from(new Set([
-  ...strictOnePieceBackKeys,
-])).filter((key) => !excludedBackKeys.has(key));
-
 const sourceByKey = new Map(backSources.map((source) => [source.key, source]));
+const DISPLAY_WALL_TARGET = 192;
+const expandedDisplayBackKeys = Array.from(new Set([
+  ...leadBackKeys,
+  ...historicalMakerBackKeys,
+  ...visualBackKeys,
+  ...onePieceTextBackKeys,
+  ...sharFineBacks.map(({ key }) => key),
+  ...reuningFineBacks.map(({ key }) => key),
+  ...corilonFineBacks.map(({ key }) => key),
+  ...inglesHaydayBacks.map(({ key }) => key),
+]));
+const preferredBackKeys = expandedDisplayBackKeys
+  .filter((key) => !excludedBackKeys.has(key) && sourceByKey.has(key))
+  .slice(0, DISPLAY_WALL_TARGET);
 const displaySources = preferredBackKeys.map((key) => sourceByKey.get(key)).filter(Boolean);
 
 const bodyOnlyDisplayScale = new Map([
@@ -4876,7 +4886,7 @@ const bodyOnlyDisplayScale = new Map([
 const DEFAULT_DISPLAY_SCALE = 1.16;
 
 function normalizedAsset(key) {
-  return `/assets/wall/${key}.jpg?v=20260525-one-piece-only`;
+  return `/assets/wall/${key}.jpg?v=20260607-expanded-wall`;
 }
 
 const items = displaySources.map((source) => ({
@@ -4930,9 +4940,11 @@ function batchItems(batch) {
 
 function columnCount() {
   const width = window.innerWidth || document.documentElement.clientWidth || 1200;
-  if (width <= 560) return 1;
-  if (width <= 1000) return 2;
-  return 3;
+  if (width <= 560) return 2;
+  if (width <= 900) return 3;
+  if (width <= 1240) return 4;
+  if (width <= 1680) return 5;
+  return 6;
 }
 
 function shapeScore(item) {
