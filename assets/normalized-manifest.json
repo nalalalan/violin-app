@@ -1,16 +1,682 @@
 {
-  "count": 19,
+  "count": 192,
   "items": [
     {
-      "key": "ingles-a-violin-by-jean-baptiste-vuillaume-2",
-      "title": "An 1854 violin by J.B. Vuillaume Paris",
-      "asset": "/assets/normalized/ingles-a-violin-by-jean-baptiste-vuillaume-2.jpg",
-      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-2",
-      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/05/Jean-Baptiste-Vuillaume-Paris-1854-violin-p.8-9-b-800x1900.jpg",
+      "key": "strings-ysaye-back",
+      "title": "1740 Ysaye Guarneri del Gesu",
+      "asset": "/assets/normalized/strings-ysaye-back.jpg",
+      "sourcePage": "https://stringsmagazine.com/beauty-of-the-1740-ysaye-guarneri-del-gesu-violin/",
+      "sourceImage": "https://stringsmagazine.com/wp-content/uploads/2023/10/l40064back.jpg",
+      "cropBox": [
+        0,
+        0,
+        750,
+        1250
+      ],
+      "scale": 1.224,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "featured-vieuxtemps-stradivari-1710",
+      "title": "1710 ex-Vieuxtemps Stradivari",
+      "asset": "/assets/normalized/featured-vieuxtemps-stradivari-1710.jpg",
+      "sourcePage": "https://darntonhersh.com/a-violin-by-antonio-stradivari/",
+      "sourceImage": "https://darntonhersh.com/wp-content/uploads/Vieuxtemps-Stradivari-back-628x1024.jpg",
+      "cropBox": [
+        7,
+        0,
+        612,
+        1024
+      ],
+      "scale": 1.4941,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "featured-becker-sr-1940",
+      "title": "1940 Carl G. Becker Sr. violin",
+      "asset": "/assets/normalized/featured-becker-sr-1940.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/carl-g-becker-violin-chicago-1940",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5491_Back_1000x.jpg?v=1774449692",
+      "cropBox": [
+        318,
+        0,
+        680,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-w-e-hill-sons",
+      "title": "W.E. Hill & Sons violin made in 1914, London",
+      "asset": "/assets/normalized/ingles-a-violin-by-w-e-hill-sons.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-w-e-hill-sons",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/hill-w-e-and-sons-violin-1914-london-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        42,
+        723,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-roger-max-millant",
+      "title": "Roger & Max Millant Violin, Paris, 1942",
+      "asset": "/assets/normalized/ingles-a-violin-by-roger-max-millant.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-roger-max-millant",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/Roger-Max-millant-violin-1942-paris-b-800x1900.jpg",
+      "cropBox": [
+        84,
+        42,
+        716,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-gioffredo-cappa-2",
+      "title": "A violin by Gioffredo Cappa",
+      "asset": "/assets/normalized/ingles-a-violin-by-gioffredo-cappa-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-gioffredo-cappa-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Gioffredo-Cappa-Saluzzo-c1715-violin-b-800x1900.jpg",
+      "cropBox": [
+        84,
+        41,
+        716,
+        1859
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-giuseppe-pedrazzini-6",
+      "title": "1928 Giuseppe Pedrazzini violin Made in Milan",
+      "asset": "/assets/normalized/ingles-a-violin-by-giuseppe-pedrazzini-6.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-pedrazzini-6",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/giuseppe-pedrazzini-violin-1928-milan-b-800x1900.jpg",
+      "cropBox": [
+        77,
+        42,
+        723,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-enrico-politi",
+      "title": "A violin by Enrico Politi",
+      "asset": "/assets/normalized/ingles-a-violin-by-enrico-politi.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-enrico-politi",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/enrico-politi-violin-rome-c1920-b-800x1900.jpg",
+      "cropBox": [
+        85,
+        41,
+        715,
+        1858
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-jean-baptiste-vuillaume-10",
+      "title": "An 1849 Violin made by the esteemed Jean-Baptiste Vuillaume in Paris",
+      "asset": "/assets/normalized/ingles-a-violin-by-jean-baptiste-vuillaume-10.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-10",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/jean-baptiste-vuillaume-paris-violin-1849-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        42,
+        721,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-karel-vavra-2",
+      "title": "A 1942 Violin Made By Karel Vavra in Prague",
+      "asset": "/assets/normalized/ingles-a-violin-by-karel-vavra-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-karel-vavra-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/karel-vavra-violin-Prague-1942-b-800x1900.jpg",
+      "cropBox": [
+        80,
+        42,
+        720,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-hilaire-darche-3",
+      "title": "H. Darche violin c1908, Brussels",
+      "asset": "/assets/normalized/ingles-a-violin-by-hilaire-darche-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-hilaire-darche-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/hilaire-darche-violin-brussels-1908-b-800x1900.jpg",
+      "cropBox": [
+        77,
+        42,
+        723,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-charles-francois-gand",
+      "title": "A violin by Charles Francois Gand",
+      "asset": "/assets/normalized/ingles-a-violin-by-charles-francois-gand.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-charles-francois-gand",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/charles-francois-gand-violin-paris-1836-b-800x1900.jpg",
+      "cropBox": [
+        75,
+        41,
+        724,
+        1858
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-theodore-skreko-lord-wilton-violin-indianapolis-2025",
+      "title": "Theodore Skreko \"Lord Wilton\" Violin, Indianapolis, 2025",
+      "asset": "/assets/normalized/shar-theodore-skreko-lord-wilton-violin-indianapolis-2025.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/theodore-skreko-lord-wilton-violin-indianapolis-2025",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5566_Violin_Back.jpg?v=1745510159",
+      "cropBox": [
+        306,
+        0,
+        690,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-scrollavezza-zanre-g-b-guadagnini-1744-violin-parma-2013",
+      "title": "Scrollavezza & Zanre \"G.B. Guadagnini 1744\" Violin, Parma, 2013",
+      "asset": "/assets/normalized/shar-scrollavezza-zanre-g-b-guadagnini-1744-violin-parma-2013.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/scrollavezza-zanre-g-b-guadagnini-1744-violin-parma-2013",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F2S5103_Violin_Back.jpg?v=1736191979",
+      "cropBox": [
+        315,
+        0,
+        683,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "reuning-jacob-fendt-london-c-1830-violin",
+      "title": "Jacob Fendt, London, c.1830",
+      "asset": "/assets/normalized/reuning-jacob-fendt-london-c-1830-violin.jpg",
+      "sourcePage": "https://www.reuning.com/violins-priced-35k-to-75k/jacob-fendt-london-c-1830-violin",
+      "sourceImage": "https://www.reuning.com/wp-content/uploads/2026/04/R25966_3.jpg",
+      "cropBox": [
+        122,
+        0,
+        600,
+        847
+      ],
+      "scale": 1.8064,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "met-strad-antonius-back",
+      "title": "1711 Antonius Stradivari",
+      "asset": "/assets/normalized/met-strad-antonius-back.jpg",
+      "sourcePage": "https://www.metmuseum.org/art/collection/search/503008",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/mi/web-large/DP216543.jpg",
+      "cropBox": [
+        0,
+        0,
+        468,
+        609
+      ],
+      "scale": 2.3077,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "met-strad-francesca-back",
+      "title": "1694 Francesca Stradivari",
+      "asset": "/assets/normalized/met-strad-francesca-back.jpg",
+      "sourcePage": "https://www.metmuseum.org/art/collection/search/503010",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/mi/web-large/DP167846.jpg",
+      "cropBox": [
+        0,
+        0,
+        468,
+        603
+      ],
+      "scale": 2.3077,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "loc-betts-back",
+      "title": "1704 Betts Stradivari",
+      "asset": "/assets/normalized/loc-betts-back.jpg",
+      "sourcePage": "https://www.loc.gov/item/2022560101/",
+      "sourceImage": "https://tile.loc.gov/image-services/iiif/public:music:musihas-200154811:musihas-200154811.0001/full/pct:70.0/0/default.jpg",
+      "cropBox": [
+        173,
+        0,
+        1457,
+        2399
+      ],
+      "scale": 0.6378,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "loc-castelbarco-back",
+      "title": "1699 Castelbarco Stradivari",
+      "asset": "/assets/normalized/loc-castelbarco-back.jpg",
+      "sourcePage": "https://www.loc.gov/item/2022560098/",
+      "sourceImage": "https://tile.loc.gov/image-services/iiif/public:music:musihas-200154809:musihas-200154809.0001/full/pct:70.0/0/default.jpg",
+      "cropBox": [
+        0,
+        0,
+        1285,
+        2077
+      ],
+      "scale": 0.7366,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "loc-ward-back",
+      "title": "1700 Ward Stradivari",
+      "asset": "/assets/normalized/loc-ward-back.jpg",
+      "sourcePage": "https://www.loc.gov/item/2022560100/",
+      "sourceImage": "https://tile.loc.gov/image-services/iiif/public:music:musihas-200154810:musihas-200154810.0001/full/pct:70.0/0/default.jpg",
+      "cropBox": [
+        0,
+        0,
+        1134,
+        2058
+      ],
+      "scale": 0.7434,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-11",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-11.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-11",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-1695-violin-goetz-b-800x1900.jpg",
+      "cropBox": [
+        94,
+        41,
+        706,
+        1859
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-12",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-12.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-12",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-1713-violin-pingrille-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        41,
+        720,
+        1859
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-13",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-13.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-13",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-c1698-violin-guyot-b-800x1900.jpg",
+      "cropBox": [
+        84,
+        42,
+        716,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-14",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-14.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-14",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/04/antonio-stradivari-cremona-violin-1708-havemeyer-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        40,
+        719,
+        1860
+      ],
+      "scale": 0.8407,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-16",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-16.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-16",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/04/antonio-stradivari-cremona-violin-1712-le-brun-b-800x1900.jpg",
+      "cropBox": [
+        55,
+        74,
+        747,
+        1849
+      ],
+      "scale": 0.862,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-17",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-17.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-17",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2024/05/Antonio-Stradivari-Cremona-1734-vn-b-800x1900.jpg",
+      "cropBox": [
+        80,
+        37,
+        720,
+        1858
+      ],
+      "scale": 0.8402,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-18",
+      "title": "A violin by Antonio Stradivari, Cremona, 1725",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-18.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-18",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2026/01/Koeber-back-resized-e1768221266487-800x1679.jpg",
+      "cropBox": [
+        86,
+        496,
+        702,
+        1679
+      ],
+      "scale": 1.2933,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-2",
+      "title": "Antonio Stradivari The Molitor Violin",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2019/11/Antonio-Stradivari-Cremona-1697-violin-Molitor-b-800x1900.jpg",
+      "cropBox": [
+        90,
+        42,
+        711,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-3",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Antonio-Stradivari-Cremona-1717-violin-Sothebys-Ex-Piatti-b-800x1900.jpg",
+      "cropBox": [
+        84,
+        41,
+        717,
+        1859
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-4",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-4.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-4",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Antonio-Stradivari-Cremona-1709-violin-Sothebys-Ex-Marie-Hall-b-800x1900.jpg",
       "cropBox": [
         83,
+        41,
+        716,
+        1860
+      ],
+      "scale": 0.8411,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-5",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-5.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-5",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Antonio-Stradivari-Cremona-1725-violin-Wilhelmj-b-800x1900.jpg",
+      "cropBox": [
+        94,
+        41,
+        721,
+        1858
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-6",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-6.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-6",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-violin-1667-sachs-b-800x1900.jpg",
+      "cropBox": [
+        97,
         42,
-        718,
+        703,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-8",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-8.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-8",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-1701-violin-ferraresi-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        40,
+        717,
+        1859
+      ],
+      "scale": 0.8411,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-9",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-9.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-9",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-violin-1716-nachez-b-800x1900.jpg",
+      "cropBox": [
+        77,
+        41,
+        722,
+        1859
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-antonio-stradivari-ex-hamma-hagner",
+      "title": "A violin by Antonio Stradivari",
+      "asset": "/assets/normalized/ingles-a-violin-by-antonio-stradivari-ex-hamma-hagner.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-antonio-stradivari-ex-hamma-hagner",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/antonio-stradivari-cremona-violin-c1717-hamma-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        38,
+        719,
+        1858
+      ],
+      "scale": 0.8407,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-antonio-stradivari-in-cremona-on-1667",
+      "title": "Ex-Jenkins violin by Stradivari, Cremona, 1667",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-stradivari-in-cremona-on-1667.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1667",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1667-violin-Sothebys-Ex-Jenkins-b-800x1900.jpg",
+      "cropBox": [
+        89,
+        42,
+        711,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-antonio-stradivari-in-cremona-on-1690",
+      "title": "Stevens violin by Stradivari, Cremona, 1690",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-stradivari-in-cremona-on-1690.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1690",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1690-violin-Sothebys-Ex-Stephens-Verdehr-b-800x1900.jpg",
+      "cropBox": [
+        93,
+        42,
+        706,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-antonio-stradivari-in-cremona-on-1699",
+      "title": "Lady Tennant violin by Stradivari, Cremona, 1699",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-stradivari-in-cremona-on-1699.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1699",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1699-violin-Sothebys-Lady-Tennant-b-800x1900.jpg",
+      "cropBox": [
+        80,
+        42,
+        720,
         1860
       ],
       "scale": 0.8416,
@@ -20,36 +686,126 @@
       ]
     },
     {
-      "key": "corilon-fine-french-violin-daniel-moinel-paris",
-      "title": "Fine French master violin by Daniel Moinel, Paris 1956",
-      "asset": "/assets/normalized/corilon-fine-french-violin-daniel-moinel-paris.jpg",
-      "sourcePage": "https://www.corilon.com/us/violins/fine-french-violin-daniel-moinel-paris",
-      "sourceImage": "https://www.corilon.com/media/image/c6/11/b7/daniel-moinel-paris-7899-2_1890x1890.jpg",
+      "key": "ingles-violin-by-antonio-stradivari-in-cremona-on-1709",
+      "title": "Greffulhe violin by Stradivari, Cremona, 1709",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-stradivari-in-cremona-on-1709.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1709",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1709-violin-Sothebys-Greffuhle-b-800x1900.jpg",
       "cropBox": [
-        250,
-        0,
-        924,
-        1890
+        74,
+        38,
+        726,
+        1858
       ],
-      "scale": 0.8095,
+      "scale": 0.8407,
       "size": [
         1200,
         1700
       ]
     },
     {
-      "key": "corilon-selectio-opus17-masterviolin",
-      "title": "Master violin op.17",
-      "asset": "/assets/normalized/corilon-selectio-opus17-masterviolin.jpg",
-      "sourcePage": "https://www.corilon.com/us/violins/selectio-opus17-masterviolin",
-      "sourceImage": "https://www.corilon.com/media/image/19/ae/73/opus17-7022-2_1890x1890.jpg",
+      "key": "ingles-violin-by-antonio-stradivari-in-cremona-on-1713",
+      "title": "Ex-Kux Baron Rothschild violin by Stradivari",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-stradivari-in-cremona-on-1713.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1713",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1713-violin-ex-kux-Sothebys-b-800x1900.jpg",
       "cropBox": [
-        248,
-        0,
-        928,
-        1890
+        81,
+        42,
+        719,
+        1858
       ],
-      "scale": 0.8095,
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-antonio-stradivari-in-cremona-on-1721",
+      "title": "Violin by Antonio Stradivari, 1721",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-stradivari-in-cremona-on-1721.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1721",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/antonio-stradivari-cremona-1721-lady-blunt-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        41,
+        720,
+        1858
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-antonio-stradivari-in-cremona-on-1727",
+      "title": "Ex-Reynier violin by Antonio Stradivari, 1727",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-stradivari-in-cremona-on-1727.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1727",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1727-violin-Sothebys-Ex-Reynier-b-800x1900.jpg",
+      "cropBox": [
+        80,
+        38,
+        720,
+        1858
+      ],
+      "scale": 0.8407,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-antonio-stradivari-in-cremona-on-1729",
+      "title": "Innes Loder violin by Stradivari, 1727",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-stradivari-in-cremona-on-1729.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1729",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1729-violin-Sothebys-innes-loder-b-800x1900.jpg",
+      "cropBox": [
+        85,
+        38,
+        715,
+        1860
+      ],
+      "scale": 0.8397,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-antonio-stradivari-in-cremona-on-1732",
+      "title": "Violin by Antonio Stradivari, 1732",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-stradivari-in-cremona-on-1732.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-stradivari-in-cremona-on-1732",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Antonio-Stradivari-Cremona-1732-violin-Red-Diamond-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        42,
+        718,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-omobono-stradivari-in-cremona-on-1732",
+      "title": "Violin by Omobono Stradivari, 1732",
+      "asset": "/assets/normalized/ingles-violin-by-omobono-stradivari-in-cremona-on-1732.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-omobono-stradivari-in-cremona-on-1732",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Omobono-Stradivari-Cremona-1732-violin-Sothebys-b-800x1900.jpg",
+      "cropBox": [
+        83,
+        42,
+        718,
+        1858
+      ],
+      "scale": 0.8425,
       "size": [
         1200,
         1700
@@ -74,18 +830,270 @@
       ]
     },
     {
-      "key": "corilon-leo-aschauer-mittenwald-soloist-violin",
-      "title": "Ludwig Aschauer, Mittenwald: fine master violin for soloists, 1954",
-      "asset": "/assets/normalized/corilon-leo-aschauer-mittenwald-soloist-violin.jpg",
-      "sourcePage": "https://www.corilon.com/us/violins/leo-aschauer-mittenwald-soloist-violin",
-      "sourceImage": "https://www.corilon.com/media/image/6d/a6/81/ludwig-aschauer-mittenwald-7010-2_1890x1890.jpg",
+      "key": "ingles-a-violin-by-george-craske-3",
+      "title": "A violin by George Craske",
+      "asset": "/assets/normalized/ingles-a-violin-by-george-craske-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-george-craske-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/george-craske-violin-c1870-stockport-b-800x1900.jpg",
       "cropBox": [
-        242,
-        0,
-        934,
-        1890
+        80,
+        42,
+        719,
+        1859
       ],
-      "scale": 0.8095,
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-vincenzo-cavani",
+      "title": "Vincenzo Cavani Violin, Modena, Circa 1940",
+      "asset": "/assets/normalized/ingles-a-violin-by-vincenzo-cavani.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-vincenzo-cavani",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/vincenzo-cavani-violin-modena-c1940-b-800x1900.jpg",
+      "cropBox": [
+        82,
+        42,
+        717,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-giuseppe-rocca-2",
+      "title": "1840 Violin by Giuseppe Rocca, Turin",
+      "asset": "/assets/normalized/ingles-a-violin-by-giuseppe-rocca-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-rocca-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/giuseppe-rocca-genoa-c1840-violin-b-800x1900.jpg",
+      "cropBox": [
+        80,
+        41,
+        719,
+        1860
+      ],
+      "scale": 0.8411,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-jean-baptiste-vuillaume-13",
+      "title": "Jean-Baptiste Vuillaume Violin, Paris, 1867-68",
+      "asset": "/assets/normalized/ingles-a-violin-by-jean-baptiste-vuillaume-13.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-13",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/jean-baptiste-vuillaume-violin-paris-1867-8-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        37,
+        721,
+        1859
+      ],
+      "scale": 0.8397,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-neuner-hornsteiner",
+      "title": "Neuner & Hornsteiner Violin, Mittenwald, Circa 1900",
+      "asset": "/assets/normalized/ingles-a-violin-by-neuner-hornsteiner.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-neuner-hornsteiner",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/neuner-and-hornsteiner-violin-c1900-mittenwald-b-800x1900.jpg",
+      "cropBox": [
+        85,
+        42,
+        715,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-domenico-montagnana-in-venice-on-1731",
+      "title": "Bloomfield violin by Montagnana, 1731",
+      "asset": "/assets/normalized/ingles-violin-by-domenico-montagnana-in-venice-on-1731.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-domenico-montagnana-in-venice-on-1731",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Domenico-Montagnana-Venice-1731-violin-Sothebys-b-800x1900.jpg",
+      "cropBox": [
+        80,
+        42,
+        720,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-giovanni-pistucci-2",
+      "title": "A violin by Giovanni Pistucci",
+      "asset": "/assets/normalized/ingles-a-violin-by-giovanni-pistucci-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giovanni-pistucci-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/giovanni-pistucci-violin-naples-c1930-b-800x1900.jpg",
+      "cropBox": [
+        83,
+        42,
+        717,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-armando-piccagliani",
+      "title": "A violin by Armando Piccagliani",
+      "asset": "/assets/normalized/ingles-a-violin-by-armando-piccagliani.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-armando-piccagliani",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/armando-piccagliani-violin-1939-modena-b-800x1900.jpg",
+      "cropBox": [
+        84,
+        42,
+        715,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-bernardo-calcagni",
+      "title": "A violin by Bernardo Calcagni",
+      "asset": "/assets/normalized/ingles-a-violin-by-bernardo-calcagni.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-bernardo-calcagni",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/bernardo-calcagni-violin-c1740-genoa-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        42,
+        721,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-gabriel-lembock-3",
+      "title": "A violin by Gabriel Lembock",
+      "asset": "/assets/normalized/ingles-a-violin-by-gabriel-lembock-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-gabriel-lembock-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/gabriel-lembock-violin-1862-vienna-b-800x1900.jpg",
+      "cropBox": [
+        77,
+        42,
+        723,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "reuning-nicolo-gagliano-naples-c-1765-violin",
+      "title": "Nicolo Gagliano, Naples, c.1765",
+      "asset": "/assets/normalized/reuning-nicolo-gagliano-naples-c-1765-violin.jpg",
+      "sourcePage": "https://www.reuning.com/violins-250k-to-500k/nicolo-gagliano-naples-c-1765-violin",
+      "sourceImage": "https://www.reuning.com/wp-content/uploads/2023/09/R25678_3.jpg",
+      "cropBox": [
+        125,
+        0,
+        600,
+        847
+      ],
+      "scale": 1.8064,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "reuning-gasparo-lorenzini-piacenza-c-1780-violin",
+      "title": "Gasparo Lorenzini, Piacenza, c.1780",
+      "asset": "/assets/normalized/reuning-gasparo-lorenzini-piacenza-c-1780-violin.jpg",
+      "sourcePage": "https://www.reuning.com/violins-250k-to-500k/gasparo-lorenzini-piacenza-c-1780-violin",
+      "sourceImage": "https://www.reuning.com/wp-content/uploads/2024/02/R25692_3.jpg",
+      "cropBox": [
+        129,
+        0,
+        602,
+        852
+      ],
+      "scale": 1.7958,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "reuning-paolo-antonio-testore-milan-c-1750-later-head-violin",
+      "title": "Paolo Antonio Testore, Milan, c.1750",
+      "asset": "/assets/normalized/reuning-paolo-antonio-testore-milan-c-1750-later-head-violin.jpg",
+      "sourcePage": "https://www.reuning.com/violins-priced-75k-to-150k/paolo-antonio-testore-milan-c-1750-later-head-violin",
+      "sourceImage": "https://www.reuning.com/wp-content/uploads/2026/04/R25783_3.jpg",
+      "cropBox": [
+        131,
+        0,
+        598,
+        847
+      ],
+      "scale": 1.8064,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "reuning-carl-g-becker-chicago-1972-violin",
+      "title": "Carl G. Becker, Chicago, 1972",
+      "asset": "/assets/normalized/reuning-carl-g-becker-chicago-1972-violin.jpg",
+      "sourcePage": "https://www.reuning.com/violins-priced-75k-to-150k/carl-g-becker-chicago-1972-violin",
+      "sourceImage": "https://www.reuning.com/wp-content/uploads/2026/04/R26097_3.jpg",
+      "cropBox": [
+        127,
+        0,
+        602,
+        847
+      ],
+      "scale": 1.8064,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "reuning-pierre-silvestre-lyon-1854-violin",
+      "title": "Pierre Silvestre, Lyon, 1854",
+      "asset": "/assets/normalized/reuning-pierre-silvestre-lyon-1854-violin.jpg",
+      "sourcePage": "https://www.reuning.com/violins-priced-75k-to-150k/pierre-silvestre-lyon-1854-violin",
+      "sourceImage": "https://www.reuning.com/wp-content/uploads/2026/04/R26084_3.jpg",
+      "cropBox": [
+        123,
+        0,
+        601,
+        847
+      ],
+      "scale": 1.8064,
       "size": [
         1200,
         1700
@@ -104,6 +1112,1032 @@
         1890
       ],
       "scale": 0.8112,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-fine-french-violin-daniel-moinel-paris",
+      "title": "Fine French master violin by Daniel Moinel, Paris 1956",
+      "asset": "/assets/normalized/corilon-fine-french-violin-daniel-moinel-paris.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/fine-french-violin-daniel-moinel-paris",
+      "sourceImage": "https://www.corilon.com/media/image/c6/11/b7/daniel-moinel-paris-7899-2_1890x1890.jpg",
+      "cropBox": [
+        250,
+        0,
+        924,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-fine-french-violin-louis-moitessier",
+      "title": "Fine antique French violin, Louis Moitessier, circa 1830 (certificate by Hieronymus Kostler)",
+      "asset": "/assets/normalized/corilon-fine-french-violin-louis-moitessier.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/fine-french-violin-louis-moitessier",
+      "sourceImage": "https://www.corilon.com/media/image/53/44/29/louis-moitessier_2_1890x1890.jpg",
+      "cropBox": [
+        251,
+        0,
+        920,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-william-ebsworth-hill",
+      "title": "Fine English violin, circa 1800",
+      "asset": "/assets/normalized/corilon-william-ebsworth-hill.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/william-ebsworth-hill",
+      "sourceImage": "https://www.corilon.com/media/image/7a/11/ec/english-hill-6999-2_1890x1890.jpg",
+      "cropBox": [
+        240,
+        0,
+        929,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-didier-nicolas-aine-french-violin-approx-1935",
+      "title": "Didier Nicolas (L'Aine), violin, Mirecourt 1820-1830 (certificate J.-J. Rampal)",
+      "asset": "/assets/normalized/corilon-didier-nicolas-aine-french-violin-approx-1935.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/didier-nicolas-aine-french-violin-approx-1935",
+      "sourceImage": "https://www.corilon.com/media/image/f4/a6/66/didier-nicolas-7788-2_1890x1890.jpg",
+      "cropBox": [
+        222,
+        0,
+        925,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-claude-chevrier-violin-mirecourt",
+      "title": "Antique French violin: Claude Chevrier around 1860 (Certificate J.-J. Rampal)",
+      "asset": "/assets/normalized/corilon-claude-chevrier-violin-mirecourt.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/claude-chevrier-violin-mirecourt",
+      "sourceImage": "https://www.corilon.com/media/image/db/fa/3d/claude-chevirier-7586-2_1890x1890.jpg",
+      "cropBox": [
+        248,
+        0,
+        927,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-johann-georg-schonfelder-markneukirchen-violin",
+      "title": "Johann Georg Schonfelder: fine Markneukirchen violin, 1806",
+      "asset": "/assets/normalized/corilon-johann-georg-schonfelder-markneukirchen-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/johann-georg-schonfelder-markneukirchen-violin",
+      "sourceImage": "https://www.corilon.com/media/image/6b/25/67/johann-georg-schonfelder-markneukirchen-a189-2_1890x1890.jpg",
+      "cropBox": [
+        279,
+        0,
+        959,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-willi-lindorfer",
+      "title": "Willi Lindorfer Violin, Berlin, 1939",
+      "asset": "/assets/normalized/ingles-a-violin-by-willi-lindorfer.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-willi-lindorfer",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/willi-lindorfer-violin-berlin-1939-b-800x1900.jpg",
+      "cropBox": [
+        78,
+        42,
+        721,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-auguste-sebastien-philippe-bernardel-3",
+      "title": "A violin by Auguste Sebastien Philippe Bernardel",
+      "asset": "/assets/normalized/ingles-a-violin-by-auguste-sebastien-philippe-bernardel-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-auguste-sebastien-philippe-bernardel-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/august-sebastien-bernardel-paris-violin-1865-b-800x1900.jpg",
+      "cropBox": [
+        77,
+        42,
+        723,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-sesto-rocchi-3",
+      "title": "A violin by Sesto Rocchi, San Polo d'Enza, 1973",
+      "asset": "/assets/normalized/ingles-a-violin-by-sesto-rocchi-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-sesto-rocchi-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/sesto-rocchi-san-polo-denza-violin-1973-b-800x1900.jpg",
+      "cropBox": [
+        74,
+        40,
+        725,
+        1859
+      ],
+      "scale": 0.8411,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-jean-baptiste-vuillaume-12",
+      "title": "A Violin by Made by J.b. Vuillaume in Paris, circa 1840",
+      "asset": "/assets/normalized/ingles-a-violin-by-jean-baptiste-vuillaume-12.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-12",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/jean-baptiste-vuillaume-Violin-paris-c1840-b-800x1900.jpg",
+      "cropBox": [
+        80,
+        37,
+        720,
+        1859
+      ],
+      "scale": 0.8397,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-giovanni-schwarz",
+      "title": "A violin by Giovanni Schwarz",
+      "asset": "/assets/normalized/ingles-a-violin-by-giovanni-schwarz.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giovanni-schwarz",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/04/giovanni-schwarz-Violin-venice-1927-b-800x1900.jpg",
+      "cropBox": [
+        83,
+        42,
+        716,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-giuseppe-antonio-gagliano-3",
+      "title": "Giuseppe & Antonio Gagliano violin c1805, Naples",
+      "asset": "/assets/normalized/ingles-a-violin-by-giuseppe-antonio-gagliano-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-antonio-gagliano-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/giuseppe-and-antonio-gagliano-naples-violin-1805-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        42,
+        719,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-alessandro-gagliano-3",
+      "title": "A violin by Alessandro Gagliano",
+      "asset": "/assets/normalized/ingles-a-violin-by-alessandro-gagliano-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-alessandro-gagliano-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/alessandro-gagliano-violin-c1725-naples-b-800x1900.jpg",
+      "cropBox": [
+        90,
+        41,
+        710,
+        1859
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-franz-kinberg",
+      "title": "A violin by Franz Kinberg",
+      "asset": "/assets/normalized/ingles-a-violin-by-franz-kinberg.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-franz-kinberg",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/franz-kinberg-violin-1951-chicago-b-800x1900.jpg",
+      "cropBox": [
+        73,
+        42,
+        727,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-arthur-richardson",
+      "title": "A violin by Arthur Richardson",
+      "asset": "/assets/normalized/ingles-a-violin-by-arthur-richardson.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-arthur-richardson",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/arthur-richardson-violin-1936-crediton-1007-b-800x1900.jpg",
+      "cropBox": [
+        75,
+        42,
+        724,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-sesto-rocchi-6",
+      "title": "Sesto Rocchi Violin, San Polo d'Enza, 1973",
+      "asset": "/assets/normalized/ingles-a-violin-by-sesto-rocchi-6.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-sesto-rocchi-6",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2022/07/sesto-rocchi-violin-san-polo-denza-1973-b-800x1900.jpg",
+      "cropBox": [
+        72,
+        42,
+        727,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-sesto-rocchi-4",
+      "title": "1979 Sesto Rocchi Violin, Made in San Polo d'Enza",
+      "asset": "/assets/normalized/ingles-a-violin-by-sesto-rocchi-4.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-sesto-rocchi-4",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/sesto-rocchi-violin-1979-san-polo-denza-b-800x1900.jpg",
+      "cropBox": [
+        75,
+        41,
+        725,
+        1860
+      ],
+      "scale": 0.8411,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-sesto-rocchi-2",
+      "title": "Sesto Rocchi Violin, San Polo d'Enza, 1972",
+      "asset": "/assets/normalized/ingles-a-violin-by-sesto-rocchi-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-sesto-rocchi-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/06/Sesto-Rocchi-San-Polo-dEnza-1972-violin-b-800x1900.jpg",
+      "cropBox": [
+        78,
+        41,
+        722,
+        1860
+      ],
+      "scale": 0.8411,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-george-pyne-2",
+      "title": "A violin by George Pyne",
+      "asset": "/assets/normalized/ingles-a-violin-by-george-pyne-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-george-pyne-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/george-pyne-violin-london-c1920-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        42,
+        719,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-sesto-rocchi",
+      "title": "Sesto Rocchi Violin, San Polo d'Enza, 1977",
+      "asset": "/assets/normalized/ingles-a-violin-by-sesto-rocchi.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-sesto-rocchi",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/06/sesto-rocchi-violin-1977-b-800x1900.jpg",
+      "cropBox": [
+        74,
+        42,
+        724,
+        1860
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-jean-baptiste-vuillaume-4",
+      "title": "St. Jean Evangelists Quartet violin by J.B. Vuillaume, Paris 1863",
+      "asset": "/assets/normalized/ingles-a-violin-by-jean-baptiste-vuillaume-4.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-4",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/06/jean-baptiste-vuillaume-st-jean-violin-evangelist-quartet-1863-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        42,
+        720,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-hilaire-darche-2",
+      "title": "Hilaire Darche violin c1910, Brussels",
+      "asset": "/assets/normalized/ingles-a-violin-by-hilaire-darche-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-hilaire-darche-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/hilaire-darche-violin-brussels-1910-b-800x1900.jpg",
+      "cropBox": [
+        82,
+        42,
+        718,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-domingos-antonio-capela",
+      "title": "A violin by Domingos & Antonio Capela",
+      "asset": "/assets/normalized/ingles-a-violin-by-domingos-antonio-capela.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-domingos-antonio-capela",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/domingos-and-antonio-capela-violin-anta-espinho-1975-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        41,
+        718,
+        1858
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-francois-fent",
+      "title": "A violin by Francois Fent",
+      "asset": "/assets/normalized/ingles-a-violin-by-francois-fent.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-francois-fent",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/francois-fent-violin-paris-late-18th-century-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        42,
+        719,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-arthur-richardson-2",
+      "title": "A violin by Arthur Richardson",
+      "asset": "/assets/normalized/ingles-a-violin-by-arthur-richardson-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-arthur-richardson-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/arthur-richardson-violin-1936-1010-crediton-b-800x1900.jpg",
+      "cropBox": [
+        77,
+        42,
+        723,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-charles-boullangier",
+      "title": "A violin by Charles Boullangier",
+      "asset": "/assets/normalized/ingles-a-violin-by-charles-boullangier.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-charles-boullangier",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/charles-boullangier-violin-london-1878-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        42,
+        720,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-paul-serdet",
+      "title": "Paul Serdet Violin, Paris, 1906",
+      "asset": "/assets/normalized/ingles-a-violin-by-paul-serdet.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-paul-serdet",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2022/07/paul-serdet-violin-paris-1906-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        42,
+        721,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-aldo-zani-2",
+      "title": "A violin by Aldo Zani",
+      "asset": "/assets/normalized/ingles-a-violin-by-aldo-zani-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-aldo-zani-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/aldo-zani-violin-1970-b-800x1900.jpg",
+      "cropBox": [
+        77,
+        42,
+        722,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-jean-baptiste-vuiilaume-in-paris-on-1862",
+      "title": "Jean Baptiste Vuillaume Violin, Paris 1862",
+      "asset": "/assets/normalized/ingles-violin-by-jean-baptiste-vuiilaume-in-paris-on-1862.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-jean-baptiste-vuiilaume-in-paris-on-1862",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Jean-Baptiste-Vuillaume-Paris-1862-violin-Sothebys-b-800x1900.jpg",
+      "cropBox": [
+        73,
+        42,
+        726,
+        1860
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-jean-baptiste-vuillaume-7",
+      "title": "J.B. Vuillaume Violin, Made in Paris in 1855",
+      "asset": "/assets/normalized/ingles-a-violin-by-jean-baptiste-vuillaume-7.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-7",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Jean-Baptiste-Vuillaume-Paris-1855-violin-Sothebys-b-800x1900.jpg",
+      "cropBox": [
+        75,
+        41,
+        720,
+        1858
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-matthew-hardie-2",
+      "title": "1928 Violin by Matthew Hardie, Edinburgh",
+      "asset": "/assets/normalized/ingles-a-violin-by-matthew-hardie-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-matthew-hardie-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/matthew-hardie-violin-edinburgh-1928-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        42,
+        718,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-giovanni-francesco-pressenda-3",
+      "title": "A violin by Giovanni Francesco Pressenda",
+      "asset": "/assets/normalized/ingles-a-violin-by-giovanni-francesco-pressenda-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giovanni-francesco-pressenda-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/giovanni-francesco-pressenda-violin-turin-1843-b-800x1900.jpg",
+      "cropBox": [
+        83,
+        42,
+        717,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-giuseppe-antonio-rocca",
+      "title": "A violin by Giuseppe Antonio Rocca",
+      "asset": "/assets/normalized/ingles-a-violin-by-giuseppe-antonio-rocca.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-antonio-rocca",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/Giuseppe-Rocca-Turin-1854-violin-Sothebys-b-800x1900.jpg",
+      "cropBox": [
+        75,
+        42,
+        724,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-albert-blanchi",
+      "title": "Albert Blanchi violin Nice 1931",
+      "asset": "/assets/normalized/ingles-a-violin-by-albert-blanchi.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-albert-blanchi",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/05/Albert-Blanchi-Nice-1931-violin-b-800x1900.jpg",
+      "cropBox": [
+        80,
+        41,
+        720,
+        1860
+      ],
+      "scale": 0.8411,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-hippolyte-chretien-silvestre-3",
+      "title": "A Violin by Hippolyte Chretien Silvestre, Lyon, c.1890",
+      "asset": "/assets/normalized/ingles-a-violin-by-hippolyte-chretien-silvestre-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-hippolyte-chretien-silvestre-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/hippolyte-chretien-silvestre-lyon-c1890-violin-b-800x1900.jpg",
+      "cropBox": [
+        83,
+        42,
+        717,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-giuseppe-guarneri-del-gesu",
+      "title": "Giuseppe Guarneri del Gesu Violin, Cremona, 1739",
+      "asset": "/assets/normalized/ingles-a-violin-by-giuseppe-guarneri-del-gesu.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-guarneri-del-gesu",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2019/12/Giuseppe-Guarneri-del-Gesu-Cremona-1739-violin-Il-Museo-Grumiaux-b-800x1900.jpg",
+      "cropBox": [
+        85,
+        41,
+        715,
+        1858
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-jean-baptiste-vuiilaume-in-paris-on-1848",
+      "title": "Jean Baptiste Vuillaume Violin, Paris 1848",
+      "asset": "/assets/normalized/ingles-violin-by-jean-baptiste-vuiilaume-in-paris-on-1848.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-jean-baptiste-vuiilaume-in-paris-on-1848",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Jean-Baptiste-Vuillaume-Paris-1848-violin-Sothebys-b-800x1900.jpg",
+      "cropBox": [
+        80,
+        41,
+        727,
+        1859
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-jean-baptiste-vuillaume-11",
+      "title": "Jean-Baptiste Vuillaume Violin, Paris, 1844",
+      "asset": "/assets/normalized/ingles-a-violin-by-jean-baptiste-vuillaume-11.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-11",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/jean-baptiste-vuillaume-violin-paris-1844-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        42,
+        721,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-romeo-antoniazzi-3",
+      "title": "20th century Romeo Antoniazzi violin made in Milan",
+      "asset": "/assets/normalized/ingles-a-violin-by-romeo-antoniazzi-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-romeo-antoniazzi-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/romeo-antoniazzi-milan-violin-c1910-b-800x1900.jpg",
+      "cropBox": [
+        76,
+        42,
+        724,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-jean-baptiste-deshayes-salomon",
+      "title": "A mid-18th century Jean Baptiste Deshayes Salomon Violin",
+      "asset": "/assets/normalized/ingles-a-violin-by-jean-baptiste-deshayes-salomon.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-deshayes-salomon",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/jean-baptiste-deshayes-salomon-violin-18th-century-b-800x1900.jpg",
+      "cropBox": [
+        80,
+        42,
+        720,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-george-craske-2",
+      "title": "A violin by George Craske",
+      "asset": "/assets/normalized/ingles-a-violin-by-george-craske-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-george-craske-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/02/george-craske-violin-c1880-b-800x1900.jpg",
+      "cropBox": [
+        78,
+        42,
+        722,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-pauli-merling-2",
+      "title": "Pauli Merling Violin, Copenhagen, 1937",
+      "asset": "/assets/normalized/ingles-a-violin-by-pauli-merling-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-pauli-merling-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/Pauli-merling-violin-1937-copenhagen-b-800x1900.jpg",
+      "cropBox": [
+        75,
+        42,
+        725,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-paul-bailly-5",
+      "title": "Paul Bailly Violin, Paris, Circa 1885",
+      "asset": "/assets/normalized/ingles-a-violin-by-paul-bailly-5.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-paul-bailly-5",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/paul-bailly-violin-paris-c1885-b-800x1900.jpg",
+      "cropBox": [
+        77,
+        42,
+        722,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-pierre-joseph-hel-6",
+      "title": "Pierre Joseph Hel violin c1901, Lille",
+      "asset": "/assets/normalized/ingles-a-violin-by-pierre-joseph-hel-6.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-pierre-joseph-hel-6",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/pierre-joseph-hel-Violin-lille-1901-b-800x1900.jpg",
+      "cropBox": [
+        73,
+        41,
+        726,
+        1858
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-giuseppe-dollenz-2",
+      "title": "Giuseppe Dollenz Violin, c.1887, Trieste",
+      "asset": "/assets/normalized/ingles-a-violin-by-giuseppe-dollenz-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-giuseppe-dollenz-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2022/05/giuseppe-dollenz-violin-trieste-1887-b-800x1900.jpg",
+      "cropBox": [
+        82,
+        39,
+        717,
+        1859
+      ],
+      "scale": 0.8407,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-francesco-rugeri-2",
+      "title": "Francesco Rugeri Violin, c.1670, Cremona",
+      "asset": "/assets/normalized/ingles-a-violin-by-francesco-rugeri-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-francesco-rugeri-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/francesco-rugeri-violin-c1670-1009-b-800x1900.jpg",
+      "cropBox": [
+        85,
+        42,
+        715,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-arturo-fracassi",
+      "title": "A violin by Arturo Fracassi",
+      "asset": "/assets/normalized/ingles-a-violin-by-arturo-fracassi.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-arturo-fracassi",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/arturo-fracassi-violin-cesena-1940-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        42,
+        719,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-benigno-saccani",
+      "title": "Benigno Saccani Violin, c.1909, Milan",
+      "asset": "/assets/normalized/ingles-a-violin-by-benigno-saccani.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-benigno-saccani",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2022/05/benigno-saccani-violin-milan-1909-b-800x1900.jpg",
+      "cropBox": [
+        78,
+        37,
+        722,
+        1860
+      ],
+      "scale": 0.8393,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-johannes-theodorus-cuypers-3",
+      "title": "J. Cuypers violin c1780, The Hague",
+      "asset": "/assets/normalized/ingles-a-violin-by-johannes-theodorus-cuypers-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-johannes-theodorus-cuypers-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/johannes-theodorus-cuypers-the-hague-violin-c1780-1009-b-800x1900.jpg",
+      "cropBox": [
+        84,
+        42,
+        715,
+        1858
+      ],
+      "scale": 0.8425,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-giuseppe-guarneri-filius-andreae-in-cremona-on-circa-1705",
+      "title": "Violin by Giuseppe Guarneri filius Andre\u00c3\u00a6, 1705",
+      "asset": "/assets/normalized/ingles-violin-by-giuseppe-guarneri-filius-andreae-in-cremona-on-circa-1705.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-giuseppe-guarneri-filius-andreae-in-cremona-on-circa-1705",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Giuseppe-filius-Guarneri-Cremona-c1705-violin-Cremona-b-800x1900.jpg",
+      "cropBox": [
+        89,
+        41,
+        710,
+        1858
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-piero-parravicini",
+      "title": "Violin by Piero Parravicini, Milan, 1928",
+      "asset": "/assets/normalized/ingles-a-violin-by-piero-parravicini.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-piero-parravicini",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/piero-parravicini-violin-1928-milan-b-800x1900.jpg",
+      "cropBox": [
+        82,
+        42,
+        718,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-emil-hjorth-sonner-3",
+      "title": "A violin by Emil Hjorth & S\u00c3\u00b8nner",
+      "asset": "/assets/normalized/ingles-a-violin-by-emil-hjorth-sonner-3.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-emil-hjorth-sonner-3",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/emil-hjorth-and-sonner-violin-1917-copenhagen-b-800x1900.jpg",
+      "cropBox": [
+        79,
+        42,
+        722,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-william-luff",
+      "title": "Violin by William Luff, London, 1991",
+      "asset": "/assets/normalized/ingles-a-violin-by-william-luff.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-william-luff",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2021/03/william-luff-violin-1991-london-b-800x1900.jpg",
+      "cropBox": [
+        81,
+        42,
+        719,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-a-violin-by-jean-baptiste-vuillaume-2",
+      "title": "An 1854 violin by J.B. Vuillaume Paris",
+      "asset": "/assets/normalized/ingles-a-violin-by-jean-baptiste-vuillaume-2.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/a-violin-by-jean-baptiste-vuillaume-2",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2020/05/Jean-Baptiste-Vuillaume-Paris-1854-violin-p.8-9-b-800x1900.jpg",
+      "cropBox": [
+        83,
+        42,
+        718,
+        1860
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-selectio-opus17-masterviolin",
+      "title": "Master violin op.17",
+      "asset": "/assets/normalized/corilon-selectio-opus17-masterviolin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/selectio-opus17-masterviolin",
+      "sourceImage": "https://www.corilon.com/media/image/19/ae/73/opus17-7022-2_1890x1890.jpg",
+      "cropBox": [
+        248,
+        0,
+        928,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-18th-century-vogtland-violin",
+      "title": "18th century Vogtland master violin, Markneukirchen approx. 1800",
+      "asset": "/assets/normalized/corilon-18th-century-vogtland-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/18th-century-vogtland-violin",
+      "sourceImage": "https://www.corilon.com/media/image/a9/d3/0d/vogtland-7810-2_1890x1890.jpg",
+      "cropBox": [
+        245,
+        0,
+        929,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-leo-aschauer-mittenwald-soloist-violin",
+      "title": "Ludwig Aschauer, Mittenwald: fine master violin for soloists, 1954",
+      "asset": "/assets/normalized/corilon-leo-aschauer-mittenwald-soloist-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/leo-aschauer-mittenwald-soloist-violin",
+      "sourceImage": "https://www.corilon.com/media/image/6d/a6/81/ludwig-aschauer-mittenwald-7010-2_1890x1890.jpg",
+      "cropBox": [
+        242,
+        0,
+        934,
+        1890
+      ],
+      "scale": 0.8095,
       "size": [
         1200,
         1700
@@ -164,15 +2198,87 @@
       ]
     },
     {
-      "key": "corilon-johann-georg-schonfelder-markneukirchen-violin",
-      "title": "Johann Georg Schonfelder: fine Markneukirchen violin, 1806",
-      "asset": "/assets/normalized/corilon-johann-georg-schonfelder-markneukirchen-violin.jpg",
-      "sourcePage": "https://www.corilon.com/us/violins/johann-georg-schonfelder-markneukirchen-violin",
-      "sourceImage": "https://www.corilon.com/media/image/6b/25/67/johann-georg-schonfelder-markneukirchen-a189-2_1890x1890.jpg",
+      "key": "corilon-officina-claudio-monteverde-cremona-1923-italian-violin",
+      "title": "Old Italian violin, Cremona - Officina Claudio Monteverde (certificate Hieronymus Kostler)",
+      "asset": "/assets/normalized/corilon-officina-claudio-monteverde-cremona-1923-italian-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/officina-claudio-monteverde-cremona-1923-italian-violin",
+      "sourceImage": "https://www.corilon.com/media/image/81/f4/32/italian-7670-2_1890x1890.jpg",
       "cropBox": [
-        279,
+        252,
         0,
-        959,
+        937,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-antonio-amati-in-cremona-on-circa-1621",
+      "title": "Antonio & Girolamo Amati Violin, 1621",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-amati-in-cremona-on-circa-1621.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-amati-in-cremona-on-circa-1621",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Girolamo-Antonio-Amati-Cremona-c1620-violin-Sothebys-b-800x1900.jpg",
+      "cropBox": [
+        90,
+        42,
+        710,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-antonio-amati-in-cremona-on-circa-1625",
+      "title": "Antonio & Girolamo Amati Violin, 1625",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-amati-in-cremona-on-circa-1625.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-amati-in-cremona-on-circa-1625",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Girolamo-Antonio-Amati-Cremona-c1625-violin-Sothebys-b-800x1900.jpg",
+      "cropBox": [
+        98,
+        41,
+        703,
+        1859
+      ],
+      "scale": 0.8416,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "ingles-violin-by-antonio-amati-in-cremona-on-1596",
+      "title": "Antonio & Girolamo Amati Violin, 1596",
+      "asset": "/assets/normalized/ingles-violin-by-antonio-amati-in-cremona-on-1596.jpg",
+      "sourcePage": "https://ingleshayday.com/notable-sales-instrument/violin-by-antonio-amati-in-cremona-on-1596",
+      "sourceImage": "https://ingleshayday.com/wp-content/uploads/2018/09/Girolamo-Antonio-Amati-Cremona-1596-violin-Sothebys-b-800x1900.jpg",
+      "cropBox": [
+        89,
+        42,
+        711,
+        1859
+      ],
+      "scale": 0.842,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-fine-violin-mittenwald-sebastian-klotz-circle",
+      "title": "Fine Mittenwald violin, circa 1780 (certificate Hieronymus Kostler)",
+      "asset": "/assets/normalized/corilon-fine-violin-mittenwald-sebastian-klotz-circle.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/fine-violin-mittenwald-sebastian-klotz-circle",
+      "sourceImage": "https://www.corilon.com/media/image/54/32/59/klotz-mittenwald-7779-2_1890x1890.jpg",
+      "cropBox": [
+        252,
+        0,
+        915,
         1890
       ],
       "scale": 0.8095,
@@ -191,6 +2297,60 @@
         212,
         0,
         968,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-fine-french-violin-after-guarnerius",
+      "title": "Fine French master violin from around 1800 (certificate)",
+      "asset": "/assets/normalized/corilon-fine-french-violin-after-guarnerius.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/fine-french-violin-after-guarnerius",
+      "sourceImage": "https://www.corilon.com/media/image/b6/1c/cc/french-c1800-7877-2_1890x1890.jpg",
+      "cropBox": [
+        269,
+        0,
+        909,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-french-violin-georges-apparut",
+      "title": "Fine French Georges Apparut violin, 1935 - Guarnerius",
+      "asset": "/assets/normalized/corilon-french-violin-georges-apparut.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/french-violin-georges-apparut",
+      "sourceImage": "https://www.corilon.com/media/image/57/8f/83/georges-apparut-7433-2_1890x1890.jpg",
+      "cropBox": [
+        261,
+        0,
+        907,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-monzino-figli-milano-italian-violin",
+      "title": "Italian violin, Monzino & Figli Milano - Antoniazzi circle (certificate: Hieronymus Kostler)",
+      "asset": "/assets/normalized/corilon-monzino-figli-milano-italian-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/monzino-figli-milano-italian-violin",
+      "sourceImage": "https://www.corilon.com/media/image/65/34/f7/monzino-antoniazzi-milano-a242-2_1890x1890.jpg",
+      "cropBox": [
+        258,
+        0,
+        920,
         1890
       ],
       "scale": 0.8095,
@@ -236,6 +2396,60 @@
       ]
     },
     {
+      "key": "corilon-alceste-bulfari-cremona",
+      "title": "Cremonese violin, Alceste Bulfari Cremona 2013 - rich warm sound",
+      "asset": "/assets/normalized/corilon-alceste-bulfari-cremona.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/cremona-violins/alceste-bulfari-cremona",
+      "sourceImage": "https://www.corilon.com/media/image/de/f5/08/alceste-bulfair-cremona-a268-2_1890x1890.jpg",
+      "cropBox": [
+        259,
+        0,
+        926,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-antique-markneukirchen-master-violin-c1800",
+      "title": "Fine antique German violin from Markneukirchen, c.1830/1840",
+      "asset": "/assets/normalized/corilon-antique-markneukirchen-master-violin-c1800.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/antique-markneukirchen-master-violin-c1800",
+      "sourceImage": "https://www.corilon.com/media/image/bb/0d/5f/saxon-masterpiece-1850-7224-2_1890x1890.jpg",
+      "cropBox": [
+        233,
+        0,
+        917,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-fine-violin-louis-collenot",
+      "title": "Fine French violin by Louis Collenot, 1905 (certificate by B. Sabatier)",
+      "asset": "/assets/normalized/corilon-fine-violin-louis-collenot.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/fine-violin-louis-collenot",
+      "sourceImage": "https://www.corilon.com/media/image/60/1a/2b/louis-collenot-7745-2_1890x1890.jpg",
+      "cropBox": [
+        247,
+        0,
+        972,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
       "key": "corilon-french-violin-by-jean-baptiste-grand-gerard",
       "title": "Jean-Baptiste Grand-Gerard, French violin, circa 1770 (certificate by J.-J. Rampal)",
       "asset": "/assets/normalized/corilon-french-violin-by-jean-baptiste-grand-gerard.jpg",
@@ -245,6 +2459,60 @@
         263,
         0,
         912,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-interesting-master-violin-1850",
+      "title": "Interesting antique master violin, circa 1850 - Germany, Markneukirchen",
+      "asset": "/assets/normalized/corilon-interesting-master-violin-1850.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/interesting-master-violin-1850",
+      "sourceImage": "https://www.corilon.com/media/image/77/23/59/markneukirchen-7644-2_1890x1890.jpg",
+      "cropBox": [
+        256,
+        0,
+        921,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-contemporary-italian-cremona-violin",
+      "title": "Italian violin: Luca Branchetti, Pistoia 2018 (certificate)",
+      "asset": "/assets/normalized/corilon-contemporary-italian-cremona-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/contemporary-italian-cremona-violin",
+      "sourceImage": "https://www.corilon.com/media/image/9b/1a/0d/luca-branchetti-pistoia-2_1890x1890.jpg",
+      "cropBox": [
+        247,
+        0,
+        938,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-fine-italian-violin-mario-gadda",
+      "title": "Fine Italian violin by Mario Gadda, 1972 - soloist violin (certificate by Mario Gadda)",
+      "asset": "/assets/normalized/corilon-fine-italian-violin-mario-gadda.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/fine-italian-violin-mario-gadda",
+      "sourceImage": "https://www.corilon.com/media/image/3d/12/14/mario-gadda-1972-7680-2_1890x1890.jpg",
+      "cropBox": [
+        239,
+        0,
+        932,
         1890
       ],
       "scale": 0.8095,
@@ -272,6 +2540,24 @@
       ]
     },
     {
+      "key": "corilon-nicolo-gagliano-violin-1762",
+      "title": "Nicolo Gagliano: Fine Italian violin (certificate by J. & A. Beare)",
+      "asset": "/assets/normalized/corilon-nicolo-gagliano-violin-1762.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/nicolo-gagliano-violin-1762",
+      "sourceImage": "https://www.corilon.com/media/image/b4/13/cf/nicolo-gagliano_2_1890x1890.jpg",
+      "cropBox": [
+        256,
+        0,
+        921,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
       "key": "corilon-1970",
       "title": "Italian violin by Pietro Paolo Campanale, Ruvo di Puglia 1970",
       "asset": "/assets/normalized/corilon-1970.jpg",
@@ -281,6 +2567,24 @@
         237,
         0,
         922,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-ernst-heinrich-roth-master-violin-guarnerius",
+      "title": "Ernst Heinrich Roth, Markneukirchen circa 1917: rare master violin",
+      "asset": "/assets/normalized/corilon-ernst-heinrich-roth-master-violin-guarnerius.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/ernst-heinrich-roth-master-violin-guarnerius",
+      "sourceImage": "https://www.corilon.com/media/image/65/91/e8/ernst-heinrich-roth-7226-2_1890x1890.jpg",
+      "cropBox": [
+        245,
+        0,
+        931,
         1890
       ],
       "scale": 0.8095,
@@ -326,6 +2630,222 @@
       ]
     },
     {
+      "key": "corilon-modern-italian-violin-santino-masculo",
+      "title": "Italian violin by Santino Masculo, 1987 (certificate S. Masculo)",
+      "asset": "/assets/normalized/corilon-modern-italian-violin-santino-masculo.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/modern-italian-violin-santino-masculo",
+      "sourceImage": "https://www.corilon.com/media/image/02/8b/a0/santino-masculo-7079-2a_1890x1890.jpg",
+      "cropBox": [
+        209,
+        0,
+        898,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-markneukirchen-soloist-violin-1940",
+      "title": "Austrian master violin by Rudolf Schuster, 1930's - Soloists",
+      "asset": "/assets/normalized/corilon-markneukirchen-soloist-violin-1940.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/markneukirchen-soloist-violin-1940",
+      "sourceImage": "https://www.corilon.com/media/image/d2/c2/ee/rudolf-schuster-graz-6695-2_1890x1890.jpg",
+      "cropBox": [
+        242,
+        0,
+        928,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-19th-century-viennese-master-violin",
+      "title": "Interesting master violin by Ferdinand Jaura, Munich 1942",
+      "asset": "/assets/normalized/corilon-19th-century-viennese-master-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/19th-century-viennese-master-violin",
+      "sourceImage": "https://www.corilon.com/media/image/3d/10/02/ferdinand-jaura-a191-2_1890x1890.jpg",
+      "cropBox": [
+        257,
+        0,
+        939,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-italian-violin-milan-1900",
+      "title": "Italian violin, Milan, c.1930 - unknown master",
+      "asset": "/assets/normalized/corilon-italian-violin-milan-1900.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/italian-violin-milan-1900",
+      "sourceImage": "https://www.corilon.com/media/image/5d/fc/f9/italiano-milano-6791-2_1890x1890.jpg",
+      "cropBox": [
+        244,
+        0,
+        919,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-old-italian-violin-early-20th-century",
+      "title": "Italian violin no. 89 by Antonio Iornini, circa 1940",
+      "asset": "/assets/normalized/corilon-old-italian-violin-early-20th-century.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/old-italian-violin-early-20th-century",
+      "sourceImage": "https://www.corilon.com/media/image/44/4e/2d/antonio-iornini-italian_2_1890x1890.jpg",
+      "cropBox": [
+        247,
+        0,
+        927,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-fine-italian-violin",
+      "title": "Fine Italian violin with a certificate by Carlson & Neumann, Cremona",
+      "asset": "/assets/normalized/corilon-fine-italian-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/fine-italian-violin",
+      "sourceImage": "https://www.corilon.com/media/image/dd/d4/42/fine-italian-carlson-neumann_2_1890x1890.jpg",
+      "cropBox": [
+        241,
+        0,
+        904,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-italian-violin-luigi-lanaro",
+      "title": "Luigi Lanaro, Padova, modern Italian violin, 1975 (certificate by Eric Blot)",
+      "asset": "/assets/normalized/corilon-italian-violin-luigi-lanaro.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violin-luigi-lanaro",
+      "sourceImage": "https://www.corilon.com/media/image/c9/be/02/1404_2_luigi_lanaro_2_1890x1890.jpg",
+      "cropBox": [
+        243,
+        0,
+        912,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-italian-violin-from-cremona-renato-superti",
+      "title": "Cremona violin by Renato Superti",
+      "asset": "/assets/normalized/corilon-italian-violin-from-cremona-renato-superti.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violin-from-cremona-renato-superti",
+      "sourceImage": "https://www.corilon.com/media/image/11/4e/5f/renato-superti-cremona-6745-2_1890x1890.jpg",
+      "cropBox": [
+        252,
+        0,
+        919,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-italian-violin-giorgio-grisales-cremona",
+      "title": "Cremona violin by Giorgio Grisales, 1993 (certificate by Giorgio Grisales)",
+      "asset": "/assets/normalized/corilon-italian-violin-giorgio-grisales-cremona.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violin-giorgio-grisales-cremona",
+      "sourceImage": "https://www.corilon.com/media/image/40/34/0b/giorgio-grisales_2_1890x1890.jpg",
+      "cropBox": [
+        134,
+        20,
+        1003,
+        1890
+      ],
+      "scale": 0.8182,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-oskar-guetter-markneukirchen-violin",
+      "title": "German master violin by Oskar Gutter, Markneukirchen",
+      "asset": "/assets/normalized/corilon-oskar-guetter-markneukirchen-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/german-violins/oskar-guetter-markneukirchen-violin",
+      "sourceImage": "https://www.corilon.com/media/image/2f/2a/c0/oskar-guetter-markneukirchen-a237-2_1890x1890.jpg",
+      "cropBox": [
+        239,
+        0,
+        957,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-italian-violin-puglisi-catania",
+      "title": "Old Italian violin, Michelangelo Puglisi Catania 1919",
+      "asset": "/assets/normalized/corilon-italian-violin-puglisi-catania.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violin-puglisi-catania",
+      "sourceImage": "https://www.corilon.com/media/image/99/4b/42/michelangelo-puglisi-7865-2_1890x1890.jpg",
+      "cropBox": [
+        253,
+        0,
+        909,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-kurt-guetter-markneukirchen-violin",
+      "title": "German master violin by Kurt Gutter, Markneukirchen 1973",
+      "asset": "/assets/normalized/corilon-kurt-guetter-markneukirchen-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/german-violins/kurt-guetter-markneukirchen-violin",
+      "sourceImage": "https://www.corilon.com/media/image/93/e4/49/kurt-guetter-markneukirchen-7695-2_1890x1890.jpg",
+      "cropBox": [
+        240,
+        0,
+        933,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
       "key": "corilon-ferarri-cremona-violin",
       "title": "Simona Ferrari, 2003: Italian violin from Cremona (certificate)",
       "asset": "/assets/normalized/corilon-ferarri-cremona-violin.jpg",
@@ -335,6 +2855,600 @@
         234,
         0,
         929,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-giuseppe-nupieri-roma",
+      "title": "Giuseppe Nupieri, Italian violin, Rome 1983 (Eric Blot certificate)",
+      "asset": "/assets/normalized/corilon-giuseppe-nupieri-roma.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/giuseppe-nupieri-roma",
+      "sourceImage": "https://www.corilon.com/media/image/bc/77/54/giuseppe-nupieri-roma-7557-2_1890x1890.jpg",
+      "cropBox": [
+        252,
+        0,
+        929,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-umberto-lanaro-violin",
+      "title": "Italian violin by Umberto Lanaro, Padova 1977 (certificate Eric Blot)",
+      "asset": "/assets/normalized/corilon-umberto-lanaro-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/umberto-lanaro-violin",
+      "sourceImage": "https://www.corilon.com/media/image/9d/db/f2/umberto-lanaro-7084-2_1890x1890.jpg",
+      "cropBox": [
+        241,
+        0,
+        931,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-cesare-castelli-asculi-piceno",
+      "title": "Cesare Castelli, Italian violin no. 66, 1954 (certificate Eric Blot)",
+      "asset": "/assets/normalized/corilon-cesare-castelli-asculi-piceno.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/cesare-castelli-asculi-piceno",
+      "sourceImage": "https://www.corilon.com/media/image/05/fd/2c/cesare-castelli-6640-2_1890x1890.jpg",
+      "cropBox": [
+        245,
+        0,
+        929,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-12-000-00",
+      "title": "Joseph Dziaba Violin, Homer Glen, 2024",
+      "asset": "/assets/normalized/shar-12-000-00.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/12-000-00",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F2S5564_Violin_Back.jpg?v=1774454294",
+      "cropBox": [
+        319,
+        0,
+        682,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-tetsuo-matsuda-violin-chicago-1990",
+      "title": "Tetsuo Matsuda Violin, Chicago, 1990",
+      "asset": "/assets/normalized/shar-tetsuo-matsuda-violin-chicago-1990.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/tetsuo-matsuda-violin-chicago-1990",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F2S3363_Violin_Back.jpg?v=1774449587",
+      "cropBox": [
+        312,
+        0,
+        681,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-ali-hosseini-violin-hamedan-2018",
+      "title": "Ali Hosseini Violin, Hamedan, 2018",
+      "asset": "/assets/normalized/shar-ali-hosseini-violin-hamedan-2018.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/ali-hosseini-violin-hamedan-2018",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F2S5572_Violin_Back.jpg?v=1774463161",
+      "cropBox": [
+        315,
+        0,
+        684,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-e-h-roth-strad-violin-markneukirchen-1925",
+      "title": "E.H. Roth \"Strad\" Violin, Markneukirchen, 1925",
+      "asset": "/assets/normalized/shar-e-h-roth-strad-violin-markneukirchen-1925.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/e-h-roth-strad-violin-markneukirchen-1925",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5568_Violin_Back.jpg?v=1745511825",
+      "cropBox": [
+        315,
+        0,
+        686,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-paul-knorr-violin-markneukirchen-1929",
+      "title": "Paul Knorr Violin, Markneukirchen, 1929",
+      "asset": "/assets/normalized/shar-paul-knorr-violin-markneukirchen-1929.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/paul-knorr-violin-markneukirchen-1929",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5555_Violin_Back.jpg?v=1738360730",
+      "cropBox": [
+        317,
+        0,
+        688,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-paul-knorr-violin-markneukirchen-c-1940",
+      "title": "Paul Knorr Violin, Markneukirchen, c.1940",
+      "asset": "/assets/normalized/shar-paul-knorr-violin-markneukirchen-c-1940.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/paul-knorr-violin-markneukirchen-c-1940",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5560_Violin_Back.jpg?v=1774453203",
+      "cropBox": [
+        320,
+        0,
+        685,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-thomas-crompton-violin-indianapolis-2024",
+      "title": "Thomas Crompton Violin, Indianapolis, 2024",
+      "asset": "/assets/normalized/shar-thomas-crompton-violin-indianapolis-2024.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/thomas-crompton-violin-indianapolis-2024",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5558_Violin_Back.jpg?v=1774454162",
+      "cropBox": [
+        318,
+        0,
+        682,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-johann-glass-violin-leipzig-1903",
+      "title": "Johann Glass Violin, Leipzig, 1903",
+      "asset": "/assets/normalized/shar-johann-glass-violin-leipzig-1903.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/johann-glass-violin-leipzig-1903",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5551_Violin_Back.jpg?v=1738361287",
+      "cropBox": [
+        321,
+        0,
+        683,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-e-h-roth-violin-vr-markneukirchen-1927",
+      "title": "E.H. Roth Violin, VR, Markneukirchen, 1927",
+      "asset": "/assets/normalized/shar-e-h-roth-violin-vr-markneukirchen-1927.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/e-h-roth-violin-vr-markneukirchen-1927",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5546_Violin_Back.jpg?v=1738361209",
+      "cropBox": [
+        315,
+        0,
+        681,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "shar-max-weller-co-violin-markneukirchen-c-1930",
+      "title": "Max Weller & Co. Violin, Markneukirchen, c.1930",
+      "asset": "/assets/normalized/shar-max-weller-co-violin-markneukirchen-c-1930.jpg",
+      "sourcePage": "https://www.sharmusic.com/products/max-weller-co-violin-markneukirchen-c-1930",
+      "sourceImage": "https://www.sharmusic.com/cdn/shop/files/F1S5341_Violin_Back.jpg?v=1741297464",
+      "cropBox": [
+        315,
+        0,
+        684,
+        1000
+      ],
+      "scale": 1.53,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-officina-mauro-lucini-cremona-1",
+      "title": "Cremona violin, Officina Mauro Lucini no.68 (certificate) - oil varnish",
+      "asset": "/assets/normalized/corilon-officina-mauro-lucini-cremona-1.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/officina-mauro-lucini-cremona-1",
+      "sourceImage": "https://www.corilon.com/media/image/7a/31/0d/officina-mauro-lucini-n68-7684-2_1890x1890.jpg",
+      "cropBox": [
+        253,
+        0,
+        920,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-valerio-ferron-cremona",
+      "title": "Valerio Ferron, Italian violin from Cremona, 2020 (original certificate)",
+      "asset": "/assets/normalized/corilon-valerio-ferron-cremona.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/valerio-ferron-cremona",
+      "sourceImage": "https://www.corilon.com/media/image/42/d4/6c/valerio-ferron-cremona-a280-2_1890x1890.jpg",
+      "cropBox": [
+        255,
+        0,
+        965,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-officina-mauro-lucini-cremona-2",
+      "title": "Cremona violin no.81, Mauro Lucini (certificate)",
+      "asset": "/assets/normalized/corilon-officina-mauro-lucini-cremona-2.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/officina-mauro-lucini-cremona-2",
+      "sourceImage": "https://www.corilon.com/media/image/3f/cb/d5/mauro-lucini-no81-7796-2_1890x1890.jpg",
+      "cropBox": [
+        265,
+        0,
+        911,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-modern-italian-violin-cremona-1972",
+      "title": "Professional master violin, Hans Lisper, Malung 1990",
+      "asset": "/assets/normalized/corilon-modern-italian-violin-cremona-1972.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/modern-italian-violin-cremona-1972",
+      "sourceImage": "https://www.corilon.com/media/image/71/86/10/hans-lisper-malung-7882-2_1890x1890.jpg",
+      "cropBox": [
+        248,
+        0,
+        922,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-marsino-bran-roveredo",
+      "title": "Italian violin by Marsino Bran, 1946 (certificate Hieronymus Kostler)",
+      "asset": "/assets/normalized/corilon-marsino-bran-roveredo.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/marsino-bran-roveredo",
+      "sourceImage": "https://www.corilon.com/media/image/c4/fa/78/marsino-bran-7621-2_1890x1890.jpg",
+      "cropBox": [
+        251,
+        0,
+        910,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-mario-gadda-violin-after-scarampella",
+      "title": "Italian violin by Mario Gadda, 1980 (certificate by Mario Gadda)",
+      "asset": "/assets/normalized/corilon-mario-gadda-violin-after-scarampella.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/mario-gadda-violin-after-scarampella",
+      "sourceImage": "https://www.corilon.com/media/image/12/88/37/mario-gadda-7693-2_1890x1890.jpg",
+      "cropBox": [
+        241,
+        0,
+        933,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-venturi-violin",
+      "title": "Italian violin by Marco Venturi (2022)",
+      "asset": "/assets/normalized/corilon-venturi-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/venturi-violin",
+      "sourceImage": "https://www.corilon.com/media/image/29/28/0e/marco-venturin-italian-7034-2_1890x1890.jpg",
+      "cropBox": [
+        248,
+        0,
+        922,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-italian-violin-romedio-muncher-cremona",
+      "title": "Italian violin by Romedio Muncher, Cremona 1923 (certificate Eric Blot)",
+      "asset": "/assets/normalized/corilon-italian-violin-romedio-muncher-cremona.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violin-romedio-muncher-cremona",
+      "sourceImage": "https://www.corilon.com/media/image/5e/3b/64/romedio-muncher-cremona-7825-2_1890x1890.jpg",
+      "cropBox": [
+        234,
+        0,
+        918,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-mauro-lucini-cremona-italian-violin",
+      "title": "Mauro Lucini Cremona, Italian violin after Stradivari No.122 (certificate)",
+      "asset": "/assets/normalized/corilon-mauro-lucini-cremona-italian-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/mauro-lucini-cremona-italian-violin",
+      "sourceImage": "https://www.corilon.com/media/image/89/05/27/mauro-lucini-cremona-n122-2a_1890x1890.jpg",
+      "cropBox": [
+        247,
+        0,
+        911,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-cremona-romedio-muncher",
+      "title": "Petite Italian violin by Romedio Muncher, Cremona 1924 (35.2 cm)",
+      "asset": "/assets/normalized/corilon-cremona-romedio-muncher.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/cremona-violins/cremona-romedio-muncher",
+      "sourceImage": "https://www.corilon.com/media/image/4c/1b/51/romedio-muncher-cremona-7228-2_1890x1890.jpg",
+      "cropBox": [
+        260,
+        0,
+        971,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-tonino-boga-torino",
+      "title": "Italian violin. Tonino Boga, Turin 2011 (certificate by Tonino Boga)",
+      "asset": "/assets/normalized/corilon-tonino-boga-torino.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/tonino-boga-torino",
+      "sourceImage": "https://www.corilon.com/media/image/32/12/23/tonino-boga-torino-7852-2_1890x1890.jpg",
+      "cropBox": [
+        213,
+        0,
+        973,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-fine-french-violin-circa-1750",
+      "title": "Fine French violin made around 1750",
+      "asset": "/assets/normalized/corilon-fine-french-violin-circa-1750.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/fine-french-violin-circa-1750",
+      "sourceImage": "https://www.corilon.com/media/image/ec/c8/b5/french-1750-7781-2_1890x1890.jpg",
+      "cropBox": [
+        243,
+        0,
+        920,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-italian-violin-20th-century",
+      "title": "Italian violin: Luciano Longo (certificate)",
+      "asset": "/assets/normalized/corilon-italian-violin-20th-century.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violin-20th-century",
+      "sourceImage": "https://www.corilon.com/media/image/37/2f/fe/luciano-longo-7087-2a_1890x1890.jpg",
+      "cropBox": [
+        211,
+        0,
+        908,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-contemporary-cremona-violin",
+      "title": "Italian violin: Alberto Medaglia, Lodi 1986 (certificate Corilon)",
+      "asset": "/assets/normalized/corilon-contemporary-cremona-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/contemporary-cremona-violin",
+      "sourceImage": "https://www.corilon.com/media/image/ca/be/fc/alberto-medaglia-lodi-7052-2a_1890x1890.jpg",
+      "cropBox": [
+        247,
+        0,
+        936,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-jean-baptiste-lemarquis-1780",
+      "title": "Jean-Baptiste Lemarquis, antique French violin circa 1780 (certificate by J.-J. Rampal)",
+      "asset": "/assets/normalized/corilon-jean-baptiste-lemarquis-1780.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/jean-baptiste-lemarquis-1780",
+      "sourceImage": "https://www.corilon.com/media/image/0b/f6/34/jean-baptiste-lemarquis-7784-2_1890x1890.jpg",
+      "cropBox": [
+        262,
+        0,
+        913,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-aegidius-klotz-violin-mittenwald",
+      "title": "Aegidius Klotz, 1775: Fine violin from Mittenwald (Certificate Hieronymus Kostler)",
+      "asset": "/assets/normalized/corilon-aegidius-klotz-violin-mittenwald.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/aegidius-klotz-violin-mittenwald",
+      "sourceImage": "https://www.corilon.com/media/image/1f/80/4a/aegidius-klotz-mittenwald-7146-2a_1890x1890.jpg",
+      "cropBox": [
+        257,
+        0,
+        888,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-italian-violins-monzino-milan",
+      "title": "Fine Italian violin circa 1910, Antonio Monzino e figli",
+      "asset": "/assets/normalized/corilon-italian-violins-monzino-milan.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins-monzino-milan",
+      "sourceImage": "https://www.corilon.com/media/image/d8/f0/c3/monzino-milano-a249-2_1890x1890.jpg",
+      "cropBox": [
+        247,
+        0,
+        921,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-7279",
+      "title": "Italian violin, Dario Ghislotti Bologna 2019 (original certificate)",
+      "asset": "/assets/normalized/corilon-7279.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/7279",
+      "sourceImage": "https://www.corilon.com/media/image/b6/06/10/ghislotti-bologna-7600-2_1890x1890.jpg",
+      "cropBox": [
+        247,
+        0,
+        932,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-justin-maucotel-antique-french-violin",
+      "title": "Justin Maucotel, French violin, circa 1820 (certificate J.-J. Rampal)",
+      "asset": "/assets/normalized/corilon-justin-maucotel-antique-french-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/justin-maucotel-antique-french-violin",
+      "sourceImage": "https://www.corilon.com/media/image/79/d4/3a/michel-couturieux-7541-2_1890x1890.jpg",
+      "cropBox": [
+        233,
+        0,
+        928,
+        1890
+      ],
+      "scale": 0.8095,
+      "size": [
+        1200,
+        1700
+      ]
+    },
+    {
+      "key": "corilon-turin-italian-violin",
+      "title": "Italian violin by Tonino Boga, Turin (certificate)",
+      "asset": "/assets/normalized/corilon-turin-italian-violin.jpg",
+      "sourcePage": "https://www.corilon.com/us/violins/italian-violins/turin-italian-violin",
+      "sourceImage": "https://www.corilon.com/media/image/28/13/g0/tonino-boga-torino-7088-2_1890x1890.jpg",
+      "cropBox": [
+        240,
+        0,
+        923,
         1890
       ],
       "scale": 0.8095,

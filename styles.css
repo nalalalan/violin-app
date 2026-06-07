@@ -270,6 +270,11 @@ noscript {
 }
 
 @media (max-width: 560px) {
+  .tile--display-scaled img {
+    width: 100%;
+    margin-left: 0;
+  }
+
   .paper-copy,
   .paper-copy strong,
   .paper-copy p {
